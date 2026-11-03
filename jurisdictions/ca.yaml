@@ -2,10 +2,10 @@ code: CA
 name: {en: Canada, fr: Canada}
 rows:
   - id: WRT-001
-    text: {en: "Federal communications must use plain language. The style guide aims for 15 to 20 words per sentence and prefers the active voice.", fr: "Les communications fédérales doivent être en langage clair. Le guide de rédaction vise 15 à 20 mots par phrase et privilégie la voix active."}
+    text: {en: "Web content uses plain language. The style guide aims for 15 to 20 words per sentence and prefers the active voice.", fr: "Le contenu Web est en langage clair. Le guide de rédaction vise 15 à 20 mots par phrase et privilégie la voix active."}
     status: same
-    source: {title: "Directive on the Management of Communications and Federal Identity (4.1.19.7)", date: "2025-10-30", url: "https://www.tbs-sct.canada.ca/pol/doc-eng.aspx?id=30682", archive: "https://web.archive.org/web/20260822164306/https://www.tbs-sct.canada.ca/pol/doc-eng.aspx?id=30682"}
-    last_checked: "2026-11-02"
+    source: {title: Canada.ca Content Style Guide, date: "2026-03-09", url: "https://design.canada.ca/style-guide/", archive: "https://web.archive.org/web/20261103001758/https://design.canada.ca/style-guide/"}
+    last_checked: "2026-11-03"
   - id: WRT-010
     text: {en: "No rule on requirement keywords. The style guide only prefers \"must\" to \"shall\".", fr: "Aucune règle sur les mots clés d'exigence. Le guide de rédaction préfère seulement « must » à « shall »."}
     status: not-covered
@@ -17,10 +17,10 @@ rows:
     source: {title: Canada.ca Content Style Guide, date: "2026-03-09", url: "https://design.canada.ca/style-guide/", archive: "https://web.archive.org/web/20261103001758/https://design.canada.ca/style-guide/"}
     last_checked: "2026-11-02"
   - id: WRT-032
-    text: {en: "Gender-inclusive writing is standard practice for web content.", fr: "L'écriture inclusive est la pratique courante pour le contenu Web."}
-    status: same
+    text: {en: "Gender-inclusive writing is standard practice for web content. There is no rule on new neutral words or shortened doubled forms.", fr: "L'écriture inclusive est la pratique courante pour le contenu Web. Aucune règle ne vise les mots neutres nouveaux ni les doublets abrégés."}
+    status: looser
     source: {title: Canada.ca Content Style Guide, date: "2026-03-09", url: "https://design.canada.ca/style-guide/", archive: "https://web.archive.org/web/20261103001758/https://design.canada.ca/style-guide/"}
-    last_checked: "2026-11-02"
+    last_checked: "2026-11-03"
   - id: WRT-040
     text: {en: "Error messages say what happened, why and what to do, without blame and in the users' words.", fr: "Les messages d'erreur disent ce qui s'est passé, pourquoi et quoi faire, sans blâme et dans les mots des personnes."}
     status: same

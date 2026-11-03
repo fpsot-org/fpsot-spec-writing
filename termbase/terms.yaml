@@ -23,8 +23,8 @@ terms:
     source: {name: "Grand dictionnaire terminologique", url: "https://vitrinelinguistique.oqlf.gouv.qc.ca/fiche-gdt/fiche/26559353/integration-continue", checked: "2026-11-02"}
   - id: cldr
     kind: abbreviation
-    en: {short: "CLDR", full: "Unicode Common Locale Data & Rules", definition: "Unicode's shared data on how each language and region writes dates, numbers, names and similar items."}
-    fr: {short: "CLDR", full: "Unicode Common Locale Data & Rules", definition: "Données communes d'Unicode sur la façon d'écrire les dates, les nombres et les noms selon la langue et la région."}
+    en: {short: "CLDR", full: "Unicode Common Locale Data Repository", definition: "Unicode's shared data on how each language and region writes dates, numbers, names and similar items."}
+    fr: {short: "CLDR", full: "Unicode Common Locale Data Repository", definition: "Données communes d'Unicode sur la façon d'écrire les dates, les nombres et les noms selon la langue et la région."}
     source: {name: "Unicode Technical Standard #35", url: "https://www.unicode.org/reports/tr35/", checked: "2026-11-02"}
   - id: csl
     kind: abbreviation
@@ -64,17 +64,17 @@ terms:
   - id: rfc
     kind: abbreviation
     en: {short: "RFC", full: "Request for Comments", definition: "A numbered IETF publication that describes Internet protocols, practices or information."}
-    fr: {short: "RFC", full: "document RFC", definition: "Publication numérotée de l'IETF qui décrit des protocoles, des pratiques ou des renseignements sur Internet."}
+    fr: {short: "RFC", full: "document RFC (Request for Comments)", definition: "Publication numérotée de l'IETF qui décrit des protocoles, des pratiques ou des renseignements sur Internet."}
     source: {name: "Grand dictionnaire terminologique", url: "https://vitrinelinguistique.oqlf.gouv.qc.ca/fiche-gdt/fiche/2075026/document-rfc", checked: "2026-11-02"}
   - id: ssh
     kind: abbreviation
     en: {short: "SSH", full: "Secure Shell", definition: "A protocol for logging in to and working on a remote computer over an encrypted connection."}
-    fr: {short: "SSH", full: "protocole SSH", definition: "Protocole qui permet de se connecter à un ordinateur distant et d'y travailler par une liaison chiffrée."}
+    fr: {short: "SSH", full: "protocole SSH (Secure Shell)", definition: "Protocole qui permet de se connecter à un ordinateur distant et d'y travailler par une liaison chiffrée."}
     source: {name: "TERMIUM Plus", url: "https://www.btb.termiumplus.gc.ca/", checked: "2026-11-02"}
   - id: svg
     kind: abbreviation
     en: {short: "SVG", full: "Scalable Vector Graphics", definition: "A W3C text format for vector images that stay sharp at any size."}
-    fr: {short: "SVG", full: "format SVG", definition: "Format texte du W3C pour des images vectorielles qui restent nettes à toute taille."}
+    fr: {short: "SVG", full: "format SVG (Scalable Vector Graphics)", definition: "Format texte du W3C pour des images vectorielles qui restent nettes à toute taille."}
     source: {name: "Grand dictionnaire terminologique", url: "https://vitrinelinguistique.oqlf.gouv.qc.ca/fiche-gdt/fiche/26508269/format-svg", checked: "2026-11-02"}
   - id: sgqri
     kind: abbreviation
@@ -99,7 +99,7 @@ terms:
   - id: url
     kind: abbreviation
     en: {short: "URL", full: "uniform resource locator", definition: "A standard text string that names a resource on a network and says how to reach it."}
-    fr: {short: "URL", full: "adresse URL", definition: "Chaîne de caractères normalisée qui désigne une ressource sur un réseau et indique comment y accéder."}
+    fr: {short: "URL", full: "adresse URL (uniform resource locator)", definition: "Chaîne de caractères normalisée qui désigne une ressource sur un réseau et indique comment y accéder."}
     source: {name: "Grand dictionnaire terminologique", url: "https://vitrinelinguistique.oqlf.gouv.qc.ca/fiche-gdt/fiche/8869606/adresse-url", checked: "2026-11-02"}
   - id: w3c
     kind: abbreviation
