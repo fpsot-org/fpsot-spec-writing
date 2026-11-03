@@ -2,7 +2,7 @@
 :page-type: how-to
 include::_fpsot-terms.adoc[]
 
-This guide shows how to add a requirement to an {abbr-fpsot-first} specification.
+This guide shows how to add a requirement to a {abbr-fpsot-first} specification.
 
 . Pick the next free ID in the specification, such as `WRT-013`.
 
