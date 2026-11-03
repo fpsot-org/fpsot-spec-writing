@@ -1,0 +1,42 @@
+publiccodeYmlVersion: "0.4"
+name: FPSOT writing specification
+url: "https://github.com/fpsot-org/fpsot-spec-writing"
+platforms:
+  - web
+categories:
+  - it-development
+developmentStatus: concept
+softwareType: "standalone/other"
+description:
+  en:
+    shortDescription: How FPSOT projects write text that people read.
+    longDescription: >
+      The FPSOT writing specification sets the prose rules for
+      specifications, guides, interface text and error messages: plain
+      language, requirement keywords, Canadian English and French usage,
+      and the shared term base of terms and abbreviations.
+    features:
+      - Plain-language prose rules
+      - Requirement keywords in English and French
+      - Shared term base
+  fr:
+    shortDescription: Comment les projets de FPSOT rédigent les textes destinés aux personnes.
+    longDescription: >
+      La spécification de rédaction de FPSOT fixe les règles de rédaction
+      des spécifications, des guides, des textes d'interface et des
+      messages d'erreur : langage clair, mots clés des exigences, usage du
+      français et de l'anglais canadiens, et banque commune de termes et
+      d'abréviations.
+    features:
+      - Règles de rédaction en langage clair
+      - Mots clés des exigences en français et en anglais
+      - Banque commune de termes
+legal:
+  license: Community-Spec-1.0
+maintenance:
+  type: community
+localisation:
+  localisationReady: true
+  availableLanguages:
+    - en
+    - fr

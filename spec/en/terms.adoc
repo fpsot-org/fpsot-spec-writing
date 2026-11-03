@@ -1,0 +1,28 @@
+= Terms and abbreviations
+include::_fpsot-terms.adoc[]
+
+All {abbr-fpsot-first} specifications share one term base.
+This specification owns it, in the file `termbase/terms.yaml`.
+Each entry holds the term in English and in French, with its full form and a short definition.
+
+[[WRT-020]]
+*WRT-020.* A defined term or an abbreviation MUST come from the term base.
+A page MUST write it with the attribute of that entry: `{term-…}` for a term and `{abbr-…}` for an abbreviation.
+The attribute links the term to the glossary.
+It also marks an abbreviation up for screen readers and shows its full form when the pointer rests on it.
+
+[[WRT-021]]
+*WRT-021.* A page MUST spell an abbreviation out the first time it uses it, through the `{abbr-…-first}` attribute.
+The pop-up full form does not work on every touch screen or with every screen reader.
+The spelled-out form works for everyone.
+
+A term that is missing from the term base goes in through a pull request to this specification.
+The xref:../../docs/modules/en/pages/write-a-requirement.adoc[how-to guide] shows the steps.
+
+== Document history
+
+[cols="1,1,4",options="header"]
+|===
+|Version |Date |Change
+|0.1.0 |2026-11-02 |First version.
+|===

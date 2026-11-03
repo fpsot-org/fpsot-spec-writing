@@ -1,0 +1,36 @@
+= Qualité de la langue
+include::_fpsot-terms.adoc[]
+
+{abbr-fpsot-first} publie chaque texte en français canadien et en anglais canadien.
+
+[[WRT-030]]
+*WRT-030.* Le texte anglais DOIT suivre l'orthographe canadienne.
+La référence est TERMIUM Plus, la banque de terminologie du gouvernement fédéral.
+Le lectorat canadien voit alors l'orthographe qu'il attend.
+
+[[WRT-031]]
+*WRT-031.* Le texte français DOIT suivre l'usage de l'{abbr-oqlf-first}.
+Les références sont son Grand dictionnaire terminologique et sa Banque de dépannage linguistique.
+Les organismes publics du Québec suivent les mêmes références.
+
+[[WRT-032]]
+*WRT-032.* Le texte français DEVRAIT suivre la rédaction inclusive telle que l'{abbr-oqlf} la décrit.
+Préférez les mots qui désignent un groupe ou une fonction, comme « le personnel », aux doublets.
+Le texte français NE DOIT PAS employer de mots neutres nouveaux, comme « iel ».
+Il NE DOIT PAS employer de doublets abrégés, comme « citoyen·ne·s », dans un texte suivi.
+Les tableaux et les formulaires peuvent employer des formes abrégées entre parenthèses quand l'espace manque.
+Un texte inclusif s'adresse à tout le monde.
+
+[[WRT-033]]
+*WRT-033.* La traduction automatique PEUT produire une première version seulement.
+Une personne DOIT réviser cette version avant son intégration.
+La traduction automatique rate des termes et le registre de langue.
+Un texte révisé garde la même qualité dans les deux langues.
+
+== Historique du document
+
+[cols="1,1,4",options="header"]
+|===
+|Version |Date |Changement
+|0.1.0 |2026-11-02 |Première version.
+|===

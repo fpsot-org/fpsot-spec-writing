@@ -1,0 +1,36 @@
+= Language quality
+include::_fpsot-terms.adoc[]
+
+{abbr-fpsot-first} publishes every text in Canadian English and Canadian French.
+
+[[WRT-030]]
+*WRT-030.* English text MUST use Canadian spelling.
+The reference is TERMIUM Plus, the terminology bank of the federal government.
+Canadian readers then see the spelling they expect.
+
+[[WRT-031]]
+*WRT-031.* French text MUST follow the usage of the {abbr-oqlf-first}.
+The references are its Grand dictionnaire terminologique and its Banque de dépannage linguistique.
+Québec public bodies follow the same references.
+
+[[WRT-032]]
+*WRT-032.* French text SHOULD use gender-inclusive writing, as the {abbr-oqlf} describes it.
+Prefer words that name a group or a role, such as "le personnel", over doubled forms.
+French text MUST NOT use new gender-neutral words, such as "iel".
+It MUST NOT use shortened doubled forms, such as "citoyen·ne·s", in running text.
+Tables and forms may use shortened forms in parentheses when space is tight.
+Inclusive text addresses every reader.
+
+[[WRT-033]]
+*WRT-033.* Machine translation MAY produce a first draft only.
+A person MUST review the draft before it merges.
+Machine translation misses terms and register.
+A reviewed text keeps the quality of both languages equal.
+
+== Document history
+
+[cols="1,1,4",options="header"]
+|===
+|Version |Date |Change
+|0.1.0 |2026-11-02 |First version.
+|===

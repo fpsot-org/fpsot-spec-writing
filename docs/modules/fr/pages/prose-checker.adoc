@@ -1,0 +1,36 @@
+= Référence du vérificateur de rédaction
+:page-type: reference
+include::_fpsot-terms.adoc[]
+
+Le vérificateur de rédaction de la {abbr-fpsot-first} lit chaque page d'une spécification lors de l'intégration continue.
+Cette page relie chacun de ses messages à la règle qu'il vérifie.
+
+[cols="2,1,3",options="header"]
+|===
+|Message |Règle |Que faire
+|`N words` |xref:../../../../spec/fr/prose.adoc#WRT-002[WRT-002] |Coupez la phrase en deux.
+|`paragraph has N sentences` |xref:../../../../spec/fr/prose.adoc#WRT-003[WRT-003] |Coupez le paragraphe, ou retirez une phrase.
+|`passive?` |xref:../../../../spec/fr/prose.adoc#WRT-004[WRT-004] |Nommez qui agit et faites-en le sujet.
+|`nominalization` |xref:../../../../spec/fr/prose.adoc#WRT-005[WRT-005] |Employez le verbe d'où vient le nom.
+|`vague word` |xref:../../../../spec/fr/prose.adoc#WRT-006[WRT-006] |Retirez le mot, ou dites exactement ce que vous voulez dire.
+|`dash or semicolon joins clauses` |xref:../../../../spec/fr/prose.adoc#WRT-007[WRT-007] |Écrivez deux phrases.
+|`parenthesis` |xref:../../../../spec/fr/prose.adoc#WRT-008[WRT-008] |Placez le texte dans la phrase, ou retirez-le.
+|`noun cluster` |xref:../../../../spec/fr/prose.adoc#WRT-001[WRT-001] |Ajoutez les mots qui relient les noms, comme « de » ou « pour ».
+|===
+
+Le vérificateur saute le code, les blocs de code et les tableaux.
+Il saute aussi les lignes d'attributs et les citations.
+En français, il vérifie seulement la longueur des phrases et des paragraphes, car ses listes de mots sont en anglais.
+La liste des mots vagues se trouve dans `rules/prose-lint.md`.
+
+Un résultat invite à relire, ce n'est pas un verdict.
+Le vérificateur peut signaler une phrase correcte, comme un passif qui se lit mieux.
+Les personnes qui révisent décident.
+
+== Historique du document
+
+[cols="1,1,4",options="header"]
+|===
+|Version |Date |Changement
+|0.1.0 |2026-11-02 |Première version.
+|===

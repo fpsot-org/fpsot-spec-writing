@@ -1,0 +1,55 @@
+# SPDX-License-Identifier: Community-Spec-1.0
+id: https://fpsot.org/model/termbase
+name: termbase
+title: FPSOT term base
+description: >-
+  Format of termbase/terms.yaml, the term base every FPSOT specification takes its
+  terms and abbreviations from.
+license: Community-Spec-1.0
+version: 0.1.0
+prefixes:
+  linkml: https://w3id.org/linkml/
+  fpsot: https://fpsot.org/model/termbase/
+default_prefix: fpsot
+default_range: string
+imports:
+  - linkml:types
+
+classes:
+  TermBase:
+    tree_root: true
+    description: Content of termbase/terms.yaml.
+    attributes:
+      terms: {required: true, multivalued: true, range: Term, inlined: true, inlined_as_list: true}
+
+  Term:
+    description: One term or abbreviation, in English and French.
+    attributes:
+      id:
+        identifier: true
+        pattern: "^[a-z0-9]+(-[a-z0-9]+)*$"
+        description: "Used in page attributes: {abbr-ID}, {abbr-ID-first} or {term-ID}."
+      kind: {required: true, range: Kind}
+      en: {required: true, range: Form, inlined: true}
+      fr: {required: true, range: Form, inlined: true}
+      source: {range: Source, inlined: true}
+
+  Form:
+    description: A term in one language.
+    attributes:
+      short: {description: "Short form, required for an abbreviation, such as API."}
+      full: {required: true, description: Full form.}
+      definition: {required: true, description: "One sentence, in the specification's own words."}
+
+  Source:
+    description: Where the term was checked.
+    attributes:
+      name: {required: true}
+      url: {range: uri}
+      checked: {range: date, description: "Date checked, quoted: \"2026-11-02\"."}
+
+enums:
+  Kind:
+    permissible_values:
+      abbreviation: {description: "Rendered as <abbr> and spelled out on first use."}
+      term: {description: A defined term.}

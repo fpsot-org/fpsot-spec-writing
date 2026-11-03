@@ -1,0 +1,41 @@
+= Mots clés des exigences
+include::_fpsot-terms.adoc[]
+
+Une spécification énonce chaque règle de façon fixe, pour que les personnes et les outils trouvent toutes les règles.
+
+[[WRT-010]]
+*WRT-010.* Un énoncé normatif DOIT employer un des mots clés du {abbr-bcp-first} 14, en majuscules.
+Chaque spécification DOIT inclure le texte de conformité du {abbr-rfc-first} 8174.
+Les mots clés donnent à chaque règle une force claire.
+En minuscules, « doit » ou « devrait » relève alors du français courant et n'énonce aucune règle.
+
+[[WRT-011]]
+*WRT-011.* Une spécification en français DOIT employer les mots clés français de ce tableau, en majuscules.
+
+[cols="1,1",options="header"]
+|===
+|Mot clé du {abbr-bcp} 14 |Mot clé français
+|MUST, SHALL, REQUIRED |DOIT, DOIVENT, OBLIGATOIRE
+|MUST NOT, SHALL NOT |NE DOIT PAS, NE DOIVENT PAS
+|SHOULD, RECOMMENDED |DEVRAIT, DEVRAIENT, RECOMMANDÉ
+|SHOULD NOT, NOT RECOMMENDED |NE DEVRAIT PAS, NE DEVRAIENT PAS, DÉCONSEILLÉ
+|MAY, OPTIONAL |PEUT, PEUVENT, FACULTATIF
+|===
+
+Il n'existe pas de traduction normalisée de ces mots clés.
+Un tableau fixe garde la même force à chaque règle dans les deux langues.
+
+[[WRT-012]]
+*WRT-012.* Chaque exigence DOIT avoir son propre paragraphe, précédé d'une ligne d'ancre qui porte son identifiant.
+La justification DOIT suivre l'exigence dans le même paragraphe.
+Un identifiant compte trois lettres majuscules, un trait d'union et trois chiffres, par exemple `WRT-012`.
+Les outils trouvent chaque règle par son identifiant.
+Les compétences d'agent et les règles vérifiables par machine citent le même identifiant.
+
+== Historique du document
+
+[cols="1,1,4",options="header"]
+|===
+|Version |Date |Changement
+|0.1.0 |2026-11-02 |Première version.
+|===

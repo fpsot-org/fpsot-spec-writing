@@ -1,0 +1,35 @@
+= FPSOT writing specification
+include::_fpsot-terms.adoc[]
+
+This specification sets how {abbr-fpsot-first} projects write text that people read.
+It applies to specifications and guides, and to interface text and error messages.
+
+The rules come in five parts.
+
+* xref:prose.adoc[Prose] keeps sentences and paragraphs short and clear.
+* xref:keywords.adoc[Requirement keywords] fix how a specification states each rule.
+* xref:terms.adoc[Terms and abbreviations] come from one shared term base.
+* xref:language.adoc[Language quality] covers Canadian English and Canadian French.
+* xref:interface-text.adoc[Interface text] covers screens and error messages.
+
+Identifiers that machines read, such as field names and paths, follow the {abbr-fpsot} naming specification instead.
+
+== Conformance
+
+[quote, RFC 8174]
+____
+The key words "MUST", "MUST NOT", "REQUIRED", "SHALL", "SHALL NOT", "SHOULD", "SHOULD NOT", "RECOMMENDED", "NOT RECOMMENDED", "MAY", and "OPTIONAL" in this document are to be interpreted as described in BCP 14 (RFC 2119, RFC 8174) when, and only when, they appear in all capitals, as shown here.
+____
+
+The French version uses the keywords that xref:keywords.adoc#WRT-011[WRT-011] lists.
+
+A text conforms to this specification when it meets every MUST rule.
+A project conforms when all the text it publishes conforms.
+
+== Document history
+
+[cols="1,1,4",options="header"]
+|===
+|Version |Date |Change
+|0.1.0 |2026-11-02 |First version.
+|===

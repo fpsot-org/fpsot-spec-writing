@@ -1,0 +1,17 @@
+= Spécification de rédaction de FPSOT
+:doctype: book
+:toc:
+
+include::index.adoc[leveloffset=+1]
+
+include::prose.adoc[leveloffset=+1]
+
+include::keywords.adoc[leveloffset=+1]
+
+include::terms.adoc[leveloffset=+1]
+
+include::language.adoc[leveloffset=+1]
+
+include::interface-text.adoc[leveloffset=+1]
+
+include::glossary.adoc[leveloffset=+1]

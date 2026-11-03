@@ -1,0 +1,23 @@
+= Interface text
+include::_fpsot-terms.adoc[]
+
+These rules cover the words on screens: labels, help text and messages.
+
+[[WRT-040]]
+*WRT-040.* An error message MUST say what happened and what the reader can do next.
+It MUST NOT blame the reader.
+A reader who knows the next step can fix the problem alone.
+Blame makes people give up on a public service.
+
+[[WRT-041]]
+*WRT-041.* Interface text SHOULD use the words of the reader, not the names inside the system.
+Write "your application" rather than "case record".
+People understand their own words without help.
+
+== Document history
+
+[cols="1,1,4",options="header"]
+|===
+|Version |Date |Change
+|0.1.0 |2026-11-02 |First version.
+|===

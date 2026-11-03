@@ -1,0 +1,28 @@
+= Termes et abréviations
+include::_fpsot-terms.adoc[]
+
+Toutes les spécifications de la {abbr-fpsot-first} partagent une banque de termes.
+Cette spécification en est responsable, dans le fichier `termbase/terms.yaml`.
+Chaque entrée donne le terme en français et en anglais, avec sa forme complète et une courte définition.
+
+[[WRT-020]]
+*WRT-020.* Un terme défini ou une abréviation DOIT venir de la banque de termes.
+Une page DOIT l'écrire avec l'attribut de son entrée : `{term-…}` pour un terme et `{abbr-…}` pour une abréviation.
+L'attribut relie le terme au glossaire.
+Il balise aussi l'abréviation pour les lecteurs d'écran et affiche sa forme complète au survol du pointeur.
+
+[[WRT-021]]
+*WRT-021.* Une page DOIT écrire une abréviation en toutes lettres la première fois qu'elle l'emploie, avec l'attribut `{abbr-…-first}`.
+La forme complète au survol ne fonctionne pas sur tous les écrans tactiles ni avec tous les lecteurs d'écran.
+La forme écrite en toutes lettres fonctionne pour tout le monde.
+
+Un terme absent de la banque y entre par une demande de fusion dans cette spécification.
+Le xref:../../docs/modules/fr/pages/write-a-requirement.adoc[guide pratique] montre les étapes.
+
+== Historique du document
+
+[cols="1,1,4",options="header"]
+|===
+|Version |Date |Changement
+|0.1.0 |2026-11-02 |Première version.
+|===

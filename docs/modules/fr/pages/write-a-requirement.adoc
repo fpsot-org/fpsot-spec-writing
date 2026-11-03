@@ -1,0 +1,40 @@
+= Rédiger une exigence
+:page-type: how-to
+include::_fpsot-terms.adoc[]
+
+Ce guide montre comment ajouter une exigence à une spécification de la {abbr-fpsot-first}.
+
+. Prenez le prochain identifiant libre de la spécification, par exemple `WRT-013`.
+
+. Ajoutez une ligne d'ancre avec l'identifiant, juste au-dessus du paragraphe.
+
+. Écrivez la règle en une phrase, avec un mot clé en majuscules, comme DOIT.
+
+. Ajoutez une à trois phrases qui expliquent pourquoi la règle existe.
+
+. Écrivez chaque terme défini avec son attribut `{term-…}` et chaque abréviation avec son attribut `{abbr-…}`.
+
+. Écrivez chaque abréviation en toutes lettres la première fois qu'une page l'emploie, avec `{abbr-…-first}`.
+
+. Écrivez la même exigence dans la page anglaise, avec le même identifiant et le mot clé anglais.
+
+. Ouvrez une demande de fusion.
+Les vérifications testent alors l'identifiant, la rédaction, les termes et les deux langues.
+
+Un terme absent va d'abord dans le fichier `termbase/terms.yaml` de la spécification de rédaction, par sa propre demande de fusion.
+
+== Exemple
+
+----
+[[WRT-013]]
+*WRT-013.* Un message d'erreur DOIT nommer le champ qui contient l'erreur.
+La personne trouve alors le champ sans chercher.
+----
+
+== Historique du document
+
+[cols="1,1,4",options="header"]
+|===
+|Version |Date |Changement
+|0.1.0 |2026-11-02 |Première version.
+|===

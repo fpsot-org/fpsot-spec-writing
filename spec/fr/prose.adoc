@@ -1,0 +1,63 @@
+= Rédaction
+include::_fpsot-terms.adoc[]
+
+Ces règles rendent les textes rapides à lire et faciles à traduire.
+Le vérificateur de rédaction de la {abbr-fpsot-first} en teste la plupart.
+La xref:../../docs/modules/fr/pages/prose-checker.adoc[référence du vérificateur] relie chacun de ses messages à une règle.
+
+== Langage clair
+
+[[WRT-001]]
+*WRT-001.* Le texte DOIT être rédigé en langage clair.
+Les personnes qui le lisent doivent trouver ce dont elles ont besoin, le comprendre du premier coup et s'en servir.
+Ce sont les trois principes de la norme {abbr-iso-first} 24495-1:2023.
+Une spécification s'adresse au personnel de l'État, aux équipes de développement et au public.
+Elle ne peut pas supposer un lectorat expert.
+
+[[WRT-002]]
+*WRT-002.* Une phrase DEVRAIT compter 20 mots ou moins.
+Les longues phrases cachent l'idée principale et ralentissent la lecture.
+Elles se traduisent aussi mal.
+
+[[WRT-003]]
+*WRT-003.* Un paragraphe DEVRAIT compter 6 phrases ou moins.
+Les paragraphes courts permettent de parcourir une page et de s'y retrouver.
+
+== Phrases
+
+[[WRT-004]]
+*WRT-004.* Les phrases DEVRAIENT être à la voix active.
+La voix active nomme qui agit.
+Une règle dit alors qui doit faire quoi.
+
+[[WRT-005]]
+*WRT-005.* Le texte DEVRAIT employer un verbe plutôt qu'un nom tiré de ce verbe.
+Écrivez « configurer le serveur » plutôt que « procéder à la configuration du serveur ».
+Le verbe est plus court et nomme l'action.
+
+[[WRT-006]]
+*WRT-006.* Le texte NE DEVRAIT PAS employer les mots vagues et les expressions de remplissage que le vérificateur liste.
+Ces mots allongent le texte sans rien ajouter.
+
+[[WRT-007]]
+*WRT-007.* Le texte NE DEVRAIT PAS relier deux propositions par un tiret ou un point-virgule.
+Deux phrases sont plus faciles à lire et à traduire.
+
+[[WRT-008]]
+*WRT-008.* Le texte NE DEVRAIT PAS mettre une information nécessaire entre parenthèses.
+Les gens sautent le texte entre parenthèses.
+Placez l'information nécessaire dans la phrase, ou dans une phrase à part.
+
+== Procédures
+
+[[WRT-050]]
+*WRT-050.* Les procédures pas à pas PEUVENT suivre l'ASD-STE100, l'anglais technique simplifié.
+Il limite chaque étape à une consigne et emploie un petit vocabulaire où chaque mot a un seul sens.
+
+== Historique du document
+
+[cols="1,1,4",options="header"]
+|===
+|Version |Date |Changement
+|0.1.0 |2026-11-02 |Première version.
+|===

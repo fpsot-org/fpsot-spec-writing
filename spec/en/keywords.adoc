@@ -1,0 +1,41 @@
+= Requirement keywords
+include::_fpsot-terms.adoc[]
+
+A specification states each rule in a fixed way, so readers and tools find every rule.
+
+[[WRT-010]]
+*WRT-010.* A normative statement MUST use one of the {abbr-bcp-first} 14 keywords in capitals.
+Every specification MUST include the conformance text of {abbr-rfc-first} 8174.
+The keywords give each rule a clear strength.
+Lower-case "must" or "should" is then plain English and states no rule.
+
+[[WRT-011]]
+*WRT-011.* A French specification MUST use the French keywords of this table, in capitals.
+
+[cols="1,1",options="header"]
+|===
+|{abbr-bcp} 14 keyword |French keyword
+|MUST, SHALL, REQUIRED |DOIT, DOIVENT, OBLIGATOIRE
+|MUST NOT, SHALL NOT |NE DOIT PAS, NE DOIVENT PAS
+|SHOULD, RECOMMENDED |DEVRAIT, DEVRAIENT, RECOMMANDÉ
+|SHOULD NOT, NOT RECOMMENDED |NE DEVRAIT PAS, NE DEVRAIENT PAS, DÉCONSEILLÉ
+|MAY, OPTIONAL |PEUT, PEUVENT, FACULTATIF
+|===
+
+French has no standard way to translate these keywords.
+A fixed table keeps the strength of each rule the same in both languages.
+
+[[WRT-012]]
+*WRT-012.* Each requirement MUST have its own paragraph, with an anchor line that holds its ID.
+The rationale MUST follow the requirement in the same paragraph.
+An ID has three upper-case letters, a hyphen and three digits, such as `WRT-012`.
+Tools find each rule by its ID.
+Agent skills and machine-checkable rules cite the same ID.
+
+== Document history
+
+[cols="1,1,4",options="header"]
+|===
+|Version |Date |Change
+|0.1.0 |2026-11-02 |First version.
+|===
