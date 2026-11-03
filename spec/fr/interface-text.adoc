@@ -1,0 +1,23 @@
+= Textes d'interface
+include::_fpsot-terms.adoc[]
+
+Ces règles portent sur les mots à l'écran : libellés, textes d'aide et messages.
+
+[[WRT-040]]
+*WRT-040.* Un message d'erreur DOIT dire ce qui s'est passé et ce que la personne peut faire ensuite.
+Il NE DOIT PAS blâmer la personne.
+Une personne qui connaît l'étape suivante peut régler le problème seule.
+Le blâme pousse les gens à abandonner un service public.
+
+[[WRT-041]]
+*WRT-041.* Les textes d'interface DEVRAIENT employer les mots des personnes, pas les noms internes du système.
+Écrivez « votre demande » plutôt que « dossier de cas ».
+Les gens comprennent leurs propres mots sans aide.
+
+== Historique du document
+
+[cols="1,1,4",options="header"]
+|===
+|Version |Date |Changement
+|0.1.0 |2026-11-02 |Première version.
+|===

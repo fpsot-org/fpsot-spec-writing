@@ -1,0 +1,36 @@
+= Prose checker reference
+:page-type: reference
+include::_fpsot-terms.adoc[]
+
+The {abbr-fpsot-first} prose checker reads every page of a specification in its continuous integration.
+This page maps each of its messages to the rule it checks.
+
+[cols="2,1,3",options="header"]
+|===
+|Message |Rule |What to do
+|`N words` |xref:../../../../spec/en/prose.adoc#WRT-002[WRT-002] |Split the sentence in two.
+|`paragraph has N sentences` |xref:../../../../spec/en/prose.adoc#WRT-003[WRT-003] |Split the paragraph, or cut a sentence.
+|`passive?` |xref:../../../../spec/en/prose.adoc#WRT-004[WRT-004] |Name who acts, and make them the subject.
+|`nominalization` |xref:../../../../spec/en/prose.adoc#WRT-005[WRT-005] |Use the verb the noun comes from.
+|`vague word` |xref:../../../../spec/en/prose.adoc#WRT-006[WRT-006] |Cut the word, or say exactly what you mean.
+|`dash or semicolon joins clauses` |xref:../../../../spec/en/prose.adoc#WRT-007[WRT-007] |Write two sentences.
+|`parenthesis` |xref:../../../../spec/en/prose.adoc#WRT-008[WRT-008] |Move the text into the sentence, or cut it.
+|`noun cluster` |xref:../../../../spec/en/prose.adoc#WRT-001[WRT-001] |Add the words that link the nouns, such as "of" or "for".
+|===
+
+The checker skips code, listings and tables.
+It also skips attribute lines and quoted text.
+In French it checks sentence and paragraph length only, because its word lists are English.
+The list of vague words is in `rules/prose-lint.md`.
+
+A finding is a prompt to look again, not a verdict.
+The checker can flag a correct sentence, such as a passive that reads better.
+Reviewers decide.
+
+== Document history
+
+[cols="1,1,4",options="header"]
+|===
+|Version |Date |Change
+|0.1.0 |2026-11-02 |First version.
+|===

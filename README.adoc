@@ -1,0 +1,28 @@
+= FPSOT writing specification
+
+This specification sets how FPSOT projects write text that people read.
+It covers plain language, requirement keywords, Canadian English and Canadian French, and interface text.
+It also owns the term base that every FPSOT specification uses.
+
+== Implement this spec
+
+Read the normative text in `spec/en/` or `spec/fr/`.
+Each requirement has an ID, such as `WRT-001`.
+The FPSOT prose checker tests most of the prose rules: see `rules/prose-lint.md`.
+
+== Adopt this spec
+
+Read the guides in `docs/modules/en/pages/` or `docs/modules/fr/pages/`.
+To require these rules from a supplier, cite the specification by version and requirement ID.
+
+== Term base
+
+`termbase/terms.yaml` holds every term and abbreviation, in English and French.
+`model/termbase.yaml` is its LinkML model, and `model/test-model.sh` checks it.
+Other specifications take the term base from the latest `v0` release of this repository.
+
+== Licence
+
+The specification, the term base and the model are under the Community Specification License 1.0.
+Source code is under the Apache License 2.0.
+See `LICENSE.md` and `NOTICE`.

@@ -1,0 +1,40 @@
+= Write a requirement
+:page-type: how-to
+include::_fpsot-terms.adoc[]
+
+This guide shows how to add a requirement to an {abbr-fpsot-first} specification.
+
+. Pick the next free ID in the specification, such as `WRT-013`.
+
+. Add an anchor line with the ID, directly above the paragraph.
+
+. Write the rule in one sentence, with one keyword in capitals, such as MUST.
+
+. Add one to three sentences that say why the rule exists.
+
+. Write each defined term with its `{term-…}` attribute and each abbreviation with its `{abbr-…}` attribute.
+
+. Spell out each abbreviation the first time a page uses it, with `{abbr-…-first}`.
+
+. Write the same requirement in the French page, with the same ID and the French keyword.
+
+. Open a pull request.
+The checks then test the ID, the prose, the terms and the two languages.
+
+A term that is missing goes in `termbase/terms.yaml` of the writing specification first, through its own pull request.
+
+== Example
+
+----
+[[WRT-013]]
+*WRT-013.* An error message MUST name the field that holds the error.
+The reader then finds the field without searching.
+----
+
+== Document history
+
+[cols="1,1,4",options="header"]
+|===
+|Version |Date |Change
+|0.1.0 |2026-11-02 |First version.
+|===

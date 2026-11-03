@@ -1,0 +1,28 @@
+code: CA-QC
+name: {en: Québec, fr: Québec}
+rows:
+  - id: WRT-001
+    text: {en: "Clear French, 10 to 20 words per sentence on average, the active voice and a set readability score for public pages.", fr: "Un français clair, 10 à 20 mots par phrase en moyenne, la voix active et un score de lisibilité fixé pour les pages publiques."}
+    status: stricter
+    source: {title: "Langage clair et simple, Système de design gouvernemental", date: "2026-10-13", url: "https://design.quebec.ca/contenu/principes-redaction/langage-clair-simple", archive: "https://web.archive.org/web/20261103003958/https://design.quebec.ca/contenu/principes-redaction/langage-clair-simple"}
+    last_checked: "2026-11-02"
+  - id: WRT-010
+    text: {en: No rule on requirement keywords., fr: Aucune règle sur les mots clés d'exigence.}
+    status: not-covered
+    source: {title: "Langage clair et simple, Système de design gouvernemental", date: "2026-10-13", url: "https://design.quebec.ca/contenu/principes-redaction/langage-clair-simple", archive: "https://web.archive.org/web/20261103003958/https://design.quebec.ca/contenu/principes-redaction/langage-clair-simple"}
+    last_checked: "2026-11-02"
+  - id: WRT-031
+    text: {en: "Terms that the OQLF standardizes in the Gazette officielle are mandatory in the texts of the Administration.", fr: "Les termes que l'OQLF normalise dans la Gazette officielle sont obligatoires dans les textes de l'Administration."}
+    status: stricter
+    source: {title: "Charte de la langue française (chapitre C-11), art. 13.1 et 118", date: "2026-02-23", url: "https://www.legisquebec.gouv.qc.ca/fr/document/lc/C-11", archive: "https://web.archive.org/web/20260506223936/https://www.legisquebec.gouv.qc.ca/fr/document/lc/c-11"}
+    last_checked: "2026-11-02"
+  - id: WRT-032
+    text: {en: "Rédaction épicène. No new neutral words such as \"iel\". Shortened doubled forms only in tight spaces, such as tables.", fr: "Rédaction épicène. Pas de mots neutres nouveaux comme « iel ». Doublets abrégés seulement dans les espaces restreints, comme les tableaux."}
+    status: stricter
+    source: {title: "Politique linguistique de l'État", version: "Version de septembre 2025", date: "2025-09", url: "https://cdn-contenu.quebec.ca/cdn-contenu/adm/min/langue-francaise/fr/politiques/politique_linguistique_etat.pdf", archive: "https://web.archive.org/web/20261103003523/https://cdn-contenu.quebec.ca/cdn-contenu/adm/min/langue-francaise/fr/politiques/politique_linguistique_etat.pdf"}
+    last_checked: "2026-11-02"
+  - id: WRT-040
+    text: {en: "An error message names the exact problem and the fix, in clear, reassuring, everyday words.", fr: "Un message d'erreur nomme le problème précis et la correction, en mots courants, clairs et rassurants."}
+    status: same
+    source: {title: "Message d'erreur, Système de design gouvernemental", date: "2026-10-14", url: "https://design.quebec.ca/design/composants/formulaire/message-erreur", archive: "https://web.archive.org/web/20261103004302/https://design.quebec.ca/design/composants/formulaire/message-erreur"}
+    last_checked: "2026-11-02"

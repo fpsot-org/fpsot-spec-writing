@@ -1,0 +1,63 @@
+= Prose
+include::_fpsot-terms.adoc[]
+
+These rules make text quick to read and easy to translate.
+The {abbr-fpsot-first} prose checker tests most of them.
+The xref:../../docs/modules/en/pages/prose-checker.adoc[prose checker reference] maps each of its messages to a rule.
+
+== Plain language
+
+[[WRT-001]]
+*WRT-001.* Text MUST use plain language.
+Readers must find what they need, understand it the first time, and act on it.
+These are the three principles of {abbr-iso-first} 24495-1:2023.
+A specification is for public servants, for development teams and for the public.
+It cannot assume an expert reader.
+
+[[WRT-002]]
+*WRT-002.* A sentence SHOULD have 20 words or fewer.
+Long sentences hide the main point and slow readers down.
+They also translate badly.
+
+[[WRT-003]]
+*WRT-003.* A paragraph SHOULD have 6 sentences or fewer.
+Short paragraphs let readers scan a page and find their place again.
+
+== Sentences
+
+[[WRT-004]]
+*WRT-004.* Sentences SHOULD use the active voice.
+The active voice names who acts.
+A rule then says who must do what.
+
+[[WRT-005]]
+*WRT-005.* Text SHOULD use a verb rather than a noun made from that verb.
+Write `configure the server` rather than `perform the configuration of the server`.
+The verb is shorter and names the action.
+
+[[WRT-006]]
+*WRT-006.* Text SHOULD NOT use the vague words and filler phrases that the prose checker lists.
+Words such as `various` or `in order to` add length without meaning.
+
+[[WRT-007]]
+*WRT-007.* Text SHOULD NOT join two clauses with a dash or a semicolon.
+Two sentences are easier to read and to translate.
+
+[[WRT-008]]
+*WRT-008.* Text SHOULD NOT put needed information in parentheses.
+Readers skip text in parentheses.
+Put needed information in the sentence, or in a sentence of its own.
+
+== Procedures
+
+[[WRT-050]]
+*WRT-050.* Step-by-step procedures MAY follow ASD-STE100, Simplified Technical English.
+It limits each step to one instruction and uses a small set of words with one meaning each.
+
+== Document history
+
+[cols="1,1,4",options="header"]
+|===
+|Version |Date |Change
+|0.1.0 |2026-11-02 |First version.
+|===

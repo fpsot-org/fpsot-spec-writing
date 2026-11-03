@@ -1,0 +1,163 @@
+# SPDX-License-Identifier: Community-Spec-1.0
+# FPSOT term base. Format: model/termbase.yaml. Definitions are FPSOT wording.
+terms:
+  - id: fpsot
+    kind: abbreviation
+    en: {short: "FPSOT", full: "Foundation for Public Sector Open Technology", definition: "The foundation that publishes these open specifications for public sector technology."}
+    fr: {short: "FPSOT", full: "Foundation for Public Sector Open Technology", definition: "Fondation qui publie ces spécifications ouvertes pour les technologies du secteur public."}
+    source: {name: "FPSOT", url: "https://fpsot.org/", checked: "2026-11-02"}
+  - id: api
+    kind: abbreviation
+    en: {short: "API", full: "application programming interface", definition: "A documented set of rules that lets one program use the functions or data of another."}
+    fr: {short: "API", full: "interface de programmation d'application", definition: "Ensemble documenté de règles qui permet à un programme d'utiliser les fonctions ou les données d'un autre."}
+    source: {name: "Grand dictionnaire terminologique", url: "https://vitrinelinguistique.oqlf.gouv.qc.ca/fiche-gdt/fiche/8394269/interface-de-programmation-dapplication", checked: "2026-11-02"}
+  - id: bcp
+    kind: abbreviation
+    en: {short: "BCP", full: "Best Current Practice", definition: "An IETF document series that records the agreed best way to run or use Internet technology."}
+    fr: {short: "BCP", full: "Best Current Practice", definition: "Série de documents de l'IETF qui consigne la façon reconnue de faire fonctionner ou d'utiliser les technologies Internet."}
+    source: {name: "RFC 2026", url: "https://www.rfc-editor.org/rfc/rfc2026.txt", checked: "2026-11-02"}
+  - id: ci
+    kind: abbreviation
+    en: {short: "CI", full: "continuous integration", definition: "The practice of merging each person's changes into shared code often, with automatic tests each time."}
+    fr: {short: "IC", full: "intégration continue", definition: "Pratique qui consiste à intégrer souvent les changements de chaque personne au code commun, avec des tests automatiques."}
+    source: {name: "Grand dictionnaire terminologique", url: "https://vitrinelinguistique.oqlf.gouv.qc.ca/fiche-gdt/fiche/26559353/integration-continue", checked: "2026-11-02"}
+  - id: cldr
+    kind: abbreviation
+    en: {short: "CLDR", full: "Unicode Common Locale Data & Rules", definition: "Unicode's shared data on how each language and region writes dates, numbers, names and similar items."}
+    fr: {short: "CLDR", full: "Unicode Common Locale Data & Rules", definition: "Données communes d'Unicode sur la façon d'écrire les dates, les nombres et les noms selon la langue et la région."}
+    source: {name: "Unicode Technical Standard #35", url: "https://www.unicode.org/reports/tr35/", checked: "2026-11-02"}
+  - id: csl
+    kind: abbreviation
+    en: {short: "CSL", full: "Community Specification License", definition: "A licence that sets how people contribute to and may use a specification developed by a working group."}
+    fr: {short: "CSL", full: "Community Specification License", definition: "Licence qui fixe comment contribuer à une spécification élaborée par un groupe de travail et comment l'utiliser."}
+    source: {name: "Community Specification", url: "https://github.com/CommunitySpecification/Community_Specification", checked: "2026-11-02"}
+  - id: gpg
+    kind: abbreviation
+    en: {short: "GPG", full: "GNU Privacy Guard", definition: "Free software that encrypts and signs data and messages with the OpenPGP standard."}
+    fr: {short: "GPG", full: "GNU Privacy Guard", definition: "Logiciel libre qui chiffre et signe des données et des messages selon la norme OpenPGP."}
+    source: {name: "GnuPG", url: "https://gnupg.org/", checked: "2026-11-02"}
+  - id: html
+    kind: abbreviation
+    en: {short: "HTML", full: "HyperText Markup Language", definition: "The markup language of web pages, which browsers display."}
+    fr: {short: "HTML", full: "langage HTML", definition: "Langage de balisage des pages Web, que les navigateurs affichent."}
+    source: {name: "Grand dictionnaire terminologique", url: "https://vitrinelinguistique.oqlf.gouv.qc.ca/fiche-gdt/fiche/2075521/langage-html", checked: "2026-11-02"}
+  - id: iso
+    kind: abbreviation
+    en: {short: "ISO", full: "International Organization for Standardization", definition: "The international body, based in Geneva, that publishes standards prepared with national standards bodies."}
+    fr: {short: "ISO", full: "Organisation internationale de normalisation", definition: "Organisme international établi à Genève qui publie des normes préparées avec les organismes nationaux de normalisation."}
+    source: {name: "TERMIUM Plus", url: "https://www.btb.termiumplus.gc.ca/", checked: "2026-11-02"}
+  - id: oqlf
+    kind: abbreviation
+    en: {short: "OQLF", full: "Office québécois de la langue française", definition: "The Québec government agency responsible for French language policy and terminology."}
+    fr: {short: "OQLF", full: "Office québécois de la langue française", definition: "Organisme du gouvernement du Québec chargé de la politique linguistique et de la terminologie."}
+    source: {name: "TERMIUM Plus", url: "https://www.btb.termiumplus.gc.ca/", checked: "2026-11-02"}
+  - id: pdf
+    kind: abbreviation
+    en: {short: "PDF", full: "Portable Document Format", definition: "A file format that keeps a document's layout the same on any device or system."}
+    fr: {short: "PDF", full: "format PDF", definition: "Format de fichier qui conserve la mise en page d'un document sur tout appareil ou système."}
+    source: {name: "Grand dictionnaire terminologique", url: "https://vitrinelinguistique.oqlf.gouv.qc.ca/fiche-gdt/fiche/8875520/format-pdf", checked: "2026-11-02"}
+  - id: pr
+    kind: abbreviation
+    en: {short: "PR", full: "pull request", definition: "A request to review a set of proposed changes and merge them into another branch of a repository."}
+    fr: {short: "PR", full: "demande de fusion", definition: "Demande d'examen de modifications proposées en vue de les fusionner dans une autre branche d'un dépôt."}
+    source: {name: "Grand dictionnaire terminologique", url: "https://vitrinelinguistique.oqlf.gouv.qc.ca/fiche-gdt/fiche/26584234/demande-de-fusion", checked: "2026-11-02"}
+  - id: rfc
+    kind: abbreviation
+    en: {short: "RFC", full: "Request for Comments", definition: "A numbered IETF publication that describes Internet protocols, practices or information."}
+    fr: {short: "RFC", full: "document RFC", definition: "Publication numérotée de l'IETF qui décrit des protocoles, des pratiques ou des renseignements sur Internet."}
+    source: {name: "Grand dictionnaire terminologique", url: "https://vitrinelinguistique.oqlf.gouv.qc.ca/fiche-gdt/fiche/2075026/document-rfc", checked: "2026-11-02"}
+  - id: ssh
+    kind: abbreviation
+    en: {short: "SSH", full: "Secure Shell", definition: "A protocol for logging in to and working on a remote computer over an encrypted connection."}
+    fr: {short: "SSH", full: "protocole SSH", definition: "Protocole qui permet de se connecter à un ordinateur distant et d'y travailler par une liaison chiffrée."}
+    source: {name: "TERMIUM Plus", url: "https://www.btb.termiumplus.gc.ca/", checked: "2026-11-02"}
+  - id: svg
+    kind: abbreviation
+    en: {short: "SVG", full: "Scalable Vector Graphics", definition: "A W3C text format for vector images that stay sharp at any size."}
+    fr: {short: "SVG", full: "format SVG", definition: "Format texte du W3C pour des images vectorielles qui restent nettes à toute taille."}
+    source: {name: "Grand dictionnaire terminologique", url: "https://vitrinelinguistique.oqlf.gouv.qc.ca/fiche-gdt/fiche/26508269/format-svg", checked: "2026-11-02"}
+  - id: sgqri
+    kind: abbreviation
+    en: {short: "SGQRI", full: "Standard du gouvernement du Québec sur les ressources informationnelles", definition: "A numbered series of Québec government standards for public bodies' information resources, such as web accessibility."}
+    fr: {short: "SGQRI", full: "Standard du gouvernement du Québec sur les ressources informationnelles", definition: "Série numérotée de standards du gouvernement du Québec sur les ressources informationnelles des organismes publics."}
+    source: {name: "Autorité des marchés publics", url: "https://www.amp.quebec/en/accessibilite", checked: "2026-11-02"}
+  - id: ste
+    kind: abbreviation
+    en: {short: "STE", full: "Simplified Technical English", definition: "A controlled form of English with limited words and rules, first written for aircraft maintenance texts."}
+    fr: {short: "STE", full: "Simplified Technical English", definition: "Anglais contrôlé, au vocabulaire et aux règles limités, conçu d'abord pour la documentation de maintenance aéronautique."}
+    source: {name: "ASD-STE100", url: "https://www.asd-ste100.org/", checked: "2026-11-02"}
+  - id: tbs
+    kind: abbreviation
+    en: {short: "TBS", full: "Treasury Board of Canada Secretariat", definition: "The federal central agency that sets Government of Canada management, digital and spending policy."}
+    fr: {short: "SCT", full: "Secrétariat du Conseil du Trésor du Canada", definition: "Organisme central fédéral qui fixe les politiques de gestion, de numérique et de dépenses du gouvernement du Canada."}
+    source: {name: "TERMIUM Plus", url: "https://www.btb.termiumplus.gc.ca/", checked: "2026-11-02"}
+  - id: ui
+    kind: abbreviation
+    en: {short: "UI", full: "user interface", definition: "The screens, controls and messages through which a person uses a system."}
+    fr: {short: "IU", full: "interface utilisateur", definition: "Écrans, commandes et messages par lesquels une personne utilise un système."}
+    source: {name: "Grand dictionnaire terminologique", url: "https://vitrinelinguistique.oqlf.gouv.qc.ca/fiche-gdt/fiche/8374563/interface-utilisateur", checked: "2026-11-02"}
+  - id: url
+    kind: abbreviation
+    en: {short: "URL", full: "uniform resource locator", definition: "A standard text string that names a resource on a network and says how to reach it."}
+    fr: {short: "URL", full: "adresse URL", definition: "Chaîne de caractères normalisée qui désigne une ressource sur un réseau et indique comment y accéder."}
+    source: {name: "Grand dictionnaire terminologique", url: "https://vitrinelinguistique.oqlf.gouv.qc.ca/fiche-gdt/fiche/8869606/adresse-url", checked: "2026-11-02"}
+  - id: w3c
+    kind: abbreviation
+    en: {short: "W3C", full: "World Wide Web Consortium", definition: "The international organization that develops open standards for the Web."}
+    fr: {short: "W3C", full: "World Wide Web Consortium", definition: "Organisme international qui élabore les normes ouvertes du Web."}
+    source: {name: "Grand dictionnaire terminologique", url: "https://vitrinelinguistique.oqlf.gouv.qc.ca/fiche-gdt/fiche/8393113/consortium-w3c", checked: "2026-11-02"}
+  - id: wcag
+    kind: abbreviation
+    en: {short: "WCAG", full: "Web Content Accessibility Guidelines", definition: "W3C guidelines that say how to make web content usable by people with disabilities."}
+    fr: {short: "WCAG", full: "Règles pour l'accessibilité des contenus web", definition: "Lignes directrices du W3C qui indiquent comment rendre les contenus web utilisables par les personnes handicapées."}
+    source: {name: "W3C", url: "https://www.w3.org/Translations/WCAG22-fr-20260922/", checked: "2026-11-02"}
+  - id: asset
+    kind: term
+    en: {full: "asset", definition: "A thing or right that can be owned, and whose ownership a registry records."}
+    fr: {full: "bien", definition: "Chose ou droit qui peut appartenir à quelqu'un et dont un registre consigne la propriété."}
+    source: {name: "Grand dictionnaire terminologique", url: "https://vitrinelinguistique.oqlf.gouv.qc.ca/fiche-gdt/fiche/2077909/bien", checked: "2026-11-02"}
+  - id: branch
+    kind: term
+    en: {full: "branch", definition: "A separate line of development in a repository that can later be merged back."}
+    fr: {full: "branche", definition: "Ligne de développement distincte dans un dépôt, qui peut ensuite être fusionnée."}
+    source: {name: "TERMIUM Plus", url: "https://www.btb.termiumplus.gc.ca/", checked: "2026-11-02"}
+  - id: commit
+    kind: term
+    en: {full: "commit", definition: "A recorded, identified set of changes saved to a repository's history."}
+    fr: {full: "archivage", definition: "Ensemble identifié de modifications enregistré dans l'historique d'un dépôt."}
+    source: {name: "Grand dictionnaire terminologique", url: "https://vitrinelinguistique.oqlf.gouv.qc.ca/fiche-gdt/fiche/8356425/archivage", checked: "2026-11-02"}
+  - id: entitlement
+    kind: term
+    en: {full: "entitlement", definition: "A specific right a party holds over an asset, such as a licence or a permit."}
+    fr: {full: "droit", definition: "Droit précis qu'une partie détient sur un bien, comme une licence ou un permis."}
+    source: {name: "TERMIUM Plus", url: "https://www.btb.termiumplus.gc.ca/", checked: "2026-11-02"}
+  - id: jurisdiction
+    kind: term
+    en: {full: "jurisdiction", definition: "A government area, such as a country, province or municipality, with its own laws and rules."}
+    fr: {full: "collectivité publique", definition: "Entité publique territoriale, comme un pays, une province ou une municipalité, qui a ses propres lois et règles."}
+    source: {name: "Grand dictionnaire terminologique", url: "https://vitrinelinguistique.oqlf.gouv.qc.ca/fiche-gdt/fiche/8378880/collectivite-publique", checked: "2026-11-02"}
+  - id: ownership
+    kind: term
+    en: {full: "ownership", definition: "The fullest right a party can hold over an asset, within the limits of the law."}
+    fr: {full: "propriété", definition: "Droit le plus complet qu'une partie peut détenir sur un bien, dans les limites de la loi."}
+    source: {name: "Grand dictionnaire terminologique", url: "https://vitrinelinguistique.oqlf.gouv.qc.ca/fiche-gdt/fiche/8365758/droit-de-propriete", checked: "2026-11-02"}
+  - id: party
+    kind: term
+    en: {full: "party", definition: "A person or organization that holds rights or duties recorded in a registry."}
+    fr: {full: "partie", definition: "Personne ou organisation qui détient des droits ou des obligations inscrits dans un registre."}
+    source: {name: "Grand dictionnaire terminologique", url: "https://vitrinelinguistique.oqlf.gouv.qc.ca/fiche-gdt/fiche/26550268/partie", checked: "2026-11-02"}
+  - id: registry
+    kind: term
+    en: {full: "registry", definition: "An official, lasting record of facts, such as who holds which rights over what."}
+    fr: {full: "registre", definition: "Recueil officiel et durable de faits, par exemple qui détient quels droits sur quoi."}
+    source: {name: "Grand dictionnaire terminologique", url: "https://vitrinelinguistique.oqlf.gouv.qc.ca/fiche-gdt/fiche/8355393/registre-public", checked: "2026-11-02"}
+  - id: repository
+    kind: term
+    en: {full: "repository", definition: "A store of a project's files and their full history of changes."}
+    fr: {full: "dépôt", definition: "Espace où sont conservés les fichiers d'un projet et l'historique complet de leurs modifications."}
+    source: {name: "Grand dictionnaire terminologique", url: "https://vitrinelinguistique.oqlf.gouv.qc.ca/fiche-gdt/fiche/26584236/depot-de-code-source", checked: "2026-11-02"}
+  - id: requirement
+    kind: term
+    en: {full: "requirement", definition: "A statement in a specification that a conforming product or process must satisfy."}
+    fr: {full: "exigence", definition: "Énoncé d'une spécification qu'un produit ou un processus conforme doit respecter."}
+    source: {name: "Grand dictionnaire terminologique", url: "https://vitrinelinguistique.oqlf.gouv.qc.ca/fiche-gdt/fiche/8871085/exigence", checked: "2026-11-02"}
