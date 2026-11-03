@@ -27,7 +27,6 @@ jobs:
       prefix: ${{ needs.prefix.outputs.value }}
       # This repository owns the term base.
       writing-ref: local
-      doc-ref: cee99d01beb42262988f8f76f8415495da83f886
       doc-rules: true
   diagrams:
     if: github.ref_type != 'tag'
@@ -75,5 +74,4 @@ jobs:
     with:
       prefix: ${{ needs.prefix.outputs.value }}
       writing-ref: local
-      doc-ref: cee99d01beb42262988f8f76f8415495da83f886
       doc-rules: true
