@@ -39,8 +39,8 @@ terms:
   - id: html
     kind: abbreviation
     en: {short: "HTML", full: "HyperText Markup Language", definition: "The markup language of web pages, which browsers display."}
-    fr: {short: "HTML", full: "langage HTML", definition: "Langage de balisage des pages Web, que les navigateurs affichent."}
-    source: {name: "Grand dictionnaire terminologique", url: "https://vitrinelinguistique.oqlf.gouv.qc.ca/fiche-gdt/fiche/2075521/langage-html", checked: "2026-11-02"}
+    fr: {short: "HTML", full: "langage de balisage hypertexte", definition: "Langage de balisage des pages Web, que les navigateurs affichent."}
+    source: {name: "Grand dictionnaire terminologique", url: "https://vitrinelinguistique.oqlf.gouv.qc.ca/fiche-gdt/fiche/26515006/langage-de-balisage-hypertexte", checked: "2026-11-02"}
   - id: iso
     kind: abbreviation
     en: {short: "ISO", full: "International Organization for Standardization", definition: "The international body, based in Geneva, that publishes standards prepared with national standards bodies."}
@@ -54,8 +54,8 @@ terms:
   - id: pdf
     kind: abbreviation
     en: {short: "PDF", full: "Portable Document Format", definition: "A file format that keeps a document's layout the same on any device or system."}
-    fr: {short: "PDF", full: "format PDF", definition: "Format de fichier qui conserve la mise en page d'un document sur tout appareil ou système."}
-    source: {name: "Grand dictionnaire terminologique", url: "https://vitrinelinguistique.oqlf.gouv.qc.ca/fiche-gdt/fiche/8875520/format-pdf", checked: "2026-11-02"}
+    fr: {short: "PDF", full: "format de document portable", definition: "Format de fichier qui conserve la mise en page d'un document sur tout appareil ou système."}
+    source: {name: "Grand dictionnaire terminologique", url: "https://vitrinelinguistique.oqlf.gouv.qc.ca/fiche-gdt/fiche/26514644/format-de-document-portable", checked: "2026-11-02"}
   - id: pr
     kind: abbreviation
     en: {short: "PR", full: "pull request", definition: "A request to review a set of proposed changes and merge them into another branch of a repository."}
