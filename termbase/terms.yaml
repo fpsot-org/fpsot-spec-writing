@@ -180,7 +180,7 @@ terms:
     kind: abbreviation
     en: {short: "UTF-8", full: "Unicode Transformation Format, 8-bit", definition: "The encoding that writes each Unicode character as one to four bytes."}
     fr: {short: "UTF-8", full: "Unicode Transformation Format, 8-bit", definition: "Codage qui écrit chaque caractère Unicode sur un à quatre octets."}
-    source: {name: "RFC 3629", url: "https://www.rfc-editor.org/rfc/rfc3629", checked: "2026-11-03"}
+    source: {name: "Unicode Glossary (no GDT record found; TERMIUM Plus not checked)", url: "https://www.unicode.org/glossary/#UTF_8", checked: "2026-11-04"}
   - id: uuid
     kind: abbreviation
     en: {short: "UUID", full: "universally unique identifier", definition: "A 128-bit identifier that any system can create without a central registry, with a very low chance of a duplicate."}
