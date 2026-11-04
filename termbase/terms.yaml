@@ -11,6 +11,11 @@ terms:
     en: {short: "API", full: "application programming interface", definition: "A documented set of rules that lets one program use the functions or data of another."}
     fr: {short: "API", full: "interface de programmation d'application", definition: "Ensemble documenté de règles qui permet à un programme d'utiliser les fonctions ou les données d'un autre."}
     source: {name: "Grand dictionnaire terminologique", url: "https://vitrinelinguistique.oqlf.gouv.qc.ca/fiche-gdt/fiche/8394269/interface-de-programmation-dapplication", checked: "2026-11-02"}
+  - id: ascii
+    kind: abbreviation
+    en: {short: "ASCII", full: "American Standard Code for Information Interchange", definition: "A 7-bit character code for the letters, digits and signs of English text."}
+    fr: {short: "ASCII", full: "code ASCII (American Standard Code for Information Interchange)", definition: "Code de caractères sur 7 bits pour les lettres, les chiffres et les signes de l'anglais."}
+    source: {name: "Grand dictionnaire terminologique", url: "https://vitrinelinguistique.oqlf.gouv.qc.ca/fiche-gdt/fiche/8358861/code-ascii", checked: "2026-11-04"}
   - id: bcp
     kind: abbreviation
     en: {short: "BCP", full: "Best Current Practice", definition: "An IETF document series that records the agreed best way to run or use Internet technology."}
@@ -26,6 +31,11 @@ terms:
     en: {short: "CLDR", full: "Unicode Common Locale Data Repository", definition: "Unicode's shared data on how each language and region writes dates, numbers, names and similar items."}
     fr: {short: "CLDR", full: "Unicode Common Locale Data Repository", definition: "Données communes d'Unicode sur la façon d'écrire les dates, les nombres et les noms selon la langue et la région."}
     source: {name: "Unicode Technical Standard #35", url: "https://www.unicode.org/reports/tr35/", checked: "2026-11-02"}
+  - id: cors
+    kind: abbreviation
+    en: {short: "CORS", full: "cross-origin resource sharing", definition: "The browser mechanism that lets a server allow web pages from other origins to read its responses."}
+    fr: {short: "CORS", full: "cross-origin resource sharing", definition: "Mécanisme des navigateurs qui permet à un serveur d'autoriser des pages Web d'autres origines à lire ses réponses."}
+    source: {name: "WHATWG Fetch Standard (no GDT record found; TERMIUM Plus not checked)", url: "https://fetch.spec.whatwg.org/#http-cors-protocol", checked: "2026-11-03"}
   - id: csl
     kind: abbreviation
     en: {short: "CSL", full: "Community Specification License", definition: "A licence that sets how people contribute to and may use a specification developed by a working group."}
@@ -36,71 +46,146 @@ terms:
     en: {short: "GPG", full: "GNU Privacy Guard", definition: "Free software that encrypts and signs data and messages with the OpenPGP standard."}
     fr: {short: "GPG", full: "GNU Privacy Guard", definition: "Logiciel libre qui chiffre et signe des données et des messages selon la norme OpenPGP."}
     source: {name: "GnuPG", url: "https://gnupg.org/", checked: "2026-11-02"}
+  - id: hsts
+    kind: abbreviation
+    en: {short: "HSTS", full: "HTTP Strict Transport Security", definition: "A response header that tells browsers to reach a host only over HTTPS for a set time."}
+    fr: {short: "HSTS", full: "HTTP Strict Transport Security", definition: "En-tête de réponse qui demande aux navigateurs de n'accéder à un hôte qu'en HTTPS pendant une durée fixée."}
+    source: {name: "RFC 6797 (no GDT record found; TERMIUM Plus not checked)", url: "https://www.rfc-editor.org/rfc/rfc6797", checked: "2026-11-03"}
   - id: html
     kind: abbreviation
     en: {short: "HTML", full: "HyperText Markup Language", definition: "The markup language of web pages, which browsers display."}
     fr: {short: "HTML", full: "langage de balisage hypertexte", definition: "Langage de balisage des pages Web, que les navigateurs affichent."}
     source: {name: "Grand dictionnaire terminologique", url: "https://vitrinelinguistique.oqlf.gouv.qc.ca/fiche-gdt/fiche/26515006/langage-de-balisage-hypertexte", checked: "2026-11-02"}
+  - id: http
+    kind: abbreviation
+    en: {short: "HTTP", full: "Hypertext Transfer Protocol", definition: "The protocol that web clients and servers use to send requests and responses."}
+    fr: {short: "HTTP", full: "protocole HTTP (Hypertext Transfer Protocol)", definition: "Protocole qu'emploient les clients et les serveurs Web pour échanger des requêtes et des réponses."}
+    source: {name: "Grand dictionnaire terminologique", url: "https://vitrinelinguistique.oqlf.gouv.qc.ca/fiche-gdt/fiche/2075739/protocole-http", checked: "2026-11-03"}
+  - id: https
+    kind: abbreviation
+    en: {short: "HTTPS", full: "Hypertext Transfer Protocol Secure", definition: "HTTP sent over an encrypted connection, so that others cannot read or change the exchange."}
+    fr: {short: "HTTPS", full: "protocole HTTPS (Hypertext Transfer Protocol Secure)", definition: "Protocole HTTP transmis par une connexion chiffrée, pour que des tiers ne puissent ni lire ni modifier l'échange."}
+    source: {name: "Grand dictionnaire terminologique", url: "https://vitrinelinguistique.oqlf.gouv.qc.ca/fiche-gdt/fiche/26558496/protocole-https", checked: "2026-11-03"}
+  - id: iana
+    kind: abbreviation
+    en: {short: "IANA", full: "Internet Assigned Numbers Authority", definition: "The body that keeps the shared registries of Internet names and numbers, such as language subtags and the time zone database."}
+    fr: {short: "IANA", full: "Internet Assigned Numbers Authority", definition: "Organisme qui tient les registres communs des noms et des numéros d'Internet, comme les sous-étiquettes de langue et la base de données des fuseaux horaires."}
+    source: {name: "Grand dictionnaire terminologique", url: "https://vitrinelinguistique.oqlf.gouv.qc.ca/fiche-gdt/fiche/8370486/iana", checked: "2026-11-03"}
+  - id: icu
+    kind: abbreviation
+    en: {short: "ICU", full: "International Components for Unicode", definition: "Open source libraries for C, C++ and Java that format, sort and translate text with Unicode locale data."}
+    fr: {short: "ICU", full: "International Components for Unicode", definition: "Bibliothèques libres pour C, C++ et Java qui mettent en forme, trient et traduisent le texte avec les données régionales d'Unicode."}
+    source: {name: "ICU", url: "https://unicode-org.github.io/icu/", checked: "2026-11-04"}
+  - id: ietf
+    kind: abbreviation
+    en: {short: "IETF", full: "Internet Engineering Task Force", definition: "The open body that develops and publishes the technical standards of the Internet."}
+    fr: {short: "IETF", full: "groupe de travail IETF (Internet Engineering Task Force)", definition: "Organisme ouvert qui élabore et publie les normes techniques d'Internet."}
+    source: {name: "Grand dictionnaire terminologique", url: "https://vitrinelinguistique.oqlf.gouv.qc.ca/fiche-gdt/fiche/8874737/groupe-de-travail-ietf", checked: "2026-11-03"}
   - id: iso
     kind: abbreviation
     en: {short: "ISO", full: "International Organization for Standardization", definition: "The international body, based in Geneva, that publishes standards prepared with national standards bodies."}
     fr: {short: "ISO", full: "Organisation internationale de normalisation", definition: "Organisme international établi à Genève qui publie des normes préparées avec les organismes nationaux de normalisation."}
     source: {name: "TERMIUM Plus", url: "https://www.btb.termiumplus.gc.ca/", checked: "2026-11-02"}
+  - id: json
+    kind: abbreviation
+    en: {short: "JSON", full: "JavaScript Object Notation", definition: "A text format for structured data, made of objects, arrays, strings, numbers, booleans and null."}
+    fr: {short: "JSON", full: "JavaScript Object Notation", definition: "Format texte pour les données structurées, fait d'objets, de tableaux, de chaînes, de nombres, de booléens et de la valeur null."}
+    source: {name: "RFC 8259", url: "https://www.rfc-editor.org/rfc/rfc8259", checked: "2026-11-04"}
   - id: oqlf
     kind: abbreviation
     en: {short: "OQLF", full: "Office québécois de la langue française", definition: "The Québec government agency responsible for French language policy and terminology."}
     fr: {short: "OQLF", full: "Office québécois de la langue française", definition: "Organisme du gouvernement du Québec chargé de la politique linguistique et de la terminologie."}
     source: {name: "TERMIUM Plus", url: "https://www.btb.termiumplus.gc.ca/", checked: "2026-11-02"}
+  - id: owasp
+    kind: abbreviation
+    en: {short: "OWASP", full: "Open Worldwide Application Security Project", definition: "An open foundation that publishes guides and lists of risks for the security of software."}
+    fr: {short: "OWASP", full: "Open Worldwide Application Security Project", definition: "Fondation ouverte qui publie des guides et des listes de risques sur la sécurité des logiciels."}
+    source: {name: "OWASP Foundation (no GDT record found; TERMIUM Plus not checked)", url: "https://owasp.org/", checked: "2026-11-03"}
   - id: pdf
     kind: abbreviation
     en: {short: "PDF", full: "Portable Document Format", definition: "A file format that keeps a document's layout the same on any device or system."}
     fr: {short: "PDF", full: "format de document portable", definition: "Format de fichier qui conserve la mise en page d'un document sur tout appareil ou système."}
     source: {name: "Grand dictionnaire terminologique", url: "https://vitrinelinguistique.oqlf.gouv.qc.ca/fiche-gdt/fiche/26514644/format-de-document-portable", checked: "2026-11-02"}
+  - id: po
+    kind: abbreviation
+    en: {short: "PO", full: "Portable Object", definition: "The plain-text translation file format of GNU gettext, with one source string and its translation per entry."}
+    fr: {short: "PO", full: "Portable Object", definition: "Format de fichier de traduction en texte brut de GNU gettext, avec une chaîne source et sa traduction par entrée."}
+    source: {name: "GNU gettext manual", url: "https://www.gnu.org/software/gettext/manual/html_node/PO-Files.html", checked: "2026-11-04"}
   - id: pr
     kind: abbreviation
     en: {short: "PR", full: "pull request", definition: "A request to review a set of proposed changes and merge them into another branch of a repository."}
     fr: {short: "PR", full: "demande de fusion", definition: "Demande d'examen de modifications proposées en vue de les fusionner dans une autre branche d'un dépôt."}
     source: {name: "Grand dictionnaire terminologique", url: "https://vitrinelinguistique.oqlf.gouv.qc.ca/fiche-gdt/fiche/26584234/demande-de-fusion", checked: "2026-11-02"}
+  - id: rest
+    kind: abbreviation
+    en: {short: "REST", full: "Representational State Transfer", definition: "An architectural style for web services, where clients act on resources through the standard HTTP methods."}
+    fr: {short: "REST", full: "Representational State Transfer", definition: "Style d'architecture de services Web où les clients agissent sur des ressources au moyen des méthodes HTTP normalisées."}
+    source: {name: "Fielding, Architectural Styles and the Design of Network-based Software Architectures, chapter 5 (no GDT record found; TERMIUM Plus not checked)", url: "https://ics.uci.edu/~fielding/pubs/dissertation/rest_arch_style.htm", checked: "2026-11-03"}
   - id: rfc
     kind: abbreviation
     en: {short: "RFC", full: "Request for Comments", definition: "A numbered IETF publication that describes Internet protocols, practices or information."}
     fr: {short: "RFC", full: "document RFC (Request for Comments)", definition: "Publication numérotée de l'IETF qui décrit des protocoles, des pratiques ou des renseignements sur Internet."}
     source: {name: "Grand dictionnaire terminologique", url: "https://vitrinelinguistique.oqlf.gouv.qc.ca/fiche-gdt/fiche/2075026/document-rfc", checked: "2026-11-02"}
-  - id: ssh
-    kind: abbreviation
-    en: {short: "SSH", full: "Secure Shell", definition: "A protocol for logging in to and working on a remote computer over an encrypted connection."}
-    fr: {short: "SSH", full: "protocole SSH (Secure Shell)", definition: "Protocole qui permet de se connecter à un ordinateur distant et d'y travailler par une liaison chiffrée."}
-    source: {name: "TERMIUM Plus", url: "https://www.btb.termiumplus.gc.ca/", checked: "2026-11-02"}
-  - id: svg
-    kind: abbreviation
-    en: {short: "SVG", full: "Scalable Vector Graphics", definition: "A W3C text format for vector images that stay sharp at any size."}
-    fr: {short: "SVG", full: "format SVG (Scalable Vector Graphics)", definition: "Format texte du W3C pour des images vectorielles qui restent nettes à toute taille."}
-    source: {name: "Grand dictionnaire terminologique", url: "https://vitrinelinguistique.oqlf.gouv.qc.ca/fiche-gdt/fiche/26508269/format-svg", checked: "2026-11-02"}
   - id: sgqri
     kind: abbreviation
     en: {short: "SGQRI", full: "Standard du gouvernement du Québec sur les ressources informationnelles", definition: "A numbered series of Québec government standards for public bodies' information resources, such as web accessibility."}
     fr: {short: "SGQRI", full: "Standard du gouvernement du Québec sur les ressources informationnelles", definition: "Série numérotée de standards du gouvernement du Québec sur les ressources informationnelles des organismes publics."}
     source: {name: "Autorité des marchés publics", url: "https://www.amp.quebec/en/accessibilite", checked: "2026-11-02"}
+  - id: ssh
+    kind: abbreviation
+    en: {short: "SSH", full: "Secure Shell", definition: "A protocol for logging in to and working on a remote computer over an encrypted connection."}
+    fr: {short: "SSH", full: "protocole SSH (Secure Shell)", definition: "Protocole qui permet de se connecter à un ordinateur distant et d'y travailler par une liaison chiffrée."}
+    source: {name: "TERMIUM Plus", url: "https://www.btb.termiumplus.gc.ca/", checked: "2026-11-02"}
   - id: ste
     kind: abbreviation
     en: {short: "STE", full: "Simplified Technical English", definition: "A controlled form of English with limited words and rules, first written for aircraft maintenance texts."}
     fr: {short: "STE", full: "Simplified Technical English", definition: "Anglais contrôlé, au vocabulaire et aux règles limités, conçu d'abord pour la documentation de maintenance aéronautique."}
     source: {name: "ASD-STE100", url: "https://www.asd-ste100.org/", checked: "2026-11-02"}
+  - id: svg
+    kind: abbreviation
+    en: {short: "SVG", full: "Scalable Vector Graphics", definition: "A W3C text format for vector images that stay sharp at any size."}
+    fr: {short: "SVG", full: "format SVG (Scalable Vector Graphics)", definition: "Format texte du W3C pour des images vectorielles qui restent nettes à toute taille."}
+    source: {name: "Grand dictionnaire terminologique", url: "https://vitrinelinguistique.oqlf.gouv.qc.ca/fiche-gdt/fiche/26508269/format-svg", checked: "2026-11-02"}
   - id: tbs
     kind: abbreviation
     en: {short: "TBS", full: "Treasury Board of Canada Secretariat", definition: "The federal central agency that sets Government of Canada management, digital and spending policy."}
     fr: {short: "SCT", full: "Secrétariat du Conseil du Trésor du Canada", definition: "Organisme central fédéral qui fixe les politiques de gestion, de numérique et de dépenses du gouvernement du Canada."}
     source: {name: "TERMIUM Plus", url: "https://www.btb.termiumplus.gc.ca/", checked: "2026-11-02"}
+  - id: tls
+    kind: abbreviation
+    en: {short: "TLS", full: "Transport Layer Security", definition: "The protocol that encrypts a network connection and proves the identity of the server."}
+    fr: {short: "TLS", full: "protocole TLS (Transport Layer Security)", definition: "Protocole qui chiffre une connexion réseau et prouve l'identité du serveur."}
+    source: {name: "Grand dictionnaire terminologique", url: "https://vitrinelinguistique.oqlf.gouv.qc.ca/fiche-gdt/fiche/26558099/protocole-tls", checked: "2026-11-03"}
   - id: ui
     kind: abbreviation
     en: {short: "UI", full: "user interface", definition: "The screens, controls and messages through which a person uses a system."}
     fr: {short: "IU", full: "interface utilisateur", definition: "Écrans, commandes et messages par lesquels une personne utilise un système."}
     source: {name: "Grand dictionnaire terminologique", url: "https://vitrinelinguistique.oqlf.gouv.qc.ca/fiche-gdt/fiche/8374563/interface-utilisateur", checked: "2026-11-02"}
+  - id: uri
+    kind: abbreviation
+    en: {short: "URI", full: "uniform resource identifier", definition: "A standard text string that names a resource, by its location or by a lasting name."}
+    fr: {short: "URI", full: "adresse URI (uniform resource identifier)", definition: "Chaîne de caractères normalisée qui désigne une ressource, par son emplacement ou par un nom durable."}
+    source: {name: "Grand dictionnaire terminologique", url: "https://vitrinelinguistique.oqlf.gouv.qc.ca/fiche-gdt/fiche/26520166/adresse-uri", checked: "2026-11-03"}
   - id: url
     kind: abbreviation
     en: {short: "URL", full: "uniform resource locator", definition: "A standard text string that names a resource on a network and says how to reach it."}
     fr: {short: "URL", full: "adresse URL (uniform resource locator)", definition: "Chaîne de caractères normalisée qui désigne une ressource sur un réseau et indique comment y accéder."}
     source: {name: "Grand dictionnaire terminologique", url: "https://vitrinelinguistique.oqlf.gouv.qc.ca/fiche-gdt/fiche/8869606/adresse-url", checked: "2026-11-02"}
+  - id: utc
+    kind: abbreviation
+    en: {short: "UTC", full: "Coordinated Universal Time", definition: "The world reference time scale, kept by atomic clocks, from which each time zone is an offset."}
+    fr: {short: "UTC", full: "temps universel coordonné", definition: "Échelle de temps de référence mondiale, tenue par des horloges atomiques, dont chaque fuseau horaire est un décalage."}
+    source: {name: "Grand dictionnaire terminologique", url: "https://vitrinelinguistique.oqlf.gouv.qc.ca/fiche-gdt/fiche/8420561/temps-universel-coordonne", checked: "2026-11-03"}
+  - id: utf-8
+    kind: abbreviation
+    en: {short: "UTF-8", full: "Unicode Transformation Format, 8-bit", definition: "The encoding that writes each Unicode character as one to four bytes."}
+    fr: {short: "UTF-8", full: "Unicode Transformation Format, 8-bit", definition: "Codage qui écrit chaque caractère Unicode sur un à quatre octets."}
+    source: {name: "RFC 3629", url: "https://www.rfc-editor.org/rfc/rfc3629", checked: "2026-11-03"}
+  - id: uuid
+    kind: abbreviation
+    en: {short: "UUID", full: "universally unique identifier", definition: "A 128-bit identifier that any system can create without a central registry, with a very low chance of a duplicate."}
+    fr: {short: "UUID", full: "universally unique identifier", definition: "Identifiant de 128 bits que tout système peut créer sans registre central, avec un risque très faible de doublon."}
+    source: {name: "RFC 9562", url: "https://www.rfc-editor.org/rfc/rfc9562", checked: "2026-11-03"}
   - id: w3c
     kind: abbreviation
     en: {short: "W3C", full: "World Wide Web Consortium", definition: "The international organization that develops open standards for the Web."}
@@ -111,6 +196,16 @@ terms:
     en: {short: "WCAG", full: "Web Content Accessibility Guidelines", definition: "W3C guidelines that say how to make web content usable by people with disabilities."}
     fr: {short: "WCAG", full: "Règles pour l'accessibilité des contenus web", definition: "Lignes directrices du W3C qui indiquent comment rendre les contenus web utilisables par les personnes handicapées."}
     source: {name: "W3C", url: "https://www.w3.org/Translations/WCAG22-fr-20260922/", checked: "2026-11-02"}
+  - id: wgs-84
+    kind: abbreviation
+    en: {short: "WGS 84", full: "World Geodetic System 1984", definition: "The global reference system for latitude, longitude and height that GPS and most web maps use."}
+    fr: {short: "WGS 84", full: "système géodésique mondial 1984", definition: "Système de référence mondial de la latitude, de la longitude et de l'altitude qu'emploient le GPS et la plupart des cartes Web."}
+    source: {name: "Grand dictionnaire terminologique", url: "https://vitrinelinguistique.oqlf.gouv.qc.ca/fiche-gdt/fiche/26518025/systeme-geodesique-mondial", checked: "2026-11-03"}
+  - id: xliff
+    kind: abbreviation
+    en: {short: "XLIFF", full: "XML Localization Interchange File Format", definition: "The OASIS standard file format for passing text to translate, and its translations, between tools."}
+    fr: {short: "XLIFF", full: "format XLIFF (XML Localization Interchange File Format)", definition: "Format de fichier normalisé par OASIS pour échanger entre outils le texte à traduire et ses traductions."}
+    source: {name: "OASIS, XLIFF Version 2.1", url: "https://docs.oasis-open.org/xliff/xliff-core/v2.1/os/xliff-core-v2.1-os.html", checked: "2026-11-04"}
   - id: asset
     kind: term
     en: {full: "asset", definition: "A thing or right that can be owned, and whose ownership a registry records."}
@@ -136,6 +231,11 @@ terms:
     en: {full: "jurisdiction", definition: "A government area, such as a country, province or municipality, with its own laws and rules."}
     fr: {full: "collectivité publique", definition: "Entité publique territoriale, comme un pays, une province ou une municipalité, qui a ses propres lois et règles."}
     source: {name: "Grand dictionnaire terminologique", url: "https://vitrinelinguistique.oqlf.gouv.qc.ca/fiche-gdt/fiche/8378880/collectivite-publique", checked: "2026-11-02"}
+  - id: locale
+    kind: term
+    en: {full: "locale", definition: "A language together with the conventions of a region for dates, numbers, sorting and similar items."}
+    fr: {full: "paramètre régional", definition: "Langue associée aux conventions d'une région pour les dates, les nombres, le tri et d'autres éléments semblables."}
+    source: {name: "TERMIUM Plus", url: "https://www.btb.termiumplus.gc.ca/tpv2alpha/alpha-eng.html?lang=eng&srchtxt=locale", checked: "2026-11-04"}
   - id: ownership
     kind: term
     en: {full: "ownership", definition: "The fullest right a party can hold over an asset, within the limits of the law."}

@@ -6,6 +6,10 @@ and versions follow [Semantic Versioning 2.0.0](https://semver.org/spec/v2.0.0.h
 
 ## [Unreleased]
 
+### Added
+
+- Term base: 20 abbreviations and one term for the naming, data types, internationalization and RESTful API specifications: ASCII, CORS, HSTS, HTTP, HTTPS, IANA, ICU, IETF, JSON, OWASP, PO, REST, TLS, URI, UTC, UTF-8, UUID, WGS 84, XLIFF and locale. Entries without a Grand dictionnaire terminologique record keep the English full form in French, as BCP and CSL already do.
+
 ## [0.1.1] - 2026-11-03
 
 ### Fixed
