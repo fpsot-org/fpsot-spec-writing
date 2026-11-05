@@ -19,8 +19,8 @@ terms:
   - id: csv
     kind: abbreviation
     en: {short: "CSV", full: "comma-separated values", definition: "A plain text format for tables, with one record per line and commas between the fields."}
-    fr: {short: "CSV", full: "valeurs séparées par des virgules", definition: "Format de texte brut pour les tableaux, avec un enregistrement par ligne et des virgules entre les champs."}
-    source: {name: "Grand dictionnaire terminologique", url: "https://vitrinelinguistique.oqlf.gouv.qc.ca/fiche-gdt/fiche/8362519/fichier-csv", checked: "2026-11-05"}
+    fr: {short: "CSV", full: "comma-separated values", definition: "Format de texte brut pour les tableaux, avec un enregistrement par ligne et des virgules entre les champs."}
+    source: {name: "Grand dictionnaire terminologique, fichier CSV (gives the short form only; the English full form is kept)", url: "https://vitrinelinguistique.oqlf.gouv.qc.ca/fiche-gdt/fiche/8362519/fichier-csv", checked: "2026-11-05"}
   - id: fpsot
     kind: abbreviation
     en: {short: "FPSOT", full: "Foundation for Public Sector Open Technology", definition: "The foundation that publishes these open specifications for public sector technology."}
@@ -115,7 +115,7 @@ terms:
     kind: abbreviation
     en: {short: "JSON-LD", full: "JSON for Linking Data", definition: "A W3C format that writes linked data as JSON, so that JSON tools can read it."}
     fr: {short: "JSON-LD", full: "JSON for Linking Data", definition: "Format du W3C qui écrit des données liées en JSON, pour que les outils JSON puissent les lire."}
-    source: {name: "W3C, JSON-LD 1.1 (no GDT record found; TERMIUM Plus could not be read)", url: "https://www.w3.org/TR/json-ld11/", checked: "2026-11-05"}
+    source: {name: "json-ld.org, JSON for Linking Data (no GDT record found; TERMIUM Plus could not be read)", url: "https://json-ld.org/", checked: "2026-11-05"}
   - id: oqlf
     kind: abbreviation
     en: {short: "OQLF", full: "Office québécois de la langue française", definition: "The Québec government agency responsible for French language policy and terminology."}
