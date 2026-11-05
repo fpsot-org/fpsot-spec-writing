@@ -25,6 +25,7 @@ A term that is missing goes in `termbase/terms.yaml` of the writing specificatio
 
 == Example
 
+[source,asciidoc]
 ----
 [[WRT-013]]
 *WRT-013.* An error message MUST name the field that holds the error.
@@ -37,4 +38,5 @@ The reader then finds the field without searching.
 |===
 |Version |Date |Change
 |0.1.0 |2026-11-02 |First version.
+|0.2.0 |2026-11-04 |Named code languages.
 |===

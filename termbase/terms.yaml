@@ -38,7 +38,7 @@ terms:
     source: {name: "WHATWG Fetch Standard (no GDT record found; TERMIUM Plus not checked)", url: "https://fetch.spec.whatwg.org/#http-cors-protocol", checked: "2026-11-03"}
   - id: csl
     kind: abbreviation
-    en: {short: "CSL", full: "Community Specification License", definition: "A licence that sets how people contribute to and may use a specification developed by a working group."}
+    en: {short: "CSL", full: "Community Specification License", definition: "A license that sets how people contribute to and may use a specification developed by a working group."}
     fr: {short: "CSL", full: "Community Specification License", definition: "Licence qui fixe comment contribuer à une spécification élaborée par un groupe de travail et comment l'utiliser."}
     source: {name: "Community Specification", url: "https://github.com/CommunitySpecification/Community_Specification", checked: "2026-11-02"}
   - id: gpg
@@ -223,7 +223,7 @@ terms:
     source: {name: "Grand dictionnaire terminologique", url: "https://vitrinelinguistique.oqlf.gouv.qc.ca/fiche-gdt/fiche/8356425/archivage", checked: "2026-11-02"}
   - id: entitlement
     kind: term
-    en: {full: "entitlement", definition: "A specific right a party holds over an asset, such as a licence or a permit."}
+    en: {full: "entitlement", definition: "A specific right a party holds over an asset, such as a license or a permit."}
     fr: {full: "droit", definition: "Droit précis qu'une partie détient sur un bien, comme une licence ou un permis."}
     source: {name: "TERMIUM Plus", url: "https://www.btb.termiumplus.gc.ca/", checked: "2026-11-02"}
   - id: jurisdiction

@@ -13,7 +13,7 @@ description:
     longDescription: >
       The FPSOT writing specification sets the prose rules for
       specifications, guides, interface text and error messages: plain
-      language, requirement keywords, Canadian English and French usage,
+      language, requirement keywords, US English and Canadian French usage,
       and the shared term base of terms and abbreviations.
     features:
       - Plain-language prose rules
@@ -24,8 +24,8 @@ description:
     longDescription: >
       La spécification de rédaction de FPSOT fixe les règles de rédaction
       des spécifications, des guides, des textes d'interface et des
-      messages d'erreur : langage clair, mots clés des exigences, usage du
-      français et de l'anglais canadiens, et banque commune de termes et
+      messages d'erreur : langage clair, mots clés des exigences, usage de
+      l'anglais américain et du français canadien, et banque commune de termes et
       d'abréviations.
     features:
       - Règles de rédaction en langage clair

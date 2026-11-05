@@ -1,12 +1,12 @@
 = Language quality
 include::_fpsot-terms.adoc[]
 
-{abbr-fpsot-first} publishes every text in Canadian English and Canadian French.
+{abbr-fpsot-first} publishes every text in US English and Canadian French.
 
 [[WRT-030]]
-*WRT-030.* English text MUST use Canadian spelling.
-The reference is TERMIUM Plus, the terminology bank of the federal government.
-Canadian readers then see the spelling they expect.
+*WRT-030.* English text MUST use US spelling.
+The reference is the link:https://www.merriam-webster.com/[Merriam-Webster] dictionary.
+Most standards bodies and open-source projects write in US English, so readers and tools expect it.
 
 [[WRT-031]]
 *WRT-031.* French text MUST follow the usage of the {abbr-oqlf-first}.
@@ -27,10 +27,17 @@ A person MUST review the draft before it merges.
 Machine translation misses terms and register.
 A reviewed text keeps the quality of both languages equal.
 
+== References
+
+=== Normative
+
+* link:https://www.merriam-webster.com/[Merriam-Webster Dictionary], Merriam-Webster.
+
 == Document history
 
 [cols="1,1,4",options="header"]
 |===
 |Version |Date |Change
 |0.1.0 |2026-11-02 |First version.
+|0.2.0 |2026-11-04 |WRT-030: English text now uses US spelling, with Merriam-Webster as the reference. Linked outside sources and added references.
 |===

@@ -1,12 +1,13 @@
 = Qualité de la langue
 include::_fpsot-terms.adoc[]
 
-{abbr-fpsot-first} publie chaque texte en français canadien et en anglais canadien.
+{abbr-fpsot-first} publie chaque texte en français canadien et en anglais américain.
 
 [[WRT-030]]
-*WRT-030.* Le texte anglais DOIT suivre l'orthographe canadienne.
-La référence est TERMIUM Plus, la banque de terminologie du gouvernement fédéral.
-Le lectorat canadien voit alors l'orthographe qu'il attend.
+*WRT-030.* Le texte anglais DOIT suivre l'orthographe américaine.
+La référence est le dictionnaire link:https://www.merriam-webster.com/[Merriam-Webster].
+La plupart des organismes de normalisation et des projets à code source ouvert écrivent en anglais américain.
+Le lectorat et les outils s'y attendent donc.
 
 [[WRT-031]]
 *WRT-031.* Le texte français DOIT suivre l'usage de l'{abbr-oqlf-first}.
@@ -27,10 +28,17 @@ Une personne DOIT réviser cette version avant son intégration.
 La traduction automatique rate des termes et le registre de langue.
 Un texte révisé garde la même qualité dans les deux langues.
 
+== Références
+
+=== Références normatives
+
+* link:https://www.merriam-webster.com/[Merriam-Webster Dictionary], Merriam-Webster.
+
 == Historique du document
 
 [cols="1,1,4",options="header"]
 |===
 |Version |Date |Changement
 |0.1.0 |2026-11-02 |Première version.
+|0.2.0 |2026-11-04 |WRT-030 : le texte anglais suit maintenant l'orthographe américaine, avec le Merriam-Webster comme référence. Liens vers les sources externes et références ajoutées.
 |===

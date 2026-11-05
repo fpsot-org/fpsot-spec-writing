@@ -5,7 +5,7 @@ description: Use when writing or reviewing text for an FPSOT project, such as a 
 
 # FPSOT writing specification
 
-This skill summarises the specification for agents.
+This skill summarizes the specification for agents.
 It adds no rules of its own: every rule here cites a requirement ID from `spec/`, and the spec text wins on any difference.
 
 ## Prose
@@ -30,7 +30,7 @@ It adds no rules of its own: every rule here cites a requirement ID from `spec/`
 
 ## Language
 
-- English: Canadian spelling, TERMIUM Plus (WRT-030). French: OQLF usage (WRT-031) and gender-inclusive writing (WRT-032).
+- English: US spelling, Merriam-Webster (WRT-030). French: OQLF usage (WRT-031) and gender-inclusive writing (WRT-032).
 - Machine translation is a first draft only; a person reviews it before merge (WRT-033).
 
 ## Interface text

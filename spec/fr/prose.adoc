@@ -10,7 +10,7 @@ La xref:../../docs/modules/fr/pages/prose-checker.adoc[référence du vérificat
 [[WRT-001]]
 *WRT-001.* Le texte DOIT être rédigé en langage clair.
 Les personnes qui le lisent doivent trouver ce dont elles ont besoin, le comprendre du premier coup et s'en servir.
-Ce sont les trois principes de la norme {abbr-iso-first} 24495-1:2023.
+Ce sont les trois principes de la norme link:https://www.iso.org/standard/78907.html[ISO 24495-1:2023].
 Une spécification s'adresse au personnel de l'État, aux équipes de développement et au public.
 Elle ne peut pas supposer un lectorat expert.
 
@@ -51,8 +51,18 @@ Placez l'information nécessaire dans la phrase, ou dans une phrase à part.
 == Procédures
 
 [[WRT-050]]
-*WRT-050.* Les procédures pas à pas PEUVENT suivre l'ASD-STE100, l'anglais technique simplifié.
+*WRT-050.* Les procédures pas à pas PEUVENT suivre l'link:https://www.asd-ste100.org/[ASD-STE100], l'anglais technique simplifié.
 Il limite chaque étape à une consigne et emploie un petit vocabulaire où chaque mot a un seul sens.
+
+== Références
+
+=== Références normatives
+
+* link:https://www.asd-ste100.org/[ASD-STE100, Simplified Technical English], ASD, Issue 9, 2025-01-15.
+
+=== Références informatives
+
+* link:https://www.iso.org/standard/78907.html[ISO 24495-1, Plain language, Part 1: Governing principles and guidelines], ISO, ISO 24495-1:2023, 2023-06. link:https://web.archive.org/web/20261024010118/https://www.iso.org/standard/78907.html[Copie archivée]
 
 == Historique du document
 
@@ -60,4 +70,5 @@ Il limite chaque étape à une consigne et emploie un petit vocabulaire où chaq
 |===
 |Version |Date |Changement
 |0.1.0 |2026-11-02 |Première version.
+|0.2.0 |2026-11-04 |Liens vers les normes externes et références ajoutées.
 |===
