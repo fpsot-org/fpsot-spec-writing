@@ -6,6 +6,12 @@ and versions follow [Semantic Versioning 2.0.0](https://semver.org/spec/v2.0.0.h
 
 ## [Unreleased]
 
+## [0.2.1] - 2026-11-05
+
+### Added
+
+- Term base: the abbreviations ARIA, BPMN, CSS and UML, for the accessibility, diagrams and style specifications.
+
 ## [0.2.0] - 2026-11-04
 
 ### Changed
