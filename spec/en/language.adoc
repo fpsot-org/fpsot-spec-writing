@@ -31,7 +31,7 @@ A reviewed text keeps the quality of both languages equal.
 
 === Normative
 
-* link:https://www.merriam-webster.com/[Merriam-Webster Dictionary], Merriam-Webster.
+* link:https://www.merriam-webster.com/[Merriam-Webster Dictionary], Merriam-Webster. link:https://web.archive.org/web/20260601232544/https://www.merriam-webster.com/[Archived copy]
 
 == Document history
 
