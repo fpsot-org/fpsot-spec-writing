@@ -6,6 +6,18 @@ and versions follow [Semantic Versioning 2.0.0](https://semver.org/spec/v2.0.0.h
 
 ## [Unreleased]
 
+## [0.2.0] - 2026-11-04
+
+### Changed
+
+- WRT-030 now requires US spelling, with the Merriam-Webster dictionary as the reference, instead of Canadian spelling and TERMIUM Plus. This is a change of rule: English text must now use US spelling. Most standards bodies and open-source projects write in US English, so readers and tools expect it. French usage under WRT-031 is unchanged.
+- Pages link each outside standard where they name it, and list their sources in a References section.
+- Code blocks name their language.
+- The WRT-011 table now heads its first column "English keyword".
+- The index, the skill, the README, AGENTS.md and publiccode.yml now say US English instead of Canadian English.
+- English text and the English fields of the term base use US spelling, such as "license" in the CSL and entitlement definitions.
+- The repository turns on the References and US spelling checks in `.fpsot-checks`.
+
 ## [0.1.2] - 2026-11-04
 
 ### Added

@@ -4,8 +4,8 @@ include::_fpsot-terms.adoc[]
 Une spécification énonce chaque règle de façon fixe, pour que les personnes et les outils trouvent toutes les règles.
 
 [[WRT-010]]
-*WRT-010.* Un énoncé normatif DOIT employer un des mots clés du {abbr-bcp-first} 14, en majuscules.
-Chaque spécification DOIT inclure le texte de conformité du {abbr-rfc-first} 8174.
+*WRT-010.* Un énoncé normatif DOIT employer un des mots clés du link:https://www.rfc-editor.org/info/bcp14[BCP 14], en majuscules.
+Chaque spécification DOIT inclure le texte de conformité du link:https://www.rfc-editor.org/info/rfc8174[RFC 8174].
 Les mots clés donnent à chaque règle une force claire.
 En minuscules, « doit » ou « devrait » relève alors du français courant et n'énonce aucune règle.
 
@@ -14,7 +14,7 @@ En minuscules, « doit » ou « devrait » relève alors du français courant et
 
 [cols="1,1",options="header"]
 |===
-|Mot clé du {abbr-bcp} 14 |Mot clé français
+|Mot clé anglais |Mot clé français
 |MUST, SHALL, REQUIRED |DOIT, DOIVENT, OBLIGATOIRE
 |MUST NOT, SHALL NOT |NE DOIT PAS, NE DOIVENT PAS
 |SHOULD, RECOMMENDED |DEVRAIT, DEVRAIENT, RECOMMANDÉ
@@ -32,10 +32,18 @@ Un identifiant compte trois lettres majuscules, un trait d'union et trois chiffr
 Les outils trouvent chaque règle par son identifiant.
 Les compétences d'agent et les règles vérifiables par machine citent le même identifiant.
 
+== Références
+
+=== Références normatives
+
+* link:https://www.rfc-editor.org/info/bcp14[BCP 14, Key words for use in RFCs to Indicate Requirement Levels], IETF, 2017-05. link:https://web.archive.org/web/20261027022540/https://www.rfc-editor.org/info/bcp14/[Copie archivée]
+* link:https://www.rfc-editor.org/info/rfc8174[RFC 8174, Ambiguity of Uppercase vs Lowercase in RFC 2119 Key Words], IETF, BCP 14, 2017-05. link:https://web.archive.org/web/20261103005743/https://www.rfc-editor.org/info/rfc8174/[Copie archivée]
+
 == Historique du document
 
 [cols="1,1,4",options="header"]
 |===
 |Version |Date |Changement
 |0.1.0 |2026-11-02 |Première version.
+|0.2.0 |2026-11-04 |Liens vers les normes externes et références ajoutées.
 |===

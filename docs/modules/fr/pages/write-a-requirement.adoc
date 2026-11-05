@@ -25,6 +25,7 @@ Un terme absent va d'abord dans le fichier `termbase/terms.yaml` de la spécific
 
 == Exemple
 
+[source,asciidoc]
 ----
 [[WRT-013]]
 *WRT-013.* Un message d'erreur DOIT nommer le champ qui contient l'erreur.
@@ -37,4 +38,5 @@ La personne trouve alors le champ sans chercher.
 |===
 |Version |Date |Changement
 |0.1.0 |2026-11-02 |Première version.
+|0.2.0 |2026-11-04 |Langages des blocs de code nommés.
 |===

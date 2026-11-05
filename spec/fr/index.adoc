@@ -9,7 +9,7 @@ Les règles se divisent en cinq parties.
 * xref:prose.adoc[La rédaction] garde les phrases et les paragraphes courts et clairs.
 * xref:keywords.adoc[Les mots clés des exigences] fixent la façon d'énoncer chaque règle.
 * xref:terms.adoc[Les termes et les abréviations] viennent d'une banque de termes commune.
-* xref:language.adoc[La qualité de la langue] porte sur le français et l'anglais canadiens.
+* xref:language.adoc[La qualité de la langue] porte sur l'anglais américain et le français canadien.
 * xref:interface-text.adoc[Les textes d'interface] portent sur les écrans et les messages d'erreur.
 
 Les identifiants lus par les machines suivent plutôt la spécification de nommage de {abbr-fpsot}.
@@ -17,9 +17,9 @@ C'est le cas des noms de champs et des chemins.
 
 == Conformité
 
-[quote, RFC 8174]
+[quote, 'link:https://www.rfc-editor.org/info/rfc8174[RFC 8174]']
 ____
-The key words "MUST", "MUST NOT", "REQUIRED", "SHALL", "SHALL NOT", "SHOULD", "SHOULD NOT", "RECOMMENDED", "NOT RECOMMENDED", "MAY", and "OPTIONAL" in this document are to be interpreted as described in BCP 14 (RFC 2119, RFC 8174) when, and only when, they appear in all capitals, as shown here.
+The key words "MUST", "MUST NOT", "REQUIRED", "SHALL", "SHALL NOT", "SHOULD", "SHOULD NOT", "RECOMMENDED", "NOT RECOMMENDED", "MAY", and "OPTIONAL" in this document are to be interpreted as described in link:https://www.rfc-editor.org/info/bcp14[BCP 14] (link:https://www.rfc-editor.org/info/rfc2119[RFC 2119], link:https://www.rfc-editor.org/info/rfc8174[RFC 8174]) when, and only when, they appear in all capitals, as shown here.
 ____
 
 La version française emploie les mots clés de l'exigence xref:keywords.adoc#WRT-011[WRT-011].
@@ -28,10 +28,19 @@ Ils ont le sens que leur donne le texte ci-dessus, lorsqu'ils sont écrits en ma
 Un texte est conforme à cette spécification lorsqu'il respecte chaque règle DOIT.
 Un projet est conforme lorsque tous les textes qu'il publie sont conformes.
 
+== Références
+
+=== Références normatives
+
+* link:https://www.rfc-editor.org/info/bcp14[BCP 14, Key words for use in RFCs to Indicate Requirement Levels], IETF, 2017-05. link:https://web.archive.org/web/20261027022540/https://www.rfc-editor.org/info/bcp14/[Copie archivée]
+* link:https://www.rfc-editor.org/info/rfc2119[RFC 2119, Key words for use in RFCs to Indicate Requirement Levels], IETF, BCP 14, 1997-03. link:https://web.archive.org/web/20261103005705/https://www.rfc-editor.org/info/rfc2119/[Copie archivée]
+* link:https://www.rfc-editor.org/info/rfc8174[RFC 8174, Ambiguity of Uppercase vs Lowercase in RFC 2119 Key Words], IETF, BCP 14, 2017-05. link:https://web.archive.org/web/20261103005743/https://www.rfc-editor.org/info/rfc8174/[Copie archivée]
+
 == Historique du document
 
 [cols="1,1,4",options="header"]
 |===
 |Version |Date |Changement
 |0.1.0 |2026-11-02 |Première version.
+|0.2.0 |2026-11-04 |Liens vers les normes externes, références ajoutées et orthographe américaine pour l'anglais.
 |===
