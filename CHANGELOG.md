@@ -6,6 +6,16 @@ and versions follow [Semantic Versioning 2.0.0](https://semver.org/spec/v2.0.0.h
 
 ## [Unreleased]
 
+## [0.2.3] - 2026-11-07
+
+### Added
+
+- Term base: the abbreviations OWL, SHACL, SQL and XML, for the data models specification.
+
+### Changed
+
+- Term base: the definition of party now covers every person or organization a system records, not only registry holders.
+
 ## [0.2.2] - 2026-11-05
 
 ### Added
