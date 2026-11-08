@@ -6,6 +6,8 @@ and versions follow [Semantic Versioning 2.0.0](https://semver.org/spec/v2.0.0.h
 
 ## [Unreleased]
 
+## [0.2.4] - 2026-11-08
+
 ### Added
 
 - Term base: the abbreviation BDD and the term test double, for the testing specification.
