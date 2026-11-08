@@ -299,7 +299,7 @@ terms:
   - id: party
     kind: term
     en: {full: "party", definition: "A person or an organization that a system records, such as one that holds rights or duties in a registry."}
-    fr: {full: "partie", definition: \"Personne ou organisation qu'un système enregistre, comme celle qui détient des droits ou des obligations inscrits dans un registre.\"}
+    fr: {full: "partie", definition: "Personne ou organisation qu'un système enregistre, comme celle qui détient des droits ou des obligations inscrits dans un registre."}
     source: {name: "Grand dictionnaire terminologique", url: "https://vitrinelinguistique.oqlf.gouv.qc.ca/fiche-gdt/fiche/26550268/partie", checked: "2026-11-02"}
   - id: registry
     kind: term
