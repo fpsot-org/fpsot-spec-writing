@@ -41,6 +41,11 @@ terms:
     en: {short: "BCP", full: "Best Current Practice", definition: "An IETF document series that records the agreed best way to run or use Internet technology."}
     fr: {short: "BCP", full: "Best Current Practice", definition: "Série de documents de l'IETF qui consigne la façon reconnue de faire fonctionner ou d'utiliser les technologies Internet."}
     source: {name: "RFC 2026", url: "https://www.rfc-editor.org/rfc/rfc2026.txt", checked: "2026-11-02"}
+  - id: bdd
+    kind: abbreviation
+    en: {short: "BDD", full: "behavior-driven development", definition: "A way of working in which domain experts, developers and testers agree on the expected behavior of a system through examples, which then become its tests."}
+    fr: {short: "BDD", full: "behavior-driven development", definition: "Façon de travailler où les spécialistes du domaine, les équipes de développement et les équipes de test s'entendent sur le comportement attendu d'un système au moyen d'exemples, qui deviennent ensuite ses tests."}
+    source: {name: "ISTQB Glossary 4.8.1, behavior-driven development, French version (no GDT record found)", url: "https://glossary.istqb.org/en_US/term/behavior-driven-development", checked: "2026-11-08"}
   - id: ci
     kind: abbreviation
     en: {short: "CI", full: "continuous integration", definition: "The practice of merging each person's changes into shared code often, with automatic tests each time."}
@@ -316,6 +321,11 @@ terms:
     en: {full: "requirement", definition: "A statement in a specification that a conforming product or process must satisfy."}
     fr: {full: "exigence", definition: "Énoncé d'une spécification qu'un produit ou un processus conforme doit respecter."}
     source: {name: "Grand dictionnaire terminologique", url: "https://vitrinelinguistique.oqlf.gouv.qc.ca/fiche-gdt/fiche/8871085/exigence", checked: "2026-11-02"}
+  - id: test-double
+    kind: term
+    en: {full: "test double", definition: "A component that stands in for a real dependency during a test, such as a component that returns fixed answers."}
+    fr: {full: "doublure de test", definition: "Composant qui remplace une dépendance réelle pendant un test, par exemple un composant qui renvoie des réponses fixes."}
+    source: {name: "ISTQB Glossary 4.8.1, test double (no GDT record found)", url: "https://glossary.istqb.org/en_US/term/test-double", checked: "2026-11-08"}
   - id: xml
     kind: abbreviation
     en: {short: "XML", full: "Extensible Markup Language", definition: "The W3C text format that marks up structured data with nested, named elements."}
