@@ -6,6 +6,12 @@ and versions follow [Semantic Versioning 2.0.0](https://semver.org/spec/v2.0.0.h
 
 ## [Unreleased]
 
+## [0.2.5] - 2026-11-08
+
+### Added
+
+- Term base: the abbreviations ASVS, CVE, CVSS, NIST, OSV, SBOM and SSDF, and the term vulnerability, for the security specification.
+
 ## [0.2.4] - 2026-11-08
 
 ### Added
