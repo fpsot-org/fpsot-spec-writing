@@ -36,6 +36,11 @@ terms:
     en: {short: "ASCII", full: "American Standard Code for Information Interchange", definition: "A 7-bit character code for the letters, digits and signs of English text."}
     fr: {short: "ASCII", full: "code ASCII (American Standard Code for Information Interchange)", definition: "Code de caractères sur 7 bits pour les lettres, les chiffres et les signes de l'anglais."}
     source: {name: "Grand dictionnaire terminologique", url: "https://vitrinelinguistique.oqlf.gouv.qc.ca/fiche-gdt/fiche/8358861/code-ascii", checked: "2026-11-04"}
+  - id: asvs
+    kind: abbreviation
+    en: {short: "ASVS", full: "Application Security Verification Standard", definition: "An OWASP standard that lists security requirements for applications, in three levels of assurance."}
+    fr: {short: "ASVS", full: "Application Security Verification Standard", definition: "Norme de l'OWASP qui énumère des exigences de sécurité pour les applications, selon trois niveaux d'assurance."}
+    source: {name: "OWASP, ASVS 5.0.0 (no GDT record found; TERMIUM Plus could not be read)", url: "https://asvs.owasp.org/", checked: "2026-11-08"}
   - id: bcp
     kind: abbreviation
     en: {short: "BCP", full: "Best Current Practice", definition: "An IETF document series that records the agreed best way to run or use Internet technology."}
@@ -66,6 +71,16 @@ terms:
     en: {short: "CSL", full: "Community Specification License", definition: "A license that sets how people contribute to and may use a specification developed by a working group."}
     fr: {short: "CSL", full: "Community Specification License", definition: "Licence qui fixe comment contribuer à une spécification élaborée par un groupe de travail et comment l'utiliser."}
     source: {name: "Community Specification", url: "https://github.com/CommunitySpecification/Community_Specification", checked: "2026-11-02"}
+  - id: cve
+    kind: abbreviation
+    en: {short: "CVE", full: "Common Vulnerabilities and Exposures", definition: "The program that gives each publicly known vulnerability a unique identifier, such as CVE-2026-12345."}
+    fr: {short: "CVE", full: "Common Vulnerabilities and Exposures", definition: "Programme qui donne à chaque vulnérabilité connue du public un identifiant unique, comme CVE-2026-12345."}
+    source: {name: "CVE Program (no GDT record found; TERMIUM Plus could not be read; TBS writes « vulnérabilités et expositions communes »)", url: "https://www.cve.org/", checked: "2026-11-08"}
+  - id: cvss
+    kind: abbreviation
+    en: {short: "CVSS", full: "Common Vulnerability Scoring System", definition: "A FIRST standard that scores the severity of a vulnerability from 0 to 10, with a vector string that records each metric."}
+    fr: {short: "CVSS", full: "Common Vulnerability Scoring System", definition: "Norme du FIRST qui cote la gravité d'une vulnérabilité de 0 à 10, avec une chaîne vectorielle qui consigne chaque métrique."}
+    source: {name: "FIRST, CVSS v4.0 Specification Document (no GDT record found; TERMIUM Plus could not be read; TBS writes « Système commun de notation des vulnérabilités »)", url: "https://www.first.org/cvss/v4.0/specification-document", checked: "2026-11-08"}
   - id: gpg
     kind: abbreviation
     en: {short: "GPG", full: "GNU Privacy Guard", definition: "Free software that encrypts and signs data and messages with the OpenPGP standard."}
@@ -121,11 +136,21 @@ terms:
     en: {short: "JSON-LD", full: "JSON for Linking Data", definition: "A W3C format that writes linked data as JSON, so that JSON tools can read it."}
     fr: {short: "JSON-LD", full: "JSON for Linking Data", definition: "Format du W3C qui écrit des données liées en JSON, pour que les outils JSON puissent les lire."}
     source: {name: "json-ld.org, JSON for Linking Data (no GDT record found; TERMIUM Plus could not be read)", url: "https://json-ld.org/", checked: "2026-11-05"}
+  - id: nist
+    kind: abbreviation
+    en: {short: "NIST", full: "National Institute of Standards and Technology", definition: "The United States federal agency that publishes standards and guidance, including on cybersecurity."}
+    fr: {short: "NIST", full: "National Institute of Standards and Technology", definition: "Organisme fédéral des États-Unis qui publie des normes et des lignes directrices, notamment en cybersécurité."}
+    source: {name: "NIST (no GDT record found; TERMIUM Plus could not be read)", url: "https://www.nist.gov/", checked: "2026-11-08"}
   - id: oqlf
     kind: abbreviation
     en: {short: "OQLF", full: "Office québécois de la langue française", definition: "The Québec government agency responsible for French language policy and terminology."}
     fr: {short: "OQLF", full: "Office québécois de la langue française", definition: "Organisme du gouvernement du Québec chargé de la politique linguistique et de la terminologie."}
     source: {name: "TERMIUM Plus", url: "https://www.btb.termiumplus.gc.ca/", checked: "2026-11-02"}
+  - id: osv
+    kind: abbreviation
+    en: {short: "OSV", full: "Open Source Vulnerability", definition: "An OpenSSF format and database that describe vulnerabilities in open-source packages so that machines can read them."}
+    fr: {short: "OSV", full: "Open Source Vulnerability", definition: "Format et base de données de l'OpenSSF qui décrivent les vulnérabilités des paquets libres de façon lisible par machine."}
+    source: {name: "OpenSSF, OSV schema 1.9.2 (no GDT record found; TERMIUM Plus could not be read)", url: "https://ossf.github.io/osv-schema/", checked: "2026-11-08"}
   - id: owasp
     kind: abbreviation
     en: {short: "OWASP", full: "Open Worldwide Application Security Project", definition: "An open foundation that publishes guides and lists of risks for the security of software."}
@@ -166,6 +191,11 @@ terms:
     en: {short: "RFC", full: "Request for Comments", definition: "A numbered IETF publication that describes Internet protocols, practices or information."}
     fr: {short: "RFC", full: "document RFC (Request for Comments)", definition: "Publication numérotée de l'IETF qui décrit des protocoles, des pratiques ou des renseignements sur Internet."}
     source: {name: "Grand dictionnaire terminologique", url: "https://vitrinelinguistique.oqlf.gouv.qc.ca/fiche-gdt/fiche/2075026/document-rfc", checked: "2026-11-02"}
+  - id: sbom
+    kind: abbreviation
+    en: {short: "SBOM", full: "software bill of materials", definition: "A machine-readable list of the components of a piece of software, with their versions and origin."}
+    fr: {short: "SBOM", full: "nomenclature logicielle", definition: "Liste lisible par machine des composants d'un logiciel, avec leurs versions et leur origine."}
+    source: {name: "Grand dictionnaire terminologique (SBOM accepted as a loan)", url: "https://vitrinelinguistique.oqlf.gouv.qc.ca/fiche-gdt/fiche/26584382/nomenclature-logicielle", checked: "2026-11-08"}
   - id: sgqri
     kind: abbreviation
     en: {short: "SGQRI", full: "Standard du gouvernement du Québec sur les ressources informationnelles", definition: "A numbered series of Québec government standards for public bodies' information resources, such as web accessibility."}
@@ -186,6 +216,11 @@ terms:
     en: {short: "SQL", full: "Structured Query Language", definition: "The standard language for defining, querying and changing the data of a relational database."}
     fr: {short: "SQL", full: "Structured Query Language", definition: "Langage normalisé qui sert à définir, à interroger et à modifier les données d'une base de données relationnelle."}
     source: {name: "ISO/IEC 9075-1, Information technology, Database languages SQL, Part 1: Framework (no GDT record found; TERMIUM Plus could not be read)", url: "https://www.iso.org/standard/76583.html", checked: "2026-11-07"}
+  - id: ssdf
+    kind: abbreviation
+    en: {short: "SSDF", full: "Secure Software Development Framework", definition: "A NIST framework of practices that lower the number and the impact of vulnerabilities in software."}
+    fr: {short: "SSDF", full: "Secure Software Development Framework", definition: "Cadre du NIST qui regroupe des pratiques pour réduire le nombre et l'impact des vulnérabilités des logiciels."}
+    source: {name: "NIST SP 800-218, version 1.1 (no GDT record found; TERMIUM Plus could not be read)", url: "https://csrc.nist.gov/pubs/sp/800/218/final", checked: "2026-11-08"}
   - id: ssh
     kind: abbreviation
     en: {short: "SSH", full: "Secure Shell", definition: "A protocol for logging in to and working on a remote computer over an encrypted connection."}
@@ -326,6 +361,11 @@ terms:
     en: {full: "test double", definition: "A component that stands in for a real dependency during a test, such as a component that returns fixed answers."}
     fr: {full: "doublure de test", definition: "Composant qui remplace une dépendance réelle pendant un test, par exemple un composant qui renvoie des réponses fixes."}
     source: {name: "ISTQB Glossary 4.8.1, test double (no GDT record found)", url: "https://glossary.istqb.org/en_US/term/test-double", checked: "2026-11-08"}
+  - id: vulnerability
+    kind: term
+    en: {full: "vulnerability", definition: "A weakness in software or in a specification that an attacker can exploit to harm its security."}
+    fr: {full: "vulnérabilité", definition: "Faiblesse d'un logiciel ou d'une spécification qu'un attaquant peut exploiter pour nuire à sa sécurité."}
+    source: {name: "Grand dictionnaire terminologique", url: "https://vitrinelinguistique.oqlf.gouv.qc.ca/fiche-gdt/fiche/26578865/vulnerabilite", checked: "2026-11-08"}
   - id: xml
     kind: abbreviation
     en: {short: "XML", full: "Extensible Markup Language", definition: "The W3C text format that marks up structured data with nested, named elements."}
