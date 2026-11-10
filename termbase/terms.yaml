@@ -51,6 +51,11 @@ terms:
     en: {short: "BDD", full: "behavior-driven development", definition: "A way of working in which domain experts, developers and testers agree on the expected behavior of a system through examples, which then become its tests."}
     fr: {short: "BDD", full: "behavior-driven development", definition: "Façon de travailler où les spécialistes du domaine, les équipes de développement et les équipes de test s'entendent sur le comportement attendu d'un système au moyen d'exemples, qui deviennent ensuite ses tests."}
     source: {name: "ISTQB Glossary 4.8.1, behavior-driven development, French version (no GDT record found)", url: "https://glossary.istqb.org/en_US/term/behavior-driven-development", checked: "2026-11-08"}
+  - id: cgcd
+    kind: abbreviation
+    en: {short: "CGCD", full: "Centre gouvernemental de cyberdéfense", definition: "The Québec government center that sets security measures for public bodies and responds to cyber threats against them."}
+    fr: {short: "CGCD", full: "Centre gouvernemental de cyberdéfense", definition: "Centre du gouvernement du Québec qui fixe des mesures de sécurité pour les organismes publics et qui répond aux cybermenaces qui les visent."}
+    source: {name: "Ministère de la Cybersécurité et du Numérique, Centre gouvernemental de cyberdéfense (proper name; no GDT record needed)", url: "https://www.cyber.gouv.qc.ca/", checked: "2026-11-10"}
   - id: ci
     kind: abbreviation
     en: {short: "CI", full: "continuous integration", definition: "The practice of merging each person's changes into shared code often, with automatic tests each time."}
@@ -141,6 +146,16 @@ terms:
     en: {short: "NIST", full: "National Institute of Standards and Technology", definition: "The United States federal agency that publishes standards and guidance, including on cybersecurity."}
     fr: {short: "NIST", full: "National Institute of Standards and Technology", definition: "Organisme fédéral des États-Unis qui publie des normes et des lignes directrices, notamment en cybersécurité."}
     source: {name: "NIST (no GDT record found; TERMIUM Plus could not be read)", url: "https://www.nist.gov/", checked: "2026-11-08"}
+  - id: ocel
+    kind: abbreviation
+    en: {short: "OCEL", full: "Object-Centric Event Log", definition: "An open format for event logs in which each event links to every business object that it touches."}
+    fr: {short: "OCEL", full: "Object-Centric Event Log", definition: "Format ouvert de journaux d'événements où chaque événement est lié à chaque objet d'affaires qu'il touche."}
+    source: {name: "OCEL 2.0 Specification, RWTH Aachen University (no GDT record found; TERMIUM Plus not checked)", url: "https://www.ocel-standard.org/", checked: "2026-11-10"}
+  - id: ocsf
+    kind: abbreviation
+    en: {short: "OCSF", full: "Open Cybersecurity Schema Framework", definition: "An open schema of the Linux Foundation for security events, so that security tools can share them."}
+    fr: {short: "OCSF", full: "Open Cybersecurity Schema Framework", definition: "Schéma ouvert de la Linux Foundation pour les événements de sécurité, qui permet aux outils de sécurité de les échanger."}
+    source: {name: "OCSF project, schema 1.9.0 (no GDT record found; TERMIUM Plus not checked)", url: "https://github.com/ocsf/ocsf-schema", checked: "2026-11-10"}
   - id: oqlf
     kind: abbreviation
     en: {short: "OQLF", full: "Office québécois de la langue française", definition: "The Québec government agency responsible for French language policy and terminology."}
@@ -151,6 +166,11 @@ terms:
     en: {short: "OSV", full: "Open Source Vulnerability", definition: "An OpenSSF format and database that describe vulnerabilities in open-source packages so that machines can read them."}
     fr: {short: "OSV", full: "Open Source Vulnerability", definition: "Format et base de données de l'OpenSSF qui décrivent les vulnérabilités des paquets libres de façon lisible par machine."}
     source: {name: "OpenSSF, OSV schema 1.9.2 (no GDT record found; TERMIUM Plus could not be read)", url: "https://ossf.github.io/osv-schema/", checked: "2026-11-08"}
+  - id: otlp
+    kind: abbreviation
+    en: {short: "OTLP", full: "OpenTelemetry Protocol", definition: "The OpenTelemetry protocol that sends logs, traces and metrics from a program to a collector."}
+    fr: {short: "OTLP", full: "OpenTelemetry Protocol", definition: "Protocole d'OpenTelemetry qui transmet les journaux, les traces et les métriques d'un programme à un collecteur."}
+    source: {name: "OpenTelemetry, opentelemetry-proto 1.11.1 (no GDT record found; TERMIUM Plus not checked)", url: "https://github.com/open-telemetry/opentelemetry-proto", checked: "2026-11-10"}
   - id: owasp
     kind: abbreviation
     en: {short: "OWASP", full: "Open Worldwide Application Security Project", definition: "An open foundation that publishes guides and lists of risks for the security of software."}
@@ -301,11 +321,21 @@ terms:
     en: {short: "XLIFF", full: "XML Localization Interchange File Format", definition: "The OASIS standard file format for passing text to translate, and its translations, between tools."}
     fr: {short: "XLIFF", full: "format XLIFF (XML Localization Interchange File Format)", definition: "Format de fichier normalisé par OASIS pour échanger entre outils le texte à traduire et ses traductions."}
     source: {name: "OASIS, XLIFF Version 2.1", url: "https://docs.oasis-open.org/xliff/xliff-core/v2.1/os/xliff-core-v2.1-os.html", checked: "2026-11-04"}
+  - id: access-token
+    kind: term
+    en: {full: "access token", definition: "A credential that an authorization server issues to a client, so that the client can call an API within set limits."}
+    fr: {full: "jeton d'accès", definition: "Justificatif qu'un serveur d'autorisation remet à un client, pour que celui-ci appelle une API dans des limites fixées."}
+    source: {name: "IETF RFC 6749 (English); no GDT or TERMIUM Plus record found, French as used in Canadian French technical documentation", url: "https://www.rfc-editor.org/info/rfc6749", checked: "2026-11-10"}
   - id: asset
     kind: term
     en: {full: "asset", definition: "A thing or right that can be owned, and whose ownership a registry records."}
     fr: {full: "bien", definition: "Chose ou droit qui peut appartenir à quelqu'un et dont un registre consigne la propriété."}
     source: {name: "Grand dictionnaire terminologique", url: "https://vitrinelinguistique.oqlf.gouv.qc.ca/fiche-gdt/fiche/2077909/bien", checked: "2026-11-02"}
+  - id: authorization-engine
+    kind: term
+    en: {full: "authorization engine", definition: "A service that decides whether a subject may take an action on a resource, from policies and relationships, and returns the decision to the service that asks."}
+    fr: {full: "moteur d'autorisation", definition: "Service qui décide si un sujet peut faire une action sur une ressource, à partir de politiques et de relations, et qui rend la décision au service qui la demande."}
+    source: {name: "OpenID AuthZEN Authorization API 1.0 (policy decision point; English); no GDT or TERMIUM Plus record found, French built on the GDT term autorisation", url: "https://openid.net/specs/authorization-api-1_0-final.html", checked: "2026-11-10"}
   - id: branch
     kind: term
     en: {full: "branch", definition: "A separate line of development in a repository that can later be merged back."}
@@ -321,11 +351,21 @@ terms:
     en: {full: "entitlement", definition: "A specific right a party holds over an asset, such as a license or a permit."}
     fr: {full: "droit", definition: "Droit précis qu'une partie détient sur un bien, comme une licence ou un permis."}
     source: {name: "TERMIUM Plus", url: "https://www.btb.termiumplus.gc.ca/", checked: "2026-11-02"}
+  - id: identity-provider
+    kind: term
+    en: {full: "identity provider", definition: "A service that signs people or workloads in and tells other services who they are and how they signed in."}
+    fr: {full: "fournisseur d'identité", definition: "Service qui connecte des personnes ou des charges de travail et qui indique aux autres services qui elles sont et comment elles se sont connectées."}
+    source: {name: "NIST SP 800-63C-4 (English); no GDT or TERMIUM Plus record found, French as used in Canadian French technical documentation", url: "https://pages.nist.gov/800-63-4/sp800-63c.html", checked: "2026-11-10"}
   - id: jurisdiction
     kind: term
     en: {full: "jurisdiction", definition: "A government area, such as a country, province or municipality, with its own laws and rules."}
     fr: {full: "collectivité publique", definition: "Entité publique territoriale, comme un pays, une province ou une municipalité, qui a ses propres lois et règles."}
     source: {name: "Grand dictionnaire terminologique", url: "https://vitrinelinguistique.oqlf.gouv.qc.ca/fiche-gdt/fiche/8378880/collectivite-publique", checked: "2026-11-02"}
+  - id: legal-hold
+    kind: term
+    en: {full: "legal hold", definition: "A measure that stops the destruction of records that a request, a complaint, an incident or a lawsuit may need."}
+    fr: {full: "préservation de la preuve", definition: "Mesure qui suspend la destruction des enregistrements dont une demande, une plainte, un incident ou une poursuite peut avoir besoin."}
+    source: {name: "Grand dictionnaire terminologique, préservation de la preuve (English: legal hold, litigation hold)", url: "https://vitrinelinguistique.oqlf.gouv.qc.ca/fiche-gdt/fiche/18070177/preservation-de-la-preuve", checked: "2026-11-10"}
   - id: locale
     kind: term
     en: {full: "locale", definition: "A language together with the conventions of a region for dates, numbers, sorting and similar items."}
@@ -341,6 +381,11 @@ terms:
     en: {full: "party", definition: "A person or an organization that a system records, such as one that holds rights or duties in a registry."}
     fr: {full: "partie", definition: "Personne ou organisation qu'un système enregistre, comme celle qui détient des droits ou des obligations inscrits dans un registre."}
     source: {name: "Grand dictionnaire terminologique", url: "https://vitrinelinguistique.oqlf.gouv.qc.ca/fiche-gdt/fiche/26550268/partie", checked: "2026-11-02"}
+  - id: privacy-impact-assessment
+    kind: term
+    en: {full: "privacy impact assessment", definition: "A study, done before a system changes, of how the system affects the privacy of people and of how to reduce the risks."}
+    fr: {full: "évaluation des facteurs relatifs à la vie privée", definition: "Étude, faite avant de modifier un système, de ses effets sur la vie privée des personnes et des façons d'en réduire les risques."}
+    source: {name: "Gouvernement du Québec, Évaluation des facteurs relatifs à la vie privée (no GDT record found; the Québec and federal governments use this French term)", url: "https://www.quebec.ca/gouvernement/travailler-gouvernement/normes-gouvernance-pratiques-internes/protection-des-renseignements-personnels/evaluation-facteurs-relatifs-vie-privee", checked: "2026-11-10"}
   - id: registry
     kind: term
     en: {full: "registry", definition: "An official, lasting record of facts, such as who holds which rights over what."}
