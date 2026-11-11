@@ -6,11 +6,18 @@ and versions follow [Semantic Versioning 2.0.0](https://semver.org/spec/v2.0.0.h
 
 ## [Unreleased]
 
-## [0.2.6] - 2026-11-09
+## [0.2.7] - 2026-11-10
 
 ### Added
 
 - Term base: the abbreviations AMP, CFTA, LCOM, LCOP, OSI and RCTI, and the terms clause module, clause pack, conformance class, conformance statement and homologation, for the procurement specification.
+
+## [0.2.6] - 2026-11-10
+
+### Added
+
+- Term base: the abbreviations CGCD, OCEL, OCSF and OTLP, and the terms legal hold and privacy impact assessment, for the observability specification.
+- Term base: the terms access token, authorization engine and identity provider, for the identity and access specification.
 
 ## [0.2.5] - 2026-11-08
 
