@@ -6,6 +6,12 @@ and versions follow [Semantic Versioning 2.0.0](https://semver.org/spec/v2.0.0.h
 
 ## [Unreleased]
 
+## [0.2.7] - 2026-11-11
+
+### Added
+
+- Term base: the abbreviations eIDAS, ETSI and TSA, and the terms checkpoint, evidence record, inclusion proof, mirror, monitor, seal, time stamp, transparency log, trust anchor and witness, for the signed records and transparency log specification.
+
 ## [0.2.6] - 2026-11-10
 
 ### Added
