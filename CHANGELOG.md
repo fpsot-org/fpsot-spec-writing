@@ -6,6 +6,12 @@ and versions follow [Semantic Versioning 2.0.0](https://semver.org/spec/v2.0.0.h
 
 ## [Unreleased]
 
+## [0.2.8] - 2026-11-11
+
+### Added
+
+- Term base: the abbreviations AMP, CFTA, LCOM, LCOP, OSI and RCTI, and the terms clause module, clause pack, conformance class, conformance statement and homologation, for the procurement specification.
+
 ## [0.2.7] - 2026-11-11
 
 ### Added
