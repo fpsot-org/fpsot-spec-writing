@@ -6,6 +6,12 @@ and versions follow [Semantic Versioning 2.0.0](https://semver.org/spec/v2.0.0.h
 
 ## [Unreleased]
 
+## [0.2.9] - 2026-11-16
+
+### Added
+
+- Term base: the abbreviations DMN, OECD and TCK, and the terms Algorithmic Impact Assessment, cliff edge, counterfactual value, dated parameter, decision contract, decision record, decision service, decision type, degree of automation, deploying body, dual review, effective date, engagement evidence, frozen corpus, fundamental rights impact assessment, impact level, jurisdiction profile, principal reason, reason code, record time, result kind, review step, rule provider, rule version and rules as code, for the decisions specification.
+
 ## [0.2.8] - 2026-11-11
 
 ### Added

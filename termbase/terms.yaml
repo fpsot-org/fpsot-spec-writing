@@ -96,6 +96,11 @@ terms:
     en: {short: "CVSS", full: "Common Vulnerability Scoring System", definition: "A FIRST standard that scores the severity of a vulnerability from 0 to 10, with a vector string that records each metric."}
     fr: {short: "CVSS", full: "Common Vulnerability Scoring System", definition: "Norme du FIRST qui cote la gravité d'une vulnérabilité de 0 à 10, avec une chaîne vectorielle qui consigne chaque métrique."}
     source: {name: "FIRST, CVSS v4.0 Specification Document (no GDT record found; TERMIUM Plus could not be read; TBS writes « Système commun de notation des vulnérabilités »)", url: "https://www.first.org/cvss/v4.0/specification-document", checked: "2026-11-08"}
+  - id: dmn
+    kind: abbreviation
+    en: {short: "DMN", full: "Decision Model and Notation", definition: "A standard of the Object Management Group for decision models, decision tables and their expression language."}
+    fr: {short: "DMN", full: "Decision Model and Notation", definition: "Norme de l'Object Management Group pour les modèles de décision, les tables de décision et leur langage d'expression."}
+    source: {name: "Object Management Group, DMN 1.6 (proper name, kept in English)", url: "https://www.omg.org/spec/DMN/1.6/", checked: "2026-11-15"}
   - id: eidas
     kind: abbreviation
     en: {short: "eIDAS", full: "Regulation (EU) No 910/2014 on electronic identification and trust services", definition: "The regulation of the European Union on electronic identification and on trust services, such as signatures, seals and time stamps."}
@@ -186,6 +191,11 @@ terms:
     en: {short: "OCSF", full: "Open Cybersecurity Schema Framework", definition: "An open schema of the Linux Foundation for security events, so that security tools can share them."}
     fr: {short: "OCSF", full: "Open Cybersecurity Schema Framework", definition: "Schéma ouvert de la Linux Foundation pour les événements de sécurité, qui permet aux outils de sécurité de les échanger."}
     source: {name: "OCSF project, schema 1.9.0 (no GDT record found; TERMIUM Plus not checked)", url: "https://github.com/ocsf/ocsf-schema", checked: "2026-11-10"}
+  - id: oecd
+    kind: abbreviation
+    en: {short: "OECD", full: "Organisation for Economic Co-operation and Development", definition: "An intergovernmental organization that publishes policy studies and recommendations, such as those on rules as code."}
+    fr: {short: "OCDE", full: "Organisation de coopération et de développement économiques", definition: "Organisation intergouvernementale qui publie des études et des recommandations sur les politiques publiques, comme celles sur les règles sous forme de code."}
+    source: {name: "OECD (proper names in both languages)", url: "https://www.oecd.org/en/publications/cracking-the-code_3afe6ba5-en.html", checked: "2026-11-15"}
   - id: oqlf
     kind: abbreviation
     en: {short: "OQLF", full: "Office québécois de la langue française", definition: "The Québec government agency responsible for French language policy and terminology."}
@@ -301,6 +311,11 @@ terms:
     en: {short: "TBS", full: "Treasury Board of Canada Secretariat", definition: "The federal central agency that sets Government of Canada management, digital and spending policy."}
     fr: {short: "SCT", full: "Secrétariat du Conseil du Trésor du Canada", definition: "Organisme central fédéral qui fixe les politiques de gestion, de numérique et de dépenses du gouvernement du Canada."}
     source: {name: "TERMIUM Plus", url: "https://www.btb.termiumplus.gc.ca/", checked: "2026-11-02"}
+  - id: tck
+    kind: abbreviation
+    en: {short: "TCK", full: "Technology Compatibility Kit", definition: "A shared set of tests that checks whether an implementation follows a standard."}
+    fr: {short: "TCK", full: "trousse de compatibilité technologique", definition: "Ensemble commun de tests qui vérifie si une mise en œuvre respecte une norme."}
+    source: {name: "DMN TCK for the English form; French form to confirm (no GDT record found)", url: "https://dmn-tck.github.io/tck/", checked: "2026-11-15"}
   - id: tls
     kind: abbreviation
     en: {short: "TLS", full: "Transport Layer Security", definition: "The protocol that encrypts a network connection and proves the identity of the server."}
@@ -371,6 +386,11 @@ terms:
     en: {full: "access token", definition: "A credential that an authorization server issues to a client, so that the client can call an API within set limits."}
     fr: {full: "jeton d'accès", definition: "Justificatif qu'un serveur d'autorisation remet à un client, pour que celui-ci appelle une API dans des limites fixées."}
     source: {name: "IETF RFC 6749 (English); no GDT or TERMIUM Plus record found, French as used in Canadian French technical documentation", url: "https://www.rfc-editor.org/info/rfc6749", checked: "2026-11-10"}
+  - id: algorithmic-impact-assessment
+    kind: term
+    en: {full: "Algorithmic Impact Assessment", definition: "The questionnaire of the Government of Canada that scores an automated decision system and gives its impact level."}
+    fr: {full: "Évaluation de l'incidence algorithmique", definition: "Questionnaire du gouvernement du Canada qui note un système décisionnel automatisé et en donne le niveau d'incidence."}
+    source: {name: "Treasury Board of Canada Secretariat, Algorithmic Impact Assessment tool, French version to confirm", url: "https://www.canada.ca/en/government/system/digital-government/digital-government-innovations/responsible-use-ai/algorithmic-impact-assessment.html", checked: "2026-11-15"}
   - id: asset
     kind: term
     en: {full: "asset", definition: "A thing or right that can be owned, and whose ownership a registry records."}
@@ -401,6 +421,11 @@ terms:
     en: {full: "clause pack", definition: "The set of clause modules that serve one release of one FPSOT specification."}
     fr: {full: "trousse de clauses", definition: "Ensemble des modules de clauses qui servent une version d'une spécification de la FPSOT."}
     source: {name: "FPSOT wording (no GDT record checked)", url: "https://github.com/fpsot-org/fpsot-spec-procurement", checked: "2026-11-08"}
+  - id: cliff-edge
+    kind: term
+    en: {full: "cliff edge", definition: "A rule under which a small change in one fact removes a whole benefit."}
+    fr: {full: "effet de seuil", definition: "Règle selon laquelle un faible changement d'un fait supprime toute une prestation."}
+    source: {name: "FPSOT decisions specification, DEC-027; French form to confirm", url: "https://github.com/fpsot-org/fpsot-spec-decisions", checked: "2026-11-15"}
   - id: commit
     kind: term
     en: {full: "commit", definition: "A recorded, identified set of changes saved to a repository's history."}
@@ -416,6 +441,61 @@ terms:
     en: {full: "conformance statement", definition: "A bidder's structured declaration that says, for each required conformance class, whether its solution meets it."}
     fr: {full: "déclaration de conformité", definition: "Déclaration structurée d'une entreprise soumissionnaire qui indique, pour chaque classe de conformité exigée, si sa solution la respecte."}
     source: {name: "FPSOT wording (no GDT record checked)", url: "https://github.com/fpsot-org/fpsot-spec-procurement", checked: "2026-11-08"}
+  - id: counterfactual-value
+    kind: term
+    en: {full: "counterfactual value", definition: "The exact value of a factor at which a reason would stop applying, with the other facts unchanged."}
+    fr: {full: "valeur contrefactuelle", definition: "Valeur exacte d'un facteur à laquelle un motif cesserait de s'appliquer, les autres faits restant les mêmes."}
+    source: {name: "Wachter, Mittelstadt and Russell, Counterfactual Explanations without Opening the Black Box; French form to confirm", url: "https://arxiv.org/abs/1711.00399v2", checked: "2026-11-15"}
+  - id: dated-parameter
+    kind: term
+    en: {full: "dated parameter", definition: "An amount, a rate or a threshold whose value changes over time, kept in a data file with the period and the legal source of each value."}
+    fr: {full: "paramètre daté", definition: "Montant, taux ou seuil dont la valeur change au fil du temps, conservé dans un fichier de données avec la période et la source juridique de chaque valeur."}
+    source: {name: "OpenFisca, Legislation parameters, for the concept; French form to confirm", url: "https://openfisca.org/doc/coding-the-legislation/legislation_parameters.html", checked: "2026-11-15"}
+  - id: decision-contract
+    kind: term
+    en: {full: "decision contract", definition: "The interface between a decision service and the rules of one decision type: an input, an evaluation context and a result of one of four kinds."}
+    fr: {full: "contrat de décision", definition: "Interface entre un service de décision et les règles d'un type de décision : une entrée, un contexte d'évaluation et un résultat d'un des quatre types."}
+    source: {name: "FPSOT decisions specification, DEC-020; French form to confirm", url: "https://github.com/fpsot-org/fpsot-spec-decisions", checked: "2026-11-15"}
+  - id: decision-record
+    kind: term
+    en: {full: "decision record", definition: "The append-only record of one result of a decision, made of codes, values and references, never of prose."}
+    fr: {full: "enregistrement de décision", definition: "Enregistrement en ajout seul d'un résultat de décision, fait de codes, de valeurs et de références, jamais de texte rédigé."}
+    source: {name: "FPSOT decisions specification, DEC-040; French form to confirm (GDT gives enregistrement for a data record)", url: "https://github.com/fpsot-org/fpsot-spec-decisions", checked: "2026-11-15"}
+  - id: decision-service
+    kind: term
+    en: {full: "decision service", definition: "Software that runs a rule provider, applies the controls of the profiles and keeps the decision records."}
+    fr: {full: "service de décision", definition: "Logiciel qui exécute un fournisseur de règles, applique les contrôles des profils et tient les enregistrements de décision."}
+    source: {name: "FPSOT decisions specification, DEC-002; French form to confirm", url: "https://github.com/fpsot-org/fpsot-spec-decisions", checked: "2026-11-15"}
+  - id: decision-type
+    kind: term
+    en: {full: "decision type", definition: "A kind of individual decision that a public body makes under one legal authority, such as eligibility for one benefit."}
+    fr: {full: "type de décision", definition: "Catégorie de décisions individuelles qu'un organisme public prend en vertu d'un même pouvoir légal, comme l'admissibilité à une prestation."}
+    source: {name: "FPSOT decisions specification, DEC-010; French form to confirm", url: "https://github.com/fpsot-org/fpsot-spec-decisions", checked: "2026-11-15"}
+  - id: degree-of-automation
+    kind: term
+    en: {full: "degree of automation", definition: "How much a person took part in a decision, derived from its review steps: fully automated, confirmed by a person or decided by a person."}
+    fr: {full: "degré d'automatisation", definition: "Mesure de la participation d'une personne à une décision, tirée de ses étapes de révision : entièrement automatisée, confirmée par une personne ou décidée par une personne."}
+    source: {name: "FPSOT decisions specification, DEC-060; French form to confirm", url: "https://github.com/fpsot-org/fpsot-spec-decisions", checked: "2026-11-15"}
+  - id: deploying-body
+    kind: term
+    en: {full: "deploying body", definition: "The public body that answers for the decisions of a decision type."}
+    fr: {full: "organisme responsable", definition: "Organisme public qui répond des décisions d'un type de décision."}
+    source: {name: "FPSOT decisions specification, DEC-002; French form to confirm", url: "https://github.com/fpsot-org/fpsot-spec-decisions", checked: "2026-11-15"}
+  - id: dual-review
+    kind: term
+    en: {full: "dual review", definition: "A control under which two different people must each complete a review step before a final decision."}
+    fr: {full: "double révision", definition: "Contrôle selon lequel deux personnes différentes doivent chacune réaliser une étape de révision avant une décision finale."}
+    source: {name: "FPSOT decisions specification, DEC-064; French form to confirm", url: "https://github.com/fpsot-org/fpsot-spec-decisions", checked: "2026-11-15"}
+  - id: effective-date
+    kind: term
+    en: {full: "effective date", definition: "The date whose law applies to a case, such as the date of an application."}
+    fr: {full: "date d'effet", definition: "Date dont le droit s'applique à un dossier, comme la date d'une demande."}
+    source: {name: "FPSOT decisions specification, DEC-022; French form to confirm", url: "https://github.com/fpsot-org/fpsot-spec-decisions", checked: "2026-11-15"}
+  - id: engagement-evidence
+    kind: term
+    en: {full: "engagement evidence", definition: "Facts that show how a reviewer engaged with a record, such as what they opened and for how long."}
+    fr: {full: "preuves d'examen", definition: "Faits qui montrent comment une personne qui révise a examiné un enregistrement, comme ce qu'elle a ouvert et pendant combien de temps."}
+    source: {name: "FPSOT decisions specification, DEC-065; French form to confirm", url: "https://github.com/fpsot-org/fpsot-spec-decisions", checked: "2026-11-15"}
   - id: entitlement
     kind: term
     en: {full: "entitlement", definition: "A specific right a party holds over an asset, such as a license or a permit."}
@@ -426,6 +506,16 @@ terms:
     en: {full: "evidence record", definition: "A structure of hash trees and time stamps that proves that data existed unchanged since a given time, and that one renews before its algorithms weaken."}
     fr: {full: "dossier de preuves", definition: "Structure d'arbres de hachage et d'horodatages qui prouve que des données existent sans changement depuis un moment donné, et qu'on renouvelle avant que ses algorithmes ne faiblissent."}
     source: {name: "RFC 4998, Evidence Record Syntax; French form set by the FPSOT French review of 2026-11-11 (no GDT record found)", url: "https://www.rfc-editor.org/info/rfc4998", checked: "2026-11-11"}
+  - id: frozen-corpus
+    kind: term
+    en: {full: "frozen corpus", definition: "A set of test cases with expected results that nobody changes once its rule version is in force."}
+    fr: {full: "corpus figé", definition: "Ensemble de cas d'essai avec leurs résultats attendus que personne ne modifie une fois sa version de règles en vigueur."}
+    source: {name: "FPSOT decisions specification, DEC-081; French form to confirm", url: "https://github.com/fpsot-org/fpsot-spec-decisions", checked: "2026-11-15"}
+  - id: fundamental-rights-impact-assessment
+    kind: term
+    en: {full: "fundamental rights impact assessment", definition: "An assessment, before first use, of the effects of a high-risk artificial intelligence system on the fundamental rights of the people it concerns."}
+    fr: {full: "analyse d'impact sur les droits fondamentaux", definition: "Analyse, avant la première utilisation, des effets d'un système d'intelligence artificielle à haut risque sur les droits fondamentaux des personnes visées."}
+    source: {name: "Regulation (EU) 2024/1689, article 27, French version to confirm", url: "https://eur-lex.europa.eu/eli/reg/2024/1689/oj", checked: "2026-11-15"}
   - id: homologation
     kind: term
     en: {full: "homologation", definition: "A step before a tender in which a buyer checks that goods conform to a recognized standard or an established technical specification, and lists those that do."}
@@ -436,6 +526,11 @@ terms:
     en: {full: "identity provider", definition: "A service that signs people or workloads in and tells other services who they are and how they signed in."}
     fr: {full: "fournisseur d'identité", definition: "Service qui connecte des personnes ou des charges de travail et qui indique aux autres services qui elles sont et comment elles se sont connectées."}
     source: {name: "NIST SP 800-63C-4 (English); no GDT or TERMIUM Plus record found, French as used in Canadian French technical documentation", url: "https://pages.nist.gov/800-63-4/sp800-63c.html", checked: "2026-11-10"}
+  - id: impact-level
+    kind: term
+    en: {full: "impact level", definition: "The grade of the impact of a decision type on people, from level 1 to level 4, which decides the controls that apply."}
+    fr: {full: "niveau d'incidence", definition: "Degré de l'incidence d'un type de décision sur les personnes, du niveau 1 au niveau 4, qui détermine les contrôles applicables."}
+    source: {name: "Treasury Board of Canada Secretariat, Algorithmic Impact Assessment tool (French page: niveau d'incidence), to confirm", url: "https://www.canada.ca/en/government/system/digital-government/digital-government-innovations/responsible-use-ai/algorithmic-impact-assessment.html", checked: "2026-11-15"}
   - id: inclusion-proof
     kind: term
     en: {full: "inclusion proof", definition: "The list of hashes that links one entry to the root hash of a Merkle tree, and so proves that the tree holds the entry."}
@@ -446,6 +541,11 @@ terms:
     en: {full: "jurisdiction", definition: "A government area, such as a country, province or municipality, with its own laws and rules."}
     fr: {full: "collectivité publique", definition: "Entité publique territoriale, comme un pays, une province ou une municipalité, qui a ses propres lois et règles."}
     source: {name: "Grand dictionnaire terminologique", url: "https://vitrinelinguistique.oqlf.gouv.qc.ca/fiche-gdt/fiche/8378880/collectivite-publique", checked: "2026-11-02"}
+  - id: jurisdiction-profile
+    kind: term
+    en: {full: "jurisdiction profile", definition: "A released set of controls that the law of one jurisdiction asks for, such as notices and human review, by impact level."}
+    fr: {full: "profil juridictionnel", definition: "Ensemble publié de contrôles qu'exige le droit d'une collectivité publique, comme les avis et la révision humaine, selon le niveau d'incidence."}
+    source: {name: "FPSOT decisions specification, DEC-011; French form to confirm", url: "https://github.com/fpsot-org/fpsot-spec-decisions", checked: "2026-11-15"}
   - id: legal-hold
     kind: term
     en: {full: "legal hold", definition: "A measure that stops the destruction of records that a request, a complaint, an incident or a lawsuit may need."}
@@ -476,11 +576,26 @@ terms:
     en: {full: "party", definition: "A person or an organization that a system records, such as one that holds rights or duties in a registry."}
     fr: {full: "partie", definition: "Personne ou organisation qu'un système enregistre, comme celle qui détient des droits ou des obligations inscrits dans un registre."}
     source: {name: "Grand dictionnaire terminologique", url: "https://vitrinelinguistique.oqlf.gouv.qc.ca/fiche-gdt/fiche/26550268/partie", checked: "2026-11-02"}
+  - id: principal-reason
+    kind: term
+    en: {full: "principal reason", definition: "A reason that drove the result of a decision more than the others, of which a notice gives at most four."}
+    fr: {full: "motif principal", definition: "Motif qui a pesé plus que les autres sur le résultat d'une décision, et dont un avis donne au plus quatre."}
+    source: {name: "Consumer Financial Protection Bureau, Regulation B, for the English form; French form to confirm", url: "https://www.consumerfinance.gov/rules-policy/regulations/1002/9/", checked: "2026-11-15"}
   - id: privacy-impact-assessment
     kind: term
     en: {full: "privacy impact assessment", definition: "A study, done before a system changes, of how the system affects the privacy of people and of how to reduce the risks."}
     fr: {full: "évaluation des facteurs relatifs à la vie privée", definition: "Étude, faite avant de modifier un système, de ses effets sur la vie privée des personnes et des façons d'en réduire les risques."}
     source: {name: "Gouvernement du Québec, Évaluation des facteurs relatifs à la vie privée (no GDT record found; the Québec and federal governments use this French term)", url: "https://www.quebec.ca/gouvernement/travailler-gouvernement/normes-gouvernance-pratiques-internes/protection-des-renseignements-personnels/evaluation-facteurs-relatifs-vie-privee", checked: "2026-11-10"}
+  - id: reason-code
+    kind: term
+    en: {full: "reason code", definition: "The code of a concept of a reason scheme that names one factor of a decision."}
+    fr: {full: "code de motif", definition: "Code d'un concept d'un schéma de motifs qui nomme un facteur d'une décision."}
+    source: {name: "FPSOT decisions specification, DEC-050; French form to confirm", url: "https://github.com/fpsot-org/fpsot-spec-decisions", checked: "2026-11-15"}
+  - id: record-time
+    kind: term
+    en: {full: "record time", definition: "The knowledge cutoff of a decision: only facts and rule versions recorded at or before it count."}
+    fr: {full: "moment d'enregistrement", definition: "Limite de connaissance d'une décision : seuls comptent les faits et les versions de règles enregistrés à ce moment ou avant."}
+    source: {name: "Martin Fowler, Bitemporal History, for the English form; French form to confirm", url: "https://martinfowler.com/articles/bitemporal-history.html", checked: "2026-11-15"}
   - id: registry
     kind: term
     en: {full: "registry", definition: "An official, lasting record of facts, such as who holds which rights over what."}
@@ -496,6 +611,31 @@ terms:
     en: {full: "requirement", definition: "A statement in a specification that a conforming product or process must satisfy."}
     fr: {full: "exigence", definition: "Énoncé d'une spécification qu'un produit ou un processus conforme doit respecter."}
     source: {name: "Grand dictionnaire terminologique", url: "https://vitrinelinguistique.oqlf.gouv.qc.ca/fiche-gdt/fiche/8871085/exigence", checked: "2026-11-02"}
+  - id: result-kind
+    kind: term
+    en: {full: "result kind", definition: "One of the four kinds of result of the decision contract: decided, referred, insufficient information or not applicable."}
+    fr: {full: "type de résultat", definition: "Un des quatre types de résultat du contrat de décision : décidé, renvoyé, renseignements insuffisants ou sans objet."}
+    source: {name: "FPSOT decisions specification, DEC-024; French form to confirm", url: "https://github.com/fpsot-org/fpsot-spec-decisions", checked: "2026-11-15"}
+  - id: review-step
+    kind: term
+    en: {full: "review step", definition: "The record of one action of one person on a decision record that a service showed them."}
+    fr: {full: "étape de révision", definition: "Enregistrement d'une action d'une personne sur un enregistrement de décision qu'un service lui a présenté."}
+    source: {name: "FPSOT decisions specification, DEC-062; French form to confirm", url: "https://github.com/fpsot-org/fpsot-spec-decisions", checked: "2026-11-15"}
+  - id: rule-provider
+    kind: term
+    en: {full: "rule provider", definition: "Software that implements the rules of one decision type behind the decision contract."}
+    fr: {full: "fournisseur de règles", definition: "Logiciel qui met en œuvre les règles d'un type de décision derrière le contrat de décision."}
+    source: {name: "FPSOT decisions specification, DEC-002; French form to confirm", url: "https://github.com/fpsot-org/fpsot-spec-decisions", checked: "2026-11-15"}
+  - id: rule-version
+    kind: term
+    en: {full: "rule version", definition: "One released version of the rules of a decision type, with its validity, its enactment time and its legal sources."}
+    fr: {full: "version de règles", definition: "Version publiée des règles d'un type de décision, avec sa période de validité, son moment d'adoption et ses sources juridiques."}
+    source: {name: "FPSOT decisions specification, DEC-030; French form to confirm", url: "https://github.com/fpsot-org/fpsot-spec-decisions", checked: "2026-11-15"}
+  - id: rules-as-code
+    kind: term
+    en: {full: "rules as code", definition: "The practice of writing the rules of a law or a policy as code that a machine can run, next to the legal text."}
+    fr: {full: "règles sous forme de code", definition: "Pratique qui consiste à rédiger les règles d'une loi ou d'une politique sous forme de code exécutable par une machine, à côté du texte juridique."}
+    source: {name: "OECD, Cracking the Code (2020), for the English form; French form to confirm", url: "https://www.oecd.org/en/publications/cracking-the-code_3afe6ba5-en.html", checked: "2026-11-15"}
   - id: seal
     kind: term
     en: {full: "seal", definition: "An advanced electronic signature that an organization applies as an organization, to prove that it issued a record and that nobody changed it since."}
