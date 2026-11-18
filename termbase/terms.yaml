@@ -6,11 +6,31 @@ terms:
     en: {short: "ARIA", full: "Accessible Rich Internet Applications", definition: "W3C attributes that tell assistive technologies the role, state and name of a part of a web page."}
     fr: {short: "ARIA", full: "Accessible Rich Internet Applications", definition: "Attributs du W3C qui indiquent aux technologies d'assistance le rôle, l'état et le nom d'une partie d'une page Web."}
     source: {name: "W3C, WAI-ARIA 1.2 (no GDT record found; TERMIUM Plus not checked)", url: "https://www.w3.org/TR/wai-aria-1.2/", checked: "2026-11-05"}
+  - id: bods
+    kind: abbreviation
+    en: {short: "BODS", full: "Beneficial Ownership Data Standard", definition: "An open standard of Open Ownership for publishing data on the beneficial owners of companies."}
+    fr: {short: "BODS", full: "Beneficial Ownership Data Standard", definition: "Norme ouverte d’Open Ownership pour publier les données sur les bénéficiaires effectifs des sociétés."}
+    source: {name: "Open Ownership, BODS 0.4 (proper name, kept in English)", url: "https://standard.openownership.org/en/0.4.0/standard/reference.html", checked: "2026-11-18"}
   - id: bpmn
     kind: abbreviation
     en: {short: "BPMN", full: "Business Process Model and Notation", definition: "An Object Management Group notation for drawing business processes that both business and technical staff can read."}
     fr: {short: "BPMN", full: "modèle de procédé d'affaire et notation", definition: "Notation de l'Object Management Group qui sert à dessiner des processus d'affaires lisibles par le personnel des affaires comme par le personnel technique."}
     source: {name: "ISO/IEC 19510:2013 (French title)", url: "https://www.iso.org/standard/62652.html", checked: "2026-11-05"}
+  - id: cbv
+    kind: abbreviation
+    en: {short: "CBV", full: "Core Business Vocabulary", definition: "A SEMIC vocabulary of the European Commission for the basic data of a registered business."}
+    fr: {short: "CBV", full: "Core Business Vocabulary", definition: "Vocabulaire SEMIC de la Commission européenne pour les données de base d’une entreprise immatriculée."}
+    source: {name: "SEMIC, Core Business Vocabulary 2.2.0 (proper name, kept in English)", url: "https://semiceu.github.io/Core-Business-Vocabulary/releases/2.2.0/", checked: "2026-11-18"}
+  - id: cdi
+    kind: abbreviation
+    en: {short: "CDI", full: "Contexts and Dependency Injection", definition: "The Jakarta standard that creates objects, called beans, and gives each one the objects it depends on."}
+    fr: {short: "CDI", full: "Contexts and Dependency Injection", definition: "Norme Jakarta qui crée des objets, appelés beans, et fournit à chacun les objets dont il dépend."}
+    source: {name: "Quarkus, Contexts and Dependency Injection (proper name, kept in English)", url: "https://quarkus.io/guides/cdi-reference", checked: "2026-11-18"}
+  - id: cnil
+    kind: abbreviation
+    en: {short: "CNIL", full: "Commission nationale de l’informatique et des libertés", definition: "The French data protection authority."}
+    fr: {short: "CNIL", full: "Commission nationale de l’informatique et des libertés", definition: "Autorité française de protection des données."}
+    source: {name: "CNIL (proper name in both languages)", url: "https://www.cnil.fr/fr/siv-systeme-dimmatriculation-des-vehicules", checked: "2026-11-18"}
   - id: css
     kind: abbreviation
     en: {short: "CSS", full: "Cascading Style Sheets", definition: "The W3C language that sets how web pages look, such as colors, fonts and layout."}
@@ -21,6 +41,11 @@ terms:
     en: {short: "CSV", full: "comma-separated values", definition: "A plain text format for tables, with one record per line and commas between the fields."}
     fr: {short: "CSV", full: "comma-separated values", definition: "Format de texte brut pour les tableaux, avec un enregistrement par ligne et des virgules entre les champs."}
     source: {name: "Grand dictionnaire terminologique, fichier CSV (gives the short form only; the English full form is kept)", url: "https://vitrinelinguistique.oqlf.gouv.qc.ca/fiche-gdt/fiche/8362519/fichier-csv", checked: "2026-11-05"}
+  - id: cwe
+    kind: abbreviation
+    en: {short: "CWE", full: "Common Weakness Enumeration", definition: "A list, kept by MITRE, of the kinds of weakness in software and hardware, each with a number."}
+    fr: {short: "CWE", full: "Common Weakness Enumeration", definition: "Liste, tenue par MITRE, des types de faiblesses des logiciels et du matériel, chacun avec un numéro."}
+    source: {name: "MITRE, CWE (proper name, kept in English)", url: "https://cwe.mitre.org/top25/archive/2025/2025_cwe_top25.html", checked: "2026-11-18"}
   - id: fpsot
     kind: abbreviation
     en: {short: "FPSOT", full: "Foundation for Public Sector Open Technology", definition: "The foundation that publishes these open specifications for public sector technology."}
@@ -156,6 +181,16 @@ terms:
     en: {short: "ISO", full: "International Organization for Standardization", definition: "The international body, based in Geneva, that publishes standards prepared with national standards bodies."}
     fr: {short: "ISO", full: "Organisation internationale de normalisation", definition: "Organisme international établi à Genève qui publie des normes préparées avec les organismes nationaux de normalisation."}
     source: {name: "TERMIUM Plus", url: "https://www.btb.termiumplus.gc.ca/", checked: "2026-11-02"}
+  - id: jdk
+    kind: abbreviation
+    en: {short: "JDK", full: "Java Development Kit", definition: "The set of tools that compiles, runs and packages Java programs."}
+    fr: {short: "JDK", full: "Java Development Kit", definition: "Ensemble d’outils qui compile, exécute et emballe les programmes Java."}
+    source: {name: "OpenJDK (proper name, kept in English)", url: "https://openjdk.org/jeps/12", checked: "2026-11-18"}
+  - id: jep
+    kind: abbreviation
+    en: {short: "JEP", full: "JDK Enhancement Proposal", definition: "A numbered proposal that describes one change to the JDK, such as a language feature."}
+    fr: {short: "JEP", full: "JDK Enhancement Proposal", definition: "Proposition numérotée qui décrit une modification du JDK, comme une fonctionnalité du langage."}
+    source: {name: "OpenJDK, JEP 12 (proper name, kept in English)", url: "https://openjdk.org/jeps/12", checked: "2026-11-18"}
   - id: json
     kind: abbreviation
     en: {short: "JSON", full: "JavaScript Object Notation", definition: "A text format for structured data, made of objects, arrays, strings, numbers, booleans and null."}
@@ -166,6 +201,16 @@ terms:
     en: {short: "JSON-LD", full: "JSON for Linking Data", definition: "A W3C format that writes linked data as JSON, so that JSON tools can read it."}
     fr: {short: "JSON-LD", full: "JSON for Linking Data", definition: "Format du W3C qui écrit des données liées en JSON, pour que les outils JSON puissent les lire."}
     source: {name: "json-ld.org, JSON for Linking Data (no GDT record found; TERMIUM Plus could not be read)", url: "https://json-ld.org/", checked: "2026-11-05"}
+  - id: jvm
+    kind: abbreviation
+    en: {short: "JVM", full: "Java virtual machine", definition: "The program that runs Java bytecode on a given system."}
+    fr: {short: "JVM", full: "machine virtuelle Java", definition: "Programme qui exécute le bytecode Java sur un système donné."}
+    source: {name: "OpenJDK; French form to confirm", url: "https://openjdk.org/jeps/12", checked: "2026-11-18"}
+  - id: ladm
+    kind: abbreviation
+    en: {short: "LADM", full: "Land Administration Domain Model", definition: "The model of ISO 19152 for parties, administrative units, rights, restrictions and responsibilities in land administration."}
+    fr: {short: "LADM", full: "Land Administration Domain Model", definition: "Modèle de la norme ISO 19152 pour les parties, les unités administratives, les droits, les restrictions et les responsabilités en administration foncière."}
+    source: {name: "ISO 19152-1:2024 (proper name, kept in English; French title to confirm)", url: "https://www.iso.org/standard/81263.html", checked: "2026-11-18"}
   - id: lcom
     kind: abbreviation
     en: {short: "LCOM", full: "Loi sur les contrats des organismes municipaux", definition: "The Québec act that sets how municipal bodies award and manage their contracts, since 2026-04-01."}
@@ -186,6 +231,11 @@ terms:
     en: {short: "OCEL", full: "Object-Centric Event Log", definition: "An open format for event logs in which each event links to every business object that it touches."}
     fr: {short: "OCEL", full: "Object-Centric Event Log", definition: "Format ouvert de journaux d'événements où chaque événement est lié à chaque objet d'affaires qu'il touche."}
     source: {name: "OCEL 2.0 Specification, RWTH Aachen University (no GDT record found; TERMIUM Plus not checked)", url: "https://www.ocel-standard.org/", checked: "2026-11-10"}
+  - id: oci
+    kind: abbreviation
+    en: {short: "OCI", full: "Open Container Initiative", definition: "The Linux Foundation project that sets the formats of container images and runtimes."}
+    fr: {short: "OCI", full: "Open Container Initiative", definition: "Projet de la Linux Foundation qui fixe les formats des images et des environnements d’exécution de conteneurs."}
+    source: {name: "Open Container Initiative (proper name, kept in English)", url: "https://github.com/opencontainers/image-spec/blob/main/annotations.md", checked: "2026-11-18"}
   - id: ocsf
     kind: abbreviation
     en: {short: "OCSF", full: "Open Cybersecurity Schema Framework", definition: "An open schema of the Linux Foundation for security events, so that security tools can share them."}
@@ -231,11 +281,21 @@ terms:
     en: {short: "PDF", full: "Portable Document Format", definition: "A file format that keeps a document's layout the same on any device or system."}
     fr: {short: "PDF", full: "format de document portable", definition: "Format de fichier qui conserve la mise en page d'un document sur tout appareil ou système."}
     source: {name: "Grand dictionnaire terminologique", url: "https://vitrinelinguistique.oqlf.gouv.qc.ca/fiche-gdt/fiche/26514644/format-de-document-portable", checked: "2026-11-02"}
+  - id: pep
+    kind: abbreviation
+    en: {short: "PEP", full: "Python Enhancement Proposal", definition: "A numbered document that proposes or describes a change to Python or its tools."}
+    fr: {short: "PEP", full: "Python Enhancement Proposal", definition: "Document numéroté qui propose ou décrit une modification de Python ou de ses outils."}
+    source: {name: "Python Software Foundation (proper name, kept in English)", url: "https://peps.python.org/pep-0723/", checked: "2026-11-18"}
   - id: po
     kind: abbreviation
     en: {short: "PO", full: "Portable Object", definition: "The plain-text translation file format of GNU gettext, with one source string and its translation per entry."}
     fr: {short: "PO", full: "Portable Object", definition: "Format de fichier de traduction en texte brut de GNU gettext, avec une chaîne source et sa traduction par entrée."}
     source: {name: "GNU gettext manual", url: "https://www.gnu.org/software/gettext/manual/html_node/PO-Files.html", checked: "2026-11-04"}
+  - id: posix
+    kind: abbreviation
+    en: {short: "POSIX", full: "Portable Operating System Interface", definition: "The IEEE and Open Group standard for the interfaces and the shell of Unix-like systems."}
+    fr: {short: "POSIX", full: "Portable Operating System Interface", definition: "Norme de l’IEEE et de l’Open Group pour les interfaces et l’interpréteur de commandes des systèmes de type Unix."}
+    source: {name: "The Open Group (proper name, kept in English)", url: "https://pubs.opengroup.org/onlinepubs/9799919799/", checked: "2026-11-18"}
   - id: pr
     kind: abbreviation
     en: {short: "PR", full: "pull request", definition: "A request to review a set of proposed changes and merge them into another branch of a repository."}
@@ -251,6 +311,11 @@ terms:
     en: {short: "RDF", full: "Resource Description Framework", definition: "The W3C model that describes resources as statements, each made of a subject, a property and a value."}
     fr: {short: "RDF", full: "Resource Description Framework", definition: "Modèle du W3C qui décrit des ressources par des énoncés, chacun formé d'un sujet, d'une propriété et d'une valeur."}
     source: {name: "W3C, RDF 1.1 Concepts and Abstract Syntax (no GDT record found; TERMIUM Plus could not be read)", url: "https://www.w3.org/TR/rdf11-concepts/", checked: "2026-11-05"}
+  - id: rdprm
+    kind: abbreviation
+    en: {short: "RDPRM", full: "Register of personal and movable real rights", definition: "The Québec register of rights over movable property, such as hypothecs on vehicles."}
+    fr: {short: "RDPRM", full: "Registre des droits personnels et réels mobiliers", definition: "Registre québécois des droits sur les biens meubles, comme les hypothèques sur les véhicules."}
+    source: {name: "Registre des droits personnels et réels mobiliers (official French name; English form to confirm)", url: "https://www.rdprm.gouv.qc.ca/", checked: "2026-11-18"}
   - id: rest
     kind: abbreviation
     en: {short: "REST", full: "Representational State Transfer", definition: "An architectural style for web services, where clients act on resources through the standard HTTP methods."}
@@ -261,11 +326,21 @@ terms:
     en: {short: "RFC", full: "Request for Comments", definition: "A numbered IETF publication that describes Internet protocols, practices or information."}
     fr: {short: "RFC", full: "document RFC (Request for Comments)", definition: "Publication numérotée de l'IETF qui décrit des protocoles, des pratiques ou des renseignements sur Internet."}
     source: {name: "Grand dictionnaire terminologique", url: "https://vitrinelinguistique.oqlf.gouv.qc.ca/fiche-gdt/fiche/2075026/document-rfc", checked: "2026-11-02"}
+  - id: saaq
+    kind: abbreviation
+    en: {short: "SAAQ", full: "Société de l’assurance automobile du Québec", definition: "The Québec body that registers road vehicles and licenses drivers."}
+    fr: {short: "SAAQ", full: "Société de l’assurance automobile du Québec", definition: "Organisme québécois qui immatricule les véhicules routiers et délivre les permis de conduire."}
+    source: {name: "SAAQ (proper name in both languages)", url: "https://saaq.gouv.qc.ca/blob/saaq/documents/publications/acces-information/registre-communications-saaq.pdf", checked: "2026-11-18"}
   - id: sbom
     kind: abbreviation
     en: {short: "SBOM", full: "software bill of materials", definition: "A machine-readable list of the components of a piece of software, with their versions and origin."}
     fr: {short: "SBOM", full: "nomenclature logicielle", definition: "Liste lisible par machine des composants d'un logiciel, avec leurs versions et leur origine."}
     source: {name: "Grand dictionnaire terminologique (SBOM accepted as a loan)", url: "https://vitrinelinguistique.oqlf.gouv.qc.ca/fiche-gdt/fiche/26584382/nomenclature-logicielle", checked: "2026-11-08"}
+  - id: semic
+    kind: abbreviation
+    en: {short: "SEMIC", full: "Semantic Interoperability Community", definition: "The community of the European Commission that publishes core vocabularies for public sector data."}
+    fr: {short: "SEMIC", full: "Semantic Interoperability Community", definition: "Communauté de la Commission européenne qui publie des vocabulaires de base pour les données du secteur public."}
+    source: {name: "European Commission, SEMIC (proper name, kept in English; to confirm)", url: "https://semiceu.github.io/Core-Business-Vocabulary/releases/2.2.0/", checked: "2026-11-18"}
   - id: sgqri
     kind: abbreviation
     en: {short: "SGQRI", full: "Standard du gouvernement du Québec sur les ressources informationnelles", definition: "A numbered series of Québec government standards for public bodies' information resources, such as web accessibility."}
@@ -281,6 +356,21 @@ terms:
     en: {short: "SKOS", full: "Simple Knowledge Organization System", definition: "The W3C model for publishing code lists, classifications and thesauri as linked data."}
     fr: {short: "SKOS", full: "Simple Knowledge Organization System", definition: "Modèle du W3C qui sert à publier des listes de codes, des classifications et des thésaurus sous forme de données liées."}
     source: {name: "W3C, SKOS Reference (no GDT record found; TERMIUM Plus could not be read)", url: "https://www.w3.org/TR/skos-reference/", checked: "2026-11-05"}
+  - id: slsa
+    kind: abbreviation
+    en: {short: "SLSA", full: "Supply-chain Levels for Software Artifacts", definition: "An OpenSSF framework of levels for the integrity of how software artifacts are built."}
+    fr: {short: "SLSA", full: "Supply-chain Levels for Software Artifacts", definition: "Cadre de l’OpenSSF qui définit des niveaux d’intégrité de la construction des artefacts logiciels."}
+    source: {name: "SLSA (proper name, kept in English); also used by the security specification", url: "https://slsa.dev/spec/v1.2/", checked: "2026-11-18"}
+  - id: sor
+    kind: abbreviation
+    en: {short: "SOR", full: "Statutory Orders and Regulations", definition: "The series in which Canada registers and numbers its federal regulations, such as SOR/2025-272."}
+    fr: {short: "DORS", full: "Décrets, ordonnances et règlements statutaires", definition: "Série dans laquelle le Canada enregistre et numérote ses règlements fédéraux, comme le DORS/2025-272."}
+    source: {name: "Canada Gazette, Part II (official forms in both languages; full French form to confirm)", url: "https://gazette.gc.ca/rp-pr/p2/2025/2025-12-31/html/sor-dors272-eng.html", checked: "2026-11-18"}
+  - id: spdx
+    kind: abbreviation
+    en: {short: "SPDX", full: "System Package Data Exchange", definition: "An open standard of the Linux Foundation for license identifiers and for lists of software components."}
+    fr: {short: "SPDX", full: "System Package Data Exchange", definition: "Norme ouverte de la Linux Foundation pour les identifiants de licence et les listes de composants logiciels."}
+    source: {name: "SPDX project (proper name, kept in English)", url: "https://spdx.dev/learn/handling-license-info/", checked: "2026-11-18"}
   - id: sql
     kind: abbreviation
     en: {short: "SQL", full: "Structured Query Language", definition: "The standard language for defining, querying and changing the data of a relational database."}
@@ -321,6 +411,11 @@ terms:
     en: {short: "TLS", full: "Transport Layer Security", definition: "The protocol that encrypts a network connection and proves the identity of the server."}
     fr: {short: "TLS", full: "protocole TLS (Transport Layer Security)", definition: "Protocole qui chiffre une connexion réseau et prouve l'identité du serveur."}
     source: {name: "Grand dictionnaire terminologique", url: "https://vitrinelinguistique.oqlf.gouv.qc.ca/fiche-gdt/fiche/26558099/protocole-tls", checked: "2026-11-03"}
+  - id: toml
+    kind: abbreviation
+    en: {short: "TOML", full: "Tom’s Obvious, Minimal Language", definition: "A text format for configuration files, made of keys, values and tables."}
+    fr: {short: "TOML", full: "Tom’s Obvious, Minimal Language", definition: "Format texte pour les fichiers de configuration, fait de clés, de valeurs et de tables."}
+    source: {name: "toml.io (proper name, kept in English)", url: "https://toml.io/en/v1.0.0", checked: "2026-11-18"}
   - id: tsa
     kind: abbreviation
     en: {short: "TSA", full: "time-stamp authority", definition: "A trusted party that signs a hash together with the time at which it received it."}
@@ -381,6 +476,11 @@ terms:
     en: {short: "XLIFF", full: "XML Localization Interchange File Format", definition: "The OASIS standard file format for passing text to translate, and its translations, between tools."}
     fr: {short: "XLIFF", full: "format XLIFF (XML Localization Interchange File Format)", definition: "Format de fichier normalisé par OASIS pour échanger entre outils le texte à traduire et ses traductions."}
     source: {name: "OASIS, XLIFF Version 2.1", url: "https://docs.oasis-open.org/xliff/xliff-core/v2.1/os/xliff-core-v2.1-os.html", checked: "2026-11-04"}
+  - id: access-policy
+    kind: term
+    en: {full: "access policy", definition: "A grant in a profile that lets a category of recipients see more than the public, with its legal basis, purpose, expiry and duty to log."}
+    fr: {full: "politique d’accès", definition: "Autorisation d’un profil qui permet à une catégorie de destinataires de voir plus que le public, avec sa base juridique, sa fin, son échéance et son obligation de journaliser."}
+    source: {name: "FPSOT registry specification, REG-074; French form to confirm", url: "https://github.com/fpsot-org/fpsot-spec-registry", checked: "2026-11-18"}
   - id: access-token
     kind: term
     en: {full: "access token", definition: "A credential that an authorization server issues to a client, so that the client can call an API within set limits."}
@@ -393,14 +493,19 @@ terms:
     source: {name: "Treasury Board of Canada Secretariat, Algorithmic Impact Assessment tool, French version to confirm", url: "https://www.canada.ca/en/government/system/digital-government/digital-government-innovations/responsible-use-ai/algorithmic-impact-assessment.html", checked: "2026-11-15"}
   - id: asset
     kind: term
-    en: {full: "asset", definition: "A thing or right that can be owned, and whose ownership a registry records."}
-    fr: {full: "bien", definition: "Chose ou droit qui peut appartenir à quelqu'un et dont un registre consigne la propriété."}
-    source: {name: "Grand dictionnaire terminologique", url: "https://vitrinelinguistique.oqlf.gouv.qc.ca/fiche-gdt/fiche/2077909/bien", checked: "2026-11-02"}
+    en: {full: "asset", definition: "A thing that a register identifies, such as a vessel, a vehicle, a drone or a firearm."}
+    fr: {full: "bien", definition: "Chose qu’un registre identifie, comme un bateau, un véhicule, un drone ou une arme."}
+    source: {name: "Changed definition proposed by the FPSOT registry specification, REG-050; same French form", url: "https://github.com/fpsot-org/fpsot-spec-registry", checked: "2026-11-18"}
   - id: authorization-engine
     kind: term
     en: {full: "authorization engine", definition: "A service that decides whether a subject may take an action on a resource, from policies and relationships, and returns the decision to the service that asks."}
     fr: {full: "moteur d'autorisation", definition: "Service qui décide si un sujet peut faire une action sur une ressource, à partir de politiques et de relations, et qui rend la décision au service qui la demande."}
     source: {name: "OpenID AuthZEN Authorization API 1.0 (policy decision point; English); no GDT or TERMIUM Plus record found, French built on the GDT term autorisation", url: "https://openid.net/specs/authorization-api-1_0-final.html", checked: "2026-11-10"}
+  - id: beneficial-owner
+    kind: term
+    en: {full: "beneficial owner", definition: "A person who in the end owns or controls a business, as a register of beneficial owners records them."}
+    fr: {full: "bénéficiaire effectif", definition: "Personne qui, au bout du compte, possède ou contrôle une entreprise, telle qu’un registre des bénéficiaires l’inscrit."}
+    source: {name: "French law uses bénéficiaire effectif; Québec uses bénéficiaire ultime. Both to confirm", url: "https://www.quebec.ca/entreprises-et-travailleurs-autonomes/demarrer-entreprise/immatriculer-constituer-entreprise/nouvelles-obligations-transparence", checked: "2026-11-18"}
   - id: branch
     kind: term
     en: {full: "branch", definition: "A separate line of development in a repository that can later be merged back."}
@@ -431,6 +536,11 @@ terms:
     en: {full: "commit", definition: "A recorded, identified set of changes saved to a repository's history."}
     fr: {full: "archivage", definition: "Ensemble identifié de modifications enregistré dans l'historique d'un dépôt."}
     source: {name: "Grand dictionnaire terminologique", url: "https://vitrinelinguistique.oqlf.gouv.qc.ca/fiche-gdt/fiche/8356425/archivage", checked: "2026-11-02"}
+  - id: commitment
+    kind: term
+    en: {full: "commitment", definition: "The salted hash of a sealed filing, which is its entry in the transparency log."}
+    fr: {full: "condensé salé", definition: "Condensé salé d’une déclaration cachetée, qui est son entrée dans le journal de transparence."}
+    source: {name: "FPSOT registry specification, REG-031, after LOG-031; French form as in the signed records specification, to confirm", url: "https://github.com/fpsot-org/fpsot-spec-registry", checked: "2026-11-18"}
   - id: conformance-class
     kind: term
     en: {full: "conformance class", definition: "A named set of requirements of a specification that a product or document can meet as a whole."}
@@ -441,6 +551,16 @@ terms:
     en: {full: "conformance statement", definition: "A bidder's structured declaration that says, for each required conformance class, whether its solution meets it."}
     fr: {full: "déclaration de conformité", definition: "Déclaration structurée d'une entreprise soumissionnaire qui indique, pour chaque classe de conformité exigée, si sa solution la respecte."}
     source: {name: "FPSOT wording (no GDT record checked)", url: "https://github.com/fpsot-org/fpsot-spec-procurement", checked: "2026-11-08"}
+  - id: content-security-policy
+    kind: term
+    en: {full: "content security policy", definition: "A response header that tells the browser which sources of scripts, styles and other content a page may use."}
+    fr: {full: "politique de sécurité du contenu", definition: "En-tête de réponse qui indique au navigateur les sources de scripts, de styles et d’autres contenus qu’une page peut employer."}
+    source: {name: "MDN Web Docs, CSP: script-src; French form to confirm", url: "https://developer.mozilla.org/en-US/docs/Web/HTTP/Headers/Content-Security-Policy/script-src", checked: "2026-11-18"}
+  - id: core-engine
+    kind: term
+    en: {full: "core engine", definition: "Software that keeps filings and derives the state of registers of any domain, under the rules of this specification."}
+    fr: {full: "moteur de base", definition: "Logiciel qui tient les déclarations et dérive l’état de registres de tout domaine, selon les règles de cette spécification."}
+    source: {name: "FPSOT registry specification, REG-002; French form to confirm", url: "https://github.com/fpsot-org/fpsot-spec-registry", checked: "2026-11-18"}
   - id: counterfactual-value
     kind: term
     en: {full: "counterfactual value", definition: "The exact value of a factor at which a reason would stop applying, with the other facts unchanged."}
@@ -481,6 +601,21 @@ terms:
     en: {full: "deploying body", definition: "The public body that answers for the decisions of a decision type."}
     fr: {full: "organisme responsable", definition: "Organisme public qui répond des décisions d'un type de décision."}
     source: {name: "FPSOT decisions specification, DEC-002; French form to confirm", url: "https://github.com/fpsot-org/fpsot-spec-decisions", checked: "2026-11-15"}
+  - id: derived-state
+    kind: term
+    en: {full: "derived state", definition: "The state of a register that a replay of its completed filings gives, as of one instant and as recorded at another."}
+    fr: {full: "état dérivé", definition: "État d’un registre que donne le rejeu de ses déclarations achevées, à un instant donné, tel qu’enregistré à un autre."}
+    source: {name: "FPSOT registry specification, REG-040; French form to confirm", url: "https://github.com/fpsot-org/fpsot-spec-registry", checked: "2026-11-18"}
+  - id: destruction-filing
+    kind: term
+    en: {full: "destruction filing", definition: "A filing that destroys the content and the salt of every earlier filing that holds a value that a law or an order targets, and leaves tombstones."}
+    fr: {full: "déclaration de destruction", definition: "Déclaration qui détruit le contenu et le sel de déclarations antérieures en vertu d’une loi ou d’une ordonnance, et laisse des traces de destruction."}
+    source: {name: "FPSOT registry specification, REG-093; French form to confirm", url: "https://github.com/fpsot-org/fpsot-spec-registry", checked: "2026-11-18"}
+  - id: domain-pack
+    kind: term
+    en: {full: "domain pack", definition: "The released data and schema of one domain of registers, such as pleasure craft: asset classes, identifier schemes, filing types and lifecycles."}
+    fr: {full: "module de domaine", definition: "Données et schéma publiés d’un domaine de registres, comme les embarcations de plaisance : classes de biens, schémas d’identifiants, types de déclarations et cycles de vie."}
+    source: {name: "FPSOT registry specification, REG-100; French form to confirm", url: "https://github.com/fpsot-org/fpsot-spec-registry", checked: "2026-11-18"}
   - id: dual-review
     kind: term
     en: {full: "dual review", definition: "A control under which two different people must each complete a review step before a final decision."}
@@ -491,6 +626,11 @@ terms:
     en: {full: "effective date", definition: "The date whose law applies to a case, such as the date of an application."}
     fr: {full: "date d'effet", definition: "Date dont le droit s'applique à un dossier, comme la date d'une demande."}
     source: {name: "FPSOT decisions specification, DEC-022; French form to confirm", url: "https://github.com/fpsot-org/fpsot-spec-decisions", checked: "2026-11-15"}
+  - id: encumbrance
+    kind: term
+    en: {full: "encumbrance", definition: "A lien, a seizure, a stop order or a flag that weighs on an asset or on an entitlement."}
+    fr: {full: "charge", definition: "Sûreté, saisie, interdiction ou signalement qui grève un bien ou un droit."}
+    source: {name: "TERMIUM Plus, encumbrance, for the French form, to confirm. A sûreté is only one kind of charge, and a Québec hypothèque only one kind of sûreté", url: "https://www.btb.termiumplus.gc.ca/", checked: "2026-11-18"}
   - id: engagement-evidence
     kind: term
     en: {full: "engagement evidence", definition: "Facts that show how a reviewer engaged with a record, such as what they opened and for how long."}
@@ -498,14 +638,39 @@ terms:
     source: {name: "FPSOT decisions specification, DEC-065; French form to confirm", url: "https://github.com/fpsot-org/fpsot-spec-decisions", checked: "2026-11-15"}
   - id: entitlement
     kind: term
-    en: {full: "entitlement", definition: "A specific right a party holds over an asset, such as a license or a permit."}
-    fr: {full: "droit", definition: "Droit précis qu'une partie détient sur un bien, comme une licence ou un permis."}
-    source: {name: "TERMIUM Plus", url: "https://www.btb.termiumplus.gc.ca/", checked: "2026-11-02"}
+    en: {full: "entitlement", definition: "A right that a register grants to parties, such as a license, a permit or a registration, which may cover assets or none."}
+    fr: {full: "droit", definition: "Droit qu’un registre accorde à des parties, comme un permis, une autorisation ou une immatriculation, qui peut viser des biens ou aucun."}
+    source: {name: "Changed definition proposed by the FPSOT registry specification, REG-056 and REG-057; French form ambiguous, see decision 3", url: "https://github.com/fpsot-org/fpsot-spec-registry", checked: "2026-11-18"}
   - id: evidence-record
     kind: term
     en: {full: "evidence record", definition: "A structure of hash trees and time stamps that proves that data existed unchanged since a given time, and that one renews before its algorithms weaken."}
     fr: {full: "dossier de preuves", definition: "Structure d'arbres de hachage et d'horodatages qui prouve que des données existent sans changement depuis un moment donné, et qu'on renouvelle avant que ses algorithmes ne faiblissent."}
     source: {name: "RFC 4998, Evidence Record Syntax; French form set by the FPSOT French review of 2026-11-11 (no GDT record found)", url: "https://www.rfc-editor.org/info/rfc4998", checked: "2026-11-11"}
+  - id: extract
+    kind: term
+    en: {full: "extract", definition: "A sealed record of what a register shows about a subject, as of one instant and as recorded at another."}
+    fr: {full: "extrait", definition: "Document cacheté de ce qu’un registre montre sur un sujet, à un instant donné, tel qu’enregistré à un autre."}
+    source: {name: "FPSOT registry specification, REG-084; French form to confirm", url: "https://github.com/fpsot-org/fpsot-spec-registry", checked: "2026-11-18"}
+  - id: filing
+    kind: term
+    en: {full: "filing", definition: "One legal event in a register, such as an application, an act of the registrar, a correction, an order or a destruction, which never changes once received."}
+    fr: {full: "déclaration", definition: "Événement juridique dans un registre, comme une demande, un acte du registraire, une correction, une ordonnance ou une destruction, qui ne change jamais une fois reçu."}
+    source: {name: "FPSOT registry specification, REG-020 and REG-021; French form provisional, see decision 1 (the Québec enterprise registrar uses déclaration)", url: "https://github.com/fpsot-org/fpsot-spec-registry", checked: "2026-11-18"}
+  - id: finding
+    kind: term
+    en: {full: "finding", definition: "One problem that a linter or an analyzer reports at one place in the code."}
+    fr: {full: "constat", definition: "Problème qu’un analyseur signale à un endroit du code."}
+    source: {name: "FPSOT code specification, COD-010; French form to confirm", url: "https://github.com/fpsot-org/fpsot-spec-code", checked: "2026-11-18"}
+  - id: formatter
+    kind: term
+    en: {full: "formatter", definition: "A tool that rewrites source code into one fixed layout."}
+    fr: {full: "outil de mise en forme", definition: "Outil qui réécrit le code source selon une mise en page fixe."}
+    source: {name: "FPSOT code specification, COD-002; French form to confirm", url: "https://github.com/fpsot-org/fpsot-spec-code", checked: "2026-11-18"}
+  - id: framework
+    kind: term
+    en: {full: "framework", definition: "A body of code that calls the code of an application and gives it a structure, such as Quarkus."}
+    fr: {full: "cadriciel", definition: "Ensemble de code qui appelle le code d’une application et lui donne une structure, comme Quarkus."}
+    source: {name: "Office québécois de la langue française, cadriciel; to confirm", url: "https://vitrinelinguistique.oqlf.gouv.qc.ca/", checked: "2026-11-18"}
   - id: frozen-corpus
     kind: term
     en: {full: "frozen corpus", definition: "A set of test cases with expected results that nobody changes once its rule version is in force."}
@@ -543,19 +708,49 @@ terms:
     source: {name: "Grand dictionnaire terminologique", url: "https://vitrinelinguistique.oqlf.gouv.qc.ca/fiche-gdt/fiche/8378880/collectivite-publique", checked: "2026-11-02"}
   - id: jurisdiction-profile
     kind: term
-    en: {full: "jurisdiction profile", definition: "A released set of controls that the law of one jurisdiction asks for, such as notices and human review, by impact level."}
-    fr: {full: "profil juridictionnel", definition: "Ensemble publié de contrôles qu'exige le droit d'une collectivité publique, comme les avis et la révision humaine, selon le niveau d'incidence."}
-    source: {name: "FPSOT decisions specification, DEC-011; French form to confirm", url: "https://github.com/fpsot-org/fpsot-spec-decisions", checked: "2026-11-15"}
+    en: {full: "jurisdiction profile", definition: "A released set of the legal parameters that the law of one jurisdiction sets for a kind of software, each with its source."}
+    fr: {full: "profil juridictionnel", definition: "Ensemble publié des paramètres juridiques que le droit d’une collectivité publique fixe pour un genre de logiciel, chacun avec sa source."}
+    source: {name: "Broader definition proposed by the FPSOT registry specification, REG-013, to replace the one of DEC-011; French form to confirm", url: "https://github.com/fpsot-org/fpsot-spec-registry", checked: "2026-11-18"}
+  - id: legal-effect
+    kind: term
+    en: {full: "legal effect", definition: "What registration does in law: identify an asset for the administration, give notice or opposability, or create or prove title."}
+    fr: {full: "effet juridique", definition: "Ce que produit l’inscription en droit : identifier un bien pour l’administration, donner avis ou opposabilité, ou créer ou prouver le titre."}
+    source: {name: "FPSOT registry specification, REG-011; French form to confirm", url: "https://github.com/fpsot-org/fpsot-spec-registry", checked: "2026-11-18"}
   - id: legal-hold
     kind: term
     en: {full: "legal hold", definition: "A measure that stops the destruction of records that a request, a complaint, an incident or a lawsuit may need."}
     fr: {full: "préservation de la preuve", definition: "Mesure qui suspend la destruction des enregistrements dont une demande, une plainte, un incident ou une poursuite peut avoir besoin."}
     source: {name: "Grand dictionnaire terminologique, préservation de la preuve (English: legal hold, litigation hold)", url: "https://vitrinelinguistique.oqlf.gouv.qc.ca/fiche-gdt/fiche/18070177/preservation-de-la-preuve", checked: "2026-11-10"}
+  - id: light-chain
+    kind: term
+    en: {full: "light chain", definition: "The link between the filings of one register, made of a sequence number and the commitment of the filing before, with no key of its own."}
+    fr: {full: "chaîne légère", definition: "Lien entre les déclarations d’un registre, fait d’un numéro d’ordre et du condensé salé de la déclaration précédente, sans clé propre."}
+    source: {name: "FPSOT registry specification, REG-030; French form to confirm", url: "https://github.com/fpsot-org/fpsot-spec-registry", checked: "2026-11-18"}
+  - id: linter
+    kind: term
+    en: {full: "linter", definition: "A tool that reads source code without running it and reports errors, risky patterns and breaches of style."}
+    fr: {full: "analyseur statique", definition: "Outil qui lit le code source sans l’exécuter et signale les erreurs, les constructions risquées et les écarts de style."}
+    source: {name: "FPSOT code specification, COD-002; French form to confirm", url: "https://github.com/fpsot-org/fpsot-spec-code", checked: "2026-11-18"}
   - id: locale
     kind: term
     en: {full: "locale", definition: "A language together with the conventions of a region for dates, numbers, sorting and similar items."}
     fr: {full: "paramètre régional", definition: "Langue associée aux conventions d'une région pour les dates, les nombres, le tri et d'autres éléments semblables."}
     source: {name: "TERMIUM Plus", url: "https://www.btb.termiumplus.gc.ca/tpv2alpha/alpha-eng.html?lang=eng&srchtxt=locale", checked: "2026-11-04"}
+  - id: lock-file
+    kind: term
+    en: {full: "lock file", definition: "A committed file that records the exact version and checksum of each resolved dependency."}
+    fr: {full: "fichier de verrouillage", definition: "Fichier versionné qui consigne la version exacte et l’empreinte de chaque dépendance résolue."}
+    source: {name: "npm Docs, config; French form to confirm", url: "https://docs.npmjs.com/cli/v11/using-npm/config", checked: "2026-11-18"}
+  - id: log-series
+    kind: term
+    en: {full: "log series", definition: "The log that holds the commitments of the filings of one register and nothing else, cut into yearly shards."}
+    fr: {full: "série de journal", definition: "Journal qui contient les condensés salés des déclarations d’un seul registre et rien d’autre, divisé en tranches annuelles."}
+    source: {name: "FPSOT registry specification, REG-031, after LOG-032 and LOG-035; French form to confirm", url: "https://github.com/fpsot-org/fpsot-spec-registry", checked: "2026-11-18"}
+  - id: long-term-support
+    kind: term
+    en: {full: "long-term support", definition: "A release line that its publisher fixes for a stated, longer period than other releases."}
+    fr: {full: "soutien à long terme", definition: "Branche de versions que son éditeur corrige pendant une période annoncée, plus longue que pour les autres versions."}
+    source: {name: "Quarkus releases, for the English form; French form to confirm", url: "https://quarkus.io/releases/", checked: "2026-11-18"}
   - id: mirror
     kind: term
     en: {full: "mirror", definition: "A party that keeps and serves a full copy of a transparency log, so that the log outlives its operator."}
@@ -566,6 +761,21 @@ terms:
     en: {full: "monitor", definition: "A party that reads every entry of a transparency log and compares it with what the issuer meant to publish."}
     fr: {full: "vigie", definition: "Partie qui lit chaque entrée d'un journal de transparence et la compare avec ce que l'émetteur voulait publier."}
     source: {name: "RFC 9162, section 8.2 for the English form; French form set by the FPSOT French review of 2026-11-11 (vigie is the usual Québec word for a watch function)", url: "https://www.rfc-editor.org/info/rfc9162", checked: "2026-11-11"}
+  - id: omission-reason
+    kind: term
+    en: {full: "omission reason", definition: "The code that tells why a view leaves a field out, such as a law, an application, a missing value or a destruction."}
+    fr: {full: "motif d’omission", definition: "Code qui dit pourquoi une vue omet un champ, comme une loi, une demande, une valeur absente ou une destruction."}
+    source: {name: "FPSOT registry specification, REG-073, after BODS 0.4; French form to confirm", url: "https://github.com/fpsot-org/fpsot-spec-registry", checked: "2026-11-18"}
+  - id: opposability
+    kind: term
+    en: {full: "opposability", definition: "The quality of a registered fact that a party can rely on against third parties."}
+    fr: {full: "opposabilité", definition: "Qualité d’un fait inscrit qu’une partie peut faire valoir contre les tiers."}
+    source: {name: "Civil Code of Québec, opposable aux tiers, for the French form, to be verified", url: "https://www.legisquebec.gouv.qc.ca/fr/document/lc/CCQ-1991", checked: "2026-11-18"}
+  - id: owner-group
+    kind: term
+    en: {full: "owner group", definition: "A group of parties that holds an interest in an asset, alone, jointly or in common with other groups."}
+    fr: {full: "groupe de propriétaires", definition: "Groupe de parties qui détient un intérêt dans un bien, seul, conjointement ou en commun avec d’autres groupes."}
+    source: {name: "FPSOT registry specification, REG-053, after the manufactured home register of British Columbia; French form to confirm", url: "https://github.com/fpsot-org/fpsot-spec-registry", checked: "2026-11-18"}
   - id: ownership
     kind: term
     en: {full: "ownership", definition: "The fullest right a party can hold over an asset, within the limits of the law."}
@@ -576,6 +786,16 @@ terms:
     en: {full: "party", definition: "A person or an organization that a system records, such as one that holds rights or duties in a registry."}
     fr: {full: "partie", definition: "Personne ou organisation qu'un système enregistre, comme celle qui détient des droits ou des obligations inscrits dans un registre."}
     source: {name: "Grand dictionnaire terminologique", url: "https://vitrinelinguistique.oqlf.gouv.qc.ca/fiche-gdt/fiche/26550268/partie", checked: "2026-11-02"}
+  - id: pleasure-craft-license
+    kind: term
+    en: {full: "pleasure craft license", definition: "The license that a pleasure craft in scope of the Small Vessel Regulations of Canada must carry."}
+    fr: {full: "permis d’embarcation de plaisance", definition: "Permis que doit porter une embarcation de plaisance visée par le Règlement sur les petits bâtiments du Canada."}
+    source: {name: "SOR/2025-272 and DORS/2025-272, Canada Gazette, Part II (official forms in both languages)", url: "https://gazette.gc.ca/rp-pr/p2/2025/2025-12-31/html/sor-dors272-fra.html", checked: "2026-11-18"}
+  - id: plugin
+    kind: term
+    en: {full: "plugin", definition: "A component that adds a function to a tool, such as a build tool or a linter."}
+    fr: {full: "plugiciel", definition: "Composant qui ajoute une fonction à un outil, comme un outil de construction ou un analyseur statique."}
+    source: {name: "Office québécois de la langue française, plugiciel; to confirm", url: "https://vitrinelinguistique.oqlf.gouv.qc.ca/", checked: "2026-11-18"}
   - id: principal-reason
     kind: term
     en: {full: "principal reason", definition: "A reason that drove the result of a decision more than the others, of which a notice gives at most four."}
@@ -586,6 +806,16 @@ terms:
     en: {full: "privacy impact assessment", definition: "A study, done before a system changes, of how the system affects the privacy of people and of how to reduce the risks."}
     fr: {full: "évaluation des facteurs relatifs à la vie privée", definition: "Étude, faite avant de modifier un système, de ses effets sur la vie privée des personnes et des façons d'en réduire les risques."}
     source: {name: "Gouvernement du Québec, Évaluation des facteurs relatifs à la vie privée (no GDT record found; the Québec and federal governments use this French term)", url: "https://www.quebec.ca/gouvernement/travailler-gouvernement/normes-gouvernance-pratiques-internes/protection-des-renseignements-personnels/evaluation-facteurs-relatifs-vie-privee", checked: "2026-11-10"}
+  - id: progressive-enhancement
+    kind: term
+    en: {full: "progressive enhancement", definition: "Building a page that works in plain HTML first, then adding styles and scripts that improve it where they run."}
+    fr: {full: "amélioration progressive", definition: "Façon de construire une page qui fonctionne d’abord en HTML simple, puis d’ajouter des styles et des scripts qui l’améliorent là où ils s’exécutent."}
+    source: {name: "GOV.UK Service Manual; French form to confirm", url: "https://www.gov.uk/service-manual/technology/using-progressive-enhancement", checked: "2026-11-18"}
+  - id: publicity-regime
+    kind: term
+    en: {full: "publicity regime", definition: "Who may see a register: everyone, everyone with exceptions, people who meet a condition, or no one outside the body."}
+    fr: {full: "régime de publicité", definition: "Qui peut voir un registre : tout le monde, tout le monde avec des exceptions, les personnes qui remplissent une condition, ou personne hors de l’organisme."}
+    source: {name: "FPSOT registry specification, REG-012; French form to confirm", url: "https://github.com/fpsot-org/fpsot-spec-registry", checked: "2026-11-18"}
   - id: reason-code
     kind: term
     en: {full: "reason code", definition: "The code of a concept of a reason scheme that names one factor of a decision."}
@@ -596,26 +826,61 @@ terms:
     en: {full: "record time", definition: "The knowledge cutoff of a decision: only facts and rule versions recorded at or before it count."}
     fr: {full: "moment d'enregistrement", definition: "Limite de connaissance d'une décision : seuls comptent les faits et les versions de règles enregistrés à ce moment ou avant."}
     source: {name: "Martin Fowler, Bitemporal History, for the English form; French form to confirm", url: "https://martinfowler.com/articles/bitemporal-history.html", checked: "2026-11-15"}
+  - id: register
+    kind: term
+    en: {full: "register", definition: "One registry that a law establishes, with its legal effect, its publicity regime and its filings."}
+    fr: {full: "registre", definition: "Registre établi par une loi, avec son effet juridique, son régime de publicité et ses déclarations."}
+    source: {name: "FPSOT registry specification, REG-010; same French form as registry", url: "https://github.com/fpsot-org/fpsot-spec-registry", checked: "2026-11-18"}
+  - id: register-operator
+    kind: term
+    en: {full: "register operator", definition: "The body or the supplier that runs a register and serves its views, searches and extracts."}
+    fr: {full: "exploitant de registre", definition: "Organisme ou fournisseur qui fait fonctionner un registre et en sert les vues, les recherches et les extraits."}
+    source: {name: "FPSOT registry specification, REG-002; French form to confirm", url: "https://github.com/fpsot-org/fpsot-spec-registry", checked: "2026-11-18"}
+  - id: registration
+    kind: term
+    en: {full: "registration", definition: "The entry of a fact or a right in a register."}
+    fr: {full: "inscription", definition: "Entrée d’un fait ou d’un droit dans un registre."}
+    source: {name: "Civil Code of Québec, book on the publication of rights, for the French form, to be verified", url: "https://www.legisquebec.gouv.qc.ca/fr/document/lc/CCQ-1991", checked: "2026-11-18"}
   - id: registry
     kind: term
     en: {full: "registry", definition: "An official, lasting record of facts, such as who holds which rights over what."}
     fr: {full: "registre", definition: "Recueil officiel et durable de faits, par exemple qui détient quels droits sur quoi."}
     source: {name: "Grand dictionnaire terminologique", url: "https://vitrinelinguistique.oqlf.gouv.qc.ca/fiche-gdt/fiche/8355393/registre-public", checked: "2026-11-02"}
+  - id: replay
+    kind: term
+    en: {full: "replay", definition: "Applying the stated changes of completed filings in order, to rebuild the state of a register."}
+    fr: {full: "rejeu", definition: "Application, dans l’ordre, des changements déclarés des déclarations achevées, pour reconstruire l’état d’un registre."}
+    source: {name: "FPSOT registry specification, REG-040; French form to confirm", url: "https://github.com/fpsot-org/fpsot-spec-registry", checked: "2026-11-18"}
   - id: repository
     kind: term
     en: {full: "repository", definition: "A store of a project's files and their full history of changes."}
     fr: {full: "dépôt", definition: "Espace où sont conservés les fichiers d'un projet et l'historique complet de leurs modifications."}
     source: {name: "Grand dictionnaire terminologique", url: "https://vitrinelinguistique.oqlf.gouv.qc.ca/fiche-gdt/fiche/26584236/depot-de-code-source", checked: "2026-11-02"}
+  - id: reproducible-build
+    kind: term
+    en: {full: "reproducible build", definition: "A build that gives the same bytes each time from the same source, tools and settings."}
+    fr: {full: "construction reproductible", definition: "Construction qui donne les mêmes octets chaque fois, à partir de la même source, des mêmes outils et des mêmes paramètres."}
+    source: {name: "Apache Maven, Configuring for Reproducible Builds; French form to confirm", url: "https://maven.apache.org/guides/mini/guide-reproducible-builds.html", checked: "2026-11-18"}
   - id: requirement
     kind: term
     en: {full: "requirement", definition: "A statement in a specification that a conforming product or process must satisfy."}
     fr: {full: "exigence", definition: "Énoncé d'une spécification qu'un produit ou un processus conforme doit respecter."}
     source: {name: "Grand dictionnaire terminologique", url: "https://vitrinelinguistique.oqlf.gouv.qc.ca/fiche-gdt/fiche/8871085/exigence", checked: "2026-11-02"}
+  - id: restatement
+    kind: term
+    en: {full: "restatement", definition: "A later version of an entity that a retroactive filing repeats in full, so that the replay never runs the rules again."}
+    fr: {full: "réénoncé", definition: "Version ultérieure d’une entité qu’une déclaration rétroactive répète au complet, pour que le rejeu n’exécute jamais de nouveau les règles."}
+    source: {name: "FPSOT registry specification, REG-034; French form to confirm", url: "https://github.com/fpsot-org/fpsot-spec-registry", checked: "2026-11-18"}
   - id: result-kind
     kind: term
     en: {full: "result kind", definition: "One of the four kinds of result of the decision contract: decided, referred, insufficient information or not applicable."}
     fr: {full: "type de résultat", definition: "Un des quatre types de résultat du contrat de décision : décidé, renvoyé, renseignements insuffisants ou sans objet."}
     source: {name: "FPSOT decisions specification, DEC-024; French form to confirm", url: "https://github.com/fpsot-org/fpsot-spec-decisions", checked: "2026-11-15"}
+  - id: retention-class
+    kind: term
+    en: {full: "retention class", definition: "How long one kind of filing or evidence stays in a register, and the rule of the retention schedule that says so."}
+    fr: {full: "catégorie de conservation", definition: "Durée pendant laquelle un genre de déclaration ou de pièce reste dans un registre, et règle du calendrier de conservation qui la fixe."}
+    source: {name: "FPSOT registry specification, REG-090; French form to confirm", url: "https://github.com/fpsot-org/fpsot-spec-registry", checked: "2026-11-18"}
   - id: review-step
     kind: term
     en: {full: "review step", definition: "The record of one action of one person on a decision record that a service showed them."}
@@ -641,6 +906,41 @@ terms:
     en: {full: "seal", definition: "An advanced electronic signature that an organization applies as an organization, to prove that it issued a record and that nobody changed it since."}
     fr: {full: "cachet électronique", definition: "Signature électronique avancée qu'une organisation appose en son propre nom, pour prouver qu'elle a émis un document et que personne ne l'a modifié depuis."}
     source: {name: "Règlement (UE) no 910/2014, version française, article 3, cachet électronique (English: electronic seal)", url: "https://eur-lex.europa.eu/eli/reg/2014/910/2024-05-20/fra", checked: "2026-11-11"}
+  - id: sealed-type
+    kind: term
+    en: {full: "sealed type", definition: "A class or interface that names every type allowed to extend or implement it."}
+    fr: {full: "type scellé", definition: "Classe ou interface qui nomme chaque type autorisé à l’étendre ou à la mettre en œuvre."}
+    source: {name: "OpenJDK, JEP 409, for the English form; French form to confirm", url: "https://openjdk.org/jeps/409", checked: "2026-11-18"}
+  - id: search-mode
+    kind: term
+    en: {full: "search mode", definition: "A declared way to search a register, with its keys, its matching rule and the views that may use it."}
+    fr: {full: "mode de recherche", definition: "Façon déclarée de chercher dans un registre, avec ses clés, sa règle de correspondance et les vues qui peuvent l’employer."}
+    source: {name: "FPSOT registry specification, REG-080; French form to confirm", url: "https://github.com/fpsot-org/fpsot-spec-registry", checked: "2026-11-18"}
+  - id: sequence-number
+    kind: term
+    en: {full: "sequence number", definition: "The number of a filing in its register, from 1 with no gap."}
+    fr: {full: "numéro d’ordre", definition: "Numéro d’une déclaration dans son registre, à partir de 1 et sans trou."}
+    source: {name: "FPSOT registry specification, REG-030; French form to confirm", url: "https://github.com/fpsot-org/fpsot-spec-registry", checked: "2026-11-18"}
+  - id: single-page-application
+    kind: term
+    en: {full: "single-page application", definition: "A web application that loads one page and then renders each view with scripts in the browser."}
+    fr: {full: "application monopage", definition: "Application Web qui charge une seule page, puis affiche chaque vue au moyen de scripts dans le navigateur."}
+    source: {name: "FPSOT code specification, COD-606; French form to confirm", url: "https://github.com/fpsot-org/fpsot-spec-code", checked: "2026-11-18"}
+  - id: status
+    kind: term
+    en: {full: "status", definition: "Where one track of the processing of a filing stands, such as its payment, its review or its processing."}
+    fr: {full: "statut", definition: "Point où en est un volet du traitement d’une déclaration, comme son paiement, son examen ou son traitement."}
+    source: {name: "FPSOT registry specification, REG-024; French form to confirm, see decision 4", url: "https://github.com/fpsot-org/fpsot-spec-registry", checked: "2026-11-18"}
+  - id: style-edition
+    kind: term
+    en: {full: "style edition", definition: "A named set of formatters and linters, with their versions and settings, that a project adopts as a whole."}
+    fr: {full: "édition de style", definition: "Ensemble nommé d’outils de mise en forme et d’analyseurs statiques, avec leurs versions et leurs paramètres, qu’un projet adopte en bloc."}
+    source: {name: "FPSOT code specification, COD-018, after the style editions of Rust; French form to confirm", url: "https://github.com/rust-lang/rust/blob/master/src/doc/style-guide/src/editions.md", checked: "2026-11-18"}
+  - id: tenancy
+    kind: term
+    en: {full: "tenancy", definition: "How an owner group holds its interest: sole, joint or in common."}
+    fr: {full: "mode de détention", definition: "Façon dont un groupe de propriétaires détient son intérêt : seul, conjointement ou en commun."}
+    source: {name: "FPSOT registry specification, REG-053; French form to confirm. Common law French uses tenance conjointe and tenance commune; Québec civil law speaks of indivision, which is not the same concept", url: "https://github.com/fpsot-org/fpsot-spec-registry", checked: "2026-11-18"}
   - id: test-double
     kind: term
     en: {full: "test double", definition: "A component that stands in for a real dependency during a test, such as a component that returns fixed answers."}
@@ -651,6 +951,16 @@ terms:
     en: {full: "time stamp", definition: "A token in which a trusted authority signs a hash and the time at which it saw that hash."}
     fr: {full: "horodatage électronique", definition: "Jeton dans lequel une autorité de confiance signe un condensé et l'heure à laquelle elle l'a reçu."}
     source: {name: "Règlement (UE) no 910/2014, version française, article 3, horodatage électronique (English: electronic time stamp)", url: "https://eur-lex.europa.eu/eli/reg/2014/910/2024-05-20/fra", checked: "2026-11-11"}
+  - id: tombstone
+    kind: term
+    en: {full: "tombstone", definition: "What remains of a lawfully destroyed filing: its place in the chain, its dates, its type and the ids of its rows, with no other value."}
+    fr: {full: "trace de destruction", definition: "Ce qui reste d’une déclaration détruite légalement : sa place dans la chaîne, ses dates, son type et les identifiants de ses lignes, sans autre valeur."}
+    source: {name: "FPSOT registry specification, REG-094; French form provisional, see decision 2", url: "https://github.com/fpsot-org/fpsot-spec-registry", checked: "2026-11-18"}
+  - id: toolchain
+    kind: term
+    en: {full: "toolchain", definition: "The compiler or runtime of a language, with the tools that come with it, at one version."}
+    fr: {full: "chaîne d’outils", definition: "Compilateur ou environnement d’exécution d’un langage, avec les outils qui l’accompagnent, à une version donnée."}
+    source: {name: "Go Toolchains, for the English form; French form to confirm", url: "https://go.dev/doc/toolchain", checked: "2026-11-18"}
   - id: transparency-log
     kind: term
     en: {full: "transparency log", definition: "A public, append-only list of entries in a Merkle tree, whose signed checkpoints let anyone check that an entry is in the list and that the list only grows."}
@@ -661,6 +971,31 @@ terms:
     en: {full: "trust anchor", definition: "A public key or certificate that a verifier trusts without proof, and from which it checks the chains of other certificates."}
     fr: {full: "ancre de confiance", definition: "Clé publique ou certificat auquel un vérificateur se fie sans preuve, et à partir duquel il vérifie la chaîne des autres certificats."}
     source: {name: "RFC 5280 usage for the English form; French form set by the FPSOT French review of 2026-11-11 (no GDT record found; TERMIUM Plus not checked)", url: "https://www.rfc-editor.org/info/rfc5280", checked: "2026-11-11"}
+  - id: trusted-publishing
+    kind: term
+    en: {full: "trusted publishing", definition: "Publishing a package from CI with a short-lived identity token instead of a stored secret."}
+    fr: {full: "publication de confiance", definition: "Publication d’un paquet depuis l’IC au moyen d’un jeton d’identité de courte durée, au lieu d’un secret conservé."}
+    source: {name: "npm Docs, Trusted publishing; French form to confirm", url: "https://docs.npmjs.com/trusted-publishers/", checked: "2026-11-18"}
+  - id: valid-time
+    kind: term
+    en: {full: "valid time", definition: "The time during which a fact holds in the world, as opposed to the time at which a system recorded it."}
+    fr: {full: "temps de validité", definition: "Temps pendant lequel un fait vaut dans le monde, par opposition au moment où un système l’a enregistré."}
+    source: {name: "FPSOT registry specification, REG-042; French form to confirm", url: "https://github.com/fpsot-org/fpsot-spec-registry", checked: "2026-11-18"}
+  - id: verifiable-credential
+    kind: term
+    en: {full: "verifiable credential", definition: "A set of claims by an issuer, in the W3C data model, whose origin and integrity anyone can check."}
+    fr: {full: "attestation vérifiable", definition: "Ensemble d’affirmations d’un émetteur, selon le modèle de données du W3C, dont chacun peut vérifier l’origine et l’intégrité."}
+    source: {name: "W3C Verifiable Credentials Data Model v2.0 for the English form; French form to confirm", url: "https://www.w3.org/TR/2025/REC-vc-data-model-2.0-20250515/", checked: "2026-11-18"}
+  - id: virtual-thread
+    kind: term
+    en: {full: "virtual thread", definition: "A light Java thread that the JDK schedules on a small number of platform threads."}
+    fr: {full: "fil virtuel", definition: "Fil d’exécution Java léger que le JDK planifie sur un petit nombre de fils de la plateforme."}
+    source: {name: "OpenJDK, JEP 444, for the English form; French form to confirm", url: "https://openjdk.org/jeps/444", checked: "2026-11-18"}
+  - id: visibility-class
+    kind: term
+    en: {full: "visibility class", definition: "Who may see a field of a register: the public, the parties, the agency or only named roles."}
+    fr: {full: "catégorie de visibilité", definition: "Qui peut voir un champ d’un registre : le public, les parties, l’organisme ou seulement des rôles nommés."}
+    source: {name: "FPSOT registry specification, REG-070; French form to confirm", url: "https://github.com/fpsot-org/fpsot-spec-registry", checked: "2026-11-18"}
   - id: vulnerability
     kind: term
     en: {full: "vulnerability", definition: "A weakness in software or in a specification that an attacker can exploit to harm its security."}
@@ -671,8 +1006,18 @@ terms:
     en: {full: "witness", definition: "An independent party that cosigns a checkpoint of a transparency log only after it checks that the log has only grown since the last checkpoint it saw."}
     fr: {full: "témoin", definition: "Partie indépendante qui ne cosigne un point de contrôle d'un journal de transparence qu'après avoir vérifié que le journal n'a fait que croître depuis le dernier point de contrôle vu."}
     source: {name: "C2SP tlog-witness v1.1.0; the French form follows fpsot-spec-observability (no GDT record found for this sense)", url: "https://github.com/C2SP/C2SP/blob/b2dd9892338af7009733a4575a6da05811ffae6c/tlog-witness.md", checked: "2026-11-11"}
+  - id: workflow
+    kind: term
+    en: {full: "workflow", definition: "A file that tells a CI service which jobs to run, on which events."}
+    fr: {full: "flux de travail", definition: "Fichier qui indique à un service d’IC quelles tâches exécuter, et à quels événements."}
+    source: {name: "GitHub Docs, Secure use reference; French form to confirm", url: "https://docs.github.com/en/actions/reference/security/secure-use", checked: "2026-11-18"}
   - id: xml
     kind: abbreviation
     en: {short: "XML", full: "Extensible Markup Language", definition: "The W3C text format that marks up structured data with nested, named elements."}
     fr: {short: "XML", full: "Extensible Markup Language", definition: "Format texte du W3C qui balise des données structurées au moyen d'éléments nommés et imbriqués."}
     source: {name: "W3C, Extensible Markup Language (XML) 1.0 (Fifth Edition) (no GDT record found; TERMIUM Plus could not be read)", url: "https://www.w3.org/TR/xml/", checked: "2026-11-07"}
+  - id: yaml
+    kind: abbreviation
+    en: {short: "YAML", full: "YAML Ain’t Markup Language", definition: "A text format for structured data that uses indentation, common in configuration files."}
+    fr: {short: "YAML", full: "YAML Ain’t Markup Language", definition: "Format texte pour les données structurées qui repose sur l’indentation, courant dans les fichiers de configuration."}
+    source: {name: "yaml.org (proper name, kept in English)", url: "https://yaml.org/spec/1.2.2/", checked: "2026-11-18"}

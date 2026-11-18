@@ -6,6 +6,16 @@ and versions follow [Semantic Versioning 2.0.0](https://semver.org/spec/v2.0.0.h
 
 ## [Unreleased]
 
+## [0.2.10] - 2026-11-18
+
+### Added
+
+- The terms and abbreviations of the code specification (12 abbreviations, 17 terms) and of the registry specification (8 abbreviations, 32 terms).
+
+### Changed
+
+- Broader definitions of asset, entitlement and jurisdiction profile, which the registry specification uses beyond the decisions specification.
+
 ## [0.2.9] - 2026-11-16
 
 ### Added
