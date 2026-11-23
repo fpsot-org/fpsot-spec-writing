@@ -6,6 +6,16 @@ and versions follow [Semantic Versioning 2.0.0](https://semver.org/spec/v2.0.0.h
 
 ## [Unreleased]
 
+## [0.2.11] - 2026-11-22
+
+### Added
+
+- The terms and abbreviations of the fees specification (4 abbreviations, 30 terms).
+
+### Changed
+
+- Broader definition of deploying body, which the fees specification also uses for the body that runs the payments of its fees.
+
 ## [0.2.10] - 2026-11-18
 
 ### Added
