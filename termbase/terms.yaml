@@ -141,6 +141,11 @@ terms:
     en: {short: "GPG", full: "GNU Privacy Guard", definition: "Free software that encrypts and signs data and messages with the OpenPGP standard."}
     fr: {short: "GPG", full: "GNU Privacy Guard", definition: "Logiciel libre qui chiffre et signe des données et des messages selon la norme OpenPGP."}
     source: {name: "GnuPG", url: "https://gnupg.org/", checked: "2026-11-02"}
+  - id: gst
+    kind: abbreviation
+    en: {short: "GST", full: "goods and services tax", definition: "The federal value-added tax of Canada, under Part IX of the Excise Tax Act."}
+    fr: {short: "TPS", full: "taxe sur les produits et services", definition: "Taxe fédérale sur la valeur ajoutée du Canada, selon la partie IX de la Loi sur la taxe d’accise."}
+    source: {name: "Excise Tax Act and Loi sur la taxe d’accise (official forms in both languages)", url: "https://laws-lois.justice.gc.ca/fra/lois/E-15/page-120.html", checked: "2026-11-21"}
   - id: hsts
     kind: abbreviation
     en: {short: "HSTS", full: "HTTP Strict Transport Security", definition: "A response header that tells browsers to reach a host only over HTTPS for a set time."}
@@ -276,6 +281,11 @@ terms:
     en: {short: "OWL", full: "Web Ontology Language", definition: "The W3C language for describing the classes and properties of a domain, and the relations between them."}
     fr: {short: "OWL", full: "Web Ontology Language", definition: "Langage du W3C qui sert à décrire les classes et les propriétés d'un domaine, et les relations entre elles."}
     source: {name: "W3C, OWL 2 Web Ontology Language Document Overview (no GDT record found; TERMIUM Plus could not be read)", url: "https://www.w3.org/TR/owl2-overview/", checked: "2026-11-07"}
+  - id: pci-dss
+    kind: abbreviation
+    en: {short: "PCI DSS", full: "Payment Card Industry Data Security Standard", definition: "The standard of the PCI Security Standards Council for the security of card data."}
+    fr: {short: "PCI DSS", full: "Payment Card Industry Data Security Standard", definition: "Norme du PCI Security Standards Council sur la sécurité des données de cartes de paiement."}
+    source: {name: "PCI Security Standards Council (proper name, kept in English; French definition to confirm)", url: "https://blog.pcisecuritystandards.org/faq-clarifies-new-saq-a-eligibility-criteria-for-e-commerce-merchants", checked: "2026-11-21"}
   - id: pdf
     kind: abbreviation
     en: {short: "PDF", full: "Portable Document Format", definition: "A file format that keeps a document's layout the same on any device or system."}
@@ -301,6 +311,11 @@ terms:
     en: {short: "PR", full: "pull request", definition: "A request to review a set of proposed changes and merge them into another branch of a repository."}
     fr: {short: "PR", full: "demande de fusion", definition: "Demande d'examen de modifications proposées en vue de les fusionner dans une autre branche d'un dépôt."}
     source: {name: "Grand dictionnaire terminologique", url: "https://vitrinelinguistique.oqlf.gouv.qc.ca/fiche-gdt/fiche/26584234/demande-de-fusion", checked: "2026-11-02"}
+  - id: qst
+    kind: abbreviation
+    en: {short: "QST", full: "Québec sales tax", definition: "The value-added tax of Québec, which Revenu Québec administers."}
+    fr: {short: "TVQ", full: "taxe de vente du Québec", definition: "Taxe sur la valeur ajoutée du Québec, que Revenu Québec administre."}
+    source: {name: "Revenu Québec (official forms in both languages; to confirm)", url: "https://www.revenuquebec.ca/fr/entreprises/taxes/tpstvh-et-tvq/regles-de-base-relatives-a-lapplication-de-la-tpstvh-et-de-la-tvq/types-de-fournitures/fournitures-exonerees/", checked: "2026-11-21"}
   - id: rcti
     kind: abbreviation
     en: {short: "RCTI", full: "Règlement sur les contrats des organismes publics en matière de technologies de l'information", definition: "The Québec regulation that sets how public bodies award their contracts in information technology."}
@@ -331,6 +346,11 @@ terms:
     en: {short: "SAAQ", full: "Société de l’assurance automobile du Québec", definition: "The Québec body that registers road vehicles and licenses drivers."}
     fr: {short: "SAAQ", full: "Société de l’assurance automobile du Québec", definition: "Organisme québécois qui immatricule les véhicules routiers et délivre les permis de conduire."}
     source: {name: "SAAQ (proper name in both languages)", url: "https://saaq.gouv.qc.ca/blob/saaq/documents/publications/acces-information/registre-communications-saaq.pdf", checked: "2026-11-18"}
+  - id: saq
+    kind: abbreviation
+    en: {short: "SAQ", full: "Self-Assessment Questionnaire", definition: "A questionnaire of the PCI Security Standards Council by which a merchant attests its compliance with PCI DSS, such as SAQ A for merchants that fully outsource card data."}
+    fr: {short: "SAQ", full: "questionnaire d’autoévaluation", definition: "Questionnaire du PCI Security Standards Council par lequel un marchand atteste sa conformité à PCI DSS, comme le SAQ A pour les marchands qui confient toutes les données de carte à un tiers."}
+    source: {name: "PCI Security Standards Council, notice of 2025-01-30; French form to confirm", url: "https://blog.pcisecuritystandards.org/important-updates-announced-for-merchants-validating-to-self-assessment-questionnaire-a", checked: "2026-11-21"}
   - id: sbom
     kind: abbreviation
     en: {short: "SBOM", full: "software bill of materials", definition: "A machine-readable list of the components of a piece of software, with their versions and origin."}
@@ -486,6 +506,11 @@ terms:
     en: {full: "access token", definition: "A credential that an authorization server issues to a client, so that the client can call an API within set limits."}
     fr: {full: "jeton d'accès", definition: "Justificatif qu'un serveur d'autorisation remet à un client, pour que celui-ci appelle une API dans des limites fixées."}
     source: {name: "IETF RFC 6749 (English); no GDT or TERMIUM Plus record found, French as used in Canadian French technical documentation", url: "https://www.rfc-editor.org/info/rfc6749", checked: "2026-11-10"}
+  - id: acquirer
+    kind: term
+    en: {full: "acquirer", definition: "The financial institution that accepts card payments for a merchant and settles them."}
+    fr: {full: "acquéreur", definition: "Institution financière qui accepte les paiements par carte pour un marchand et les règle."}
+    source: {name: "FPSOT fees specification, FEE-048; French form to confirm", url: "https://github.com/fpsot-org/fpsot-spec-fees", checked: "2026-11-21"}
   - id: algorithmic-impact-assessment
     kind: term
     en: {full: "Algorithmic Impact Assessment", definition: "The questionnaire of the Government of Canada that scores an automated decision system and gives its impact level."}
@@ -511,6 +536,11 @@ terms:
     en: {full: "branch", definition: "A separate line of development in a repository that can later be merged back."}
     fr: {full: "branche", definition: "Ligne de développement distincte dans un dépôt, qui peut ensuite être fusionnée."}
     source: {name: "TERMIUM Plus", url: "https://www.btb.termiumplus.gc.ca/", checked: "2026-11-02"}
+  - id: card-data
+    kind: term
+    en: {full: "card data", definition: "The card number, the security code, the expiry date, the track data and the PIN of a payment card."}
+    fr: {full: "données de carte", definition: "Numéro, code de sécurité, date d’expiration, données de piste et NIP d’une carte de paiement."}
+    source: {name: "FPSOT fees specification, FEE-046; French form to confirm", url: "https://github.com/fpsot-org/fpsot-spec-fees", checked: "2026-11-21"}
   - id: checkpoint
     kind: term
     en: {full: "checkpoint", definition: "A short signed statement of the size and the root hash of a transparency log at one moment."}
@@ -598,9 +628,9 @@ terms:
     source: {name: "FPSOT decisions specification, DEC-060; French form to confirm", url: "https://github.com/fpsot-org/fpsot-spec-decisions", checked: "2026-11-15"}
   - id: deploying-body
     kind: term
-    en: {full: "deploying body", definition: "The public body that answers for the decisions of a decision type."}
-    fr: {full: "organisme responsable", definition: "Organisme public qui répond des décisions d'un type de décision."}
-    source: {name: "FPSOT decisions specification, DEC-002; French form to confirm", url: "https://github.com/fpsot-org/fpsot-spec-decisions", checked: "2026-11-15"}
+    en: {full: "deploying body", definition: "The public body that answers for a system that it runs, such as the decisions of a decision type or the payments of its fees."}
+    fr: {full: "organisme responsable", definition: "Organisme public qui répond d’un système qu’il exploite, comme les décisions d’un type de décision ou les paiements de ses frais."}
+    source: {name: "Broader definition proposed by the FPSOT fees specification, FEE-002 and FEE-082, to replace the one of the decisions specification; same French form", url: "https://github.com/fpsot-org/fpsot-spec-fees", checked: "2026-11-21"}
   - id: derived-state
     kind: term
     en: {full: "derived state", definition: "The state of a register that a replay of its completed filings gives, as of one instant and as recorded at another."}
@@ -611,6 +641,11 @@ terms:
     en: {full: "destruction filing", definition: "A filing that destroys the content and the salt of every earlier filing that holds a value that a law or an order targets, and leaves tombstones."}
     fr: {full: "déclaration de destruction", definition: "Déclaration qui détruit le contenu et le sel de déclarations antérieures en vertu d’une loi ou d’une ordonnance, et laisse des traces de destruction."}
     source: {name: "FPSOT registry specification, REG-093; French form to confirm", url: "https://github.com/fpsot-org/fpsot-spec-registry", checked: "2026-11-18"}
+  - id: dispute
+    kind: term
+    en: {full: "dispute", definition: "A challenge of a card payment that the bank of the payer opens, which can take the payment back from the body."}
+    fr: {full: "contestation", definition: "Remise en cause d’un paiement par carte que la banque de la personne ouvre, et qui peut reprendre le paiement à l’organisme."}
+    source: {name: "FPSOT fees specification, FEE-067, after GOV.UK Pay; French form to confirm. A lost dispute is a rétrofacturation (chargeback)", url: "https://github.com/fpsot-org/fpsot-spec-fees", checked: "2026-11-21"}
   - id: domain-pack
     kind: term
     en: {full: "domain pack", definition: "The released data and schema of one domain of registers, such as pleasure craft: asset classes, identifier schemes, filing types and lifecycles."}
@@ -626,6 +661,11 @@ terms:
     en: {full: "effective date", definition: "The date whose law applies to a case, such as the date of an application."}
     fr: {full: "date d'effet", definition: "Date dont le droit s'applique à un dossier, comme la date d'une demande."}
     source: {name: "FPSOT decisions specification, DEC-022; French form to confirm", url: "https://github.com/fpsot-org/fpsot-spec-decisions", checked: "2026-11-15"}
+  - id: embedded-payment-form
+    kind: term
+    en: {full: "embedded payment form", definition: "A payment form of the provider that a page of the body embeds, such as in a frame."}
+    fr: {full: "formulaire de paiement intégré", definition: "Formulaire de paiement du fournisseur qu’une page de l’organisme intègre, comme dans un cadre."}
+    source: {name: "FPSOT fees specification, FEE-048; French form to confirm", url: "https://github.com/fpsot-org/fpsot-spec-fees", checked: "2026-11-21"}
   - id: encumbrance
     kind: term
     en: {full: "encumbrance", definition: "A lien, a seizure, a stop order or a flag that weighs on an asset or on an entitlement."}
@@ -651,6 +691,41 @@ terms:
     en: {full: "extract", definition: "A sealed record of what a register shows about a subject, as of one instant and as recorded at another."}
     fr: {full: "extrait", definition: "Document cacheté de ce qu’un registre montre sur un sujet, à un instant donné, tel qu’enregistré à un autre."}
     source: {name: "FPSOT registry specification, REG-084; French form to confirm", url: "https://github.com/fpsot-org/fpsot-spec-registry", checked: "2026-11-18"}
+  - id: fee
+    kind: term
+    en: {full: "fee", definition: "An amount that a public body charges under a law for a service, a right, a document or the use of a facility."}
+    fr: {full: "frais", definition: "Somme qu’un organisme public exige en vertu d’une loi pour un service, un droit, un document ou l’usage d’une installation."}
+    source: {name: "Service Fees Act and Loi sur les frais de service, title and section 2 (official French form; the French definition is to confirm)", url: "https://laws-lois.justice.gc.ca/fra/lois/S-8.4/TexteComplet.html", checked: "2026-11-21"}
+  - id: fee-engine
+    kind: term
+    en: {full: "fee engine", definition: "Software that quotes fees, takes payments, refunds, remits and issues receipts, under the rules of the fees specification."}
+    fr: {full: "moteur de frais", definition: "Logiciel qui établit des devis, reçoit des paiements, rembourse, remet et délivre des reçus, selon les règles de la spécification sur les frais."}
+    source: {name: "FPSOT fees specification, FEE-002; French form to confirm", url: "https://github.com/fpsot-org/fpsot-spec-fees", checked: "2026-11-21"}
+  - id: fee-exemption
+    kind: term
+    en: {full: "exemption", definition: "A rule of law under which a payer who meets a condition owes no fee, or a smaller one."}
+    fr: {full: "exemption", definition: "Règle de droit selon laquelle une personne qui remplit une condition ne doit aucuns frais, ou des frais moindres."}
+    source: {name: "FPSOT registry specification, REG-026 (same French form), and FEE-028; to confirm", url: "https://github.com/fpsot-org/fpsot-spec-fees", checked: "2026-11-21"}
+  - id: fee-item
+    kind: term
+    en: {full: "fee item", definition: "One fee of a fee schedule, with its basis, the parameter of its amounts, its legal source and its exemptions."}
+    fr: {full: "élément de frais", definition: "Frais particuliers d’un barème, avec leur base, le paramètre de leurs montants, leur source juridique et leurs exemptions."}
+    source: {name: "FPSOT fees specification, FEE-020 and FEE-022; French form to confirm", url: "https://github.com/fpsot-org/fpsot-spec-fees", checked: "2026-11-21"}
+  - id: fee-order
+    kind: term
+    en: {full: "fee order", definition: "What a payer owes for one or more quotes, with the payment attempts against it."}
+    fr: {full: "demande de paiement", definition: "Ce que doit une personne pour un ou plusieurs devis, avec les tentatives de paiement qui s’y rattachent."}
+    source: {name: "FPSOT fees specification, FEE-040; French form approved by the lead on 2026-11-22", url: "https://github.com/fpsot-org/fpsot-spec-fees", checked: "2026-11-21"}
+  - id: fee-quote
+    kind: term
+    en: {full: "fee quote", definition: "The lines of one fee decision: each fee, the value in force, any exemption and the taxes, with the total of the decision record."}
+    fr: {full: "devis", definition: "Lignes d’une décision sur des frais : chacun des frais, la valeur en vigueur, l’exemption éventuelle et les taxes, avec le total de l’enregistrement de décision."}
+    source: {name: "FPSOT fees specification, FEE-026 and FEE-027; French form approved by the lead on 2026-11-22", url: "https://github.com/fpsot-org/fpsot-spec-fees", checked: "2026-11-21"}
+  - id: fee-schedule
+    kind: term
+    en: {full: "fee schedule", definition: "A dated parameter file that holds the fees of a body, each with its amounts over time, its legal source and its tax treatment."}
+    fr: {full: "barème de frais", definition: "Fichier de paramètres datés qui contient les frais d’un organisme, chacun avec ses montants dans le temps, sa source juridique et son traitement fiscal."}
+    source: {name: "FPSOT fees specification, FEE-020; French form to confirm", url: "https://github.com/fpsot-org/fpsot-spec-fees", checked: "2026-11-21"}
   - id: filing
     kind: term
     en: {full: "filing", definition: "One legal event in a register, such as an application, an act of the registrar, a correction, an order or a destruction, which never changes once received."}
@@ -676,6 +751,11 @@ terms:
     en: {full: "frozen corpus", definition: "A set of test cases with expected results that nobody changes once its rule version is in force."}
     fr: {full: "corpus figé", definition: "Ensemble de cas d'essai avec leurs résultats attendus que personne ne modifie une fois sa version de règles en vigueur."}
     source: {name: "FPSOT decisions specification, DEC-081; French form to confirm", url: "https://github.com/fpsot-org/fpsot-spec-decisions", checked: "2026-11-15"}
+  - id: full-redirect
+    kind: term
+    en: {full: "full redirect", definition: "Sending the browser of the payer from a page of the body to the hosted payment page of the provider, with no part of the payment form on the page of the body."}
+    fr: {full: "redirection complète", definition: "Envoi du navigateur de la personne d’une page de l’organisme vers la page de paiement hébergée du fournisseur, sans aucune partie du formulaire de paiement sur la page de l’organisme."}
+    source: {name: "FPSOT fees specification, FEE-047, after FAQ 1588 of the PCI Security Standards Council; French form to confirm", url: "https://github.com/fpsot-org/fpsot-spec-fees", checked: "2026-11-21"}
   - id: fundamental-rights-impact-assessment
     kind: term
     en: {full: "fundamental rights impact assessment", definition: "An assessment, before first use, of the effects of a high-risk artificial intelligence system on the fundamental rights of the people it concerns."}
@@ -686,6 +766,11 @@ terms:
     en: {full: "homologation", definition: "A step before a tender in which a buyer checks that goods conform to a recognized standard or an established technical specification, and lists those that do."}
     fr: {full: "homologation", definition: "Étape préalable à un appel d'offres où l'organisme acheteur vérifie la conformité de biens à une norme reconnue ou à une spécification technique établie, et inscrit ceux qui s'y conforment sur une liste."}
     source: {name: "Règlement sur les contrats des organismes publics en matière de technologies de l'information, chapitre VI (French term kept in English; no GDT record checked)", url: "https://www.publicationsduquebec.gouv.qc.ca/fileadmin/Fichiers_client/lois_et_reglements/CodificationsAdministratives/C65_1_R5_1.pdf", checked: "2026-11-08"}
+  - id: hosted-payment-page
+    kind: term
+    en: {full: "hosted payment page", definition: "A payment page that the provider serves on its own site, where the payer enters card data."}
+    fr: {full: "page de paiement hébergée", definition: "Page de paiement que le fournisseur sert sur son propre site, où la personne saisit ses données de carte."}
+    source: {name: "FPSOT fees specification, FEE-047; French form to confirm", url: "https://github.com/fpsot-org/fpsot-spec-fees", checked: "2026-11-21"}
   - id: identity-provider
     kind: term
     en: {full: "identity provider", definition: "A service that signs people or workloads in and tells other services who they are and how they signed in."}
@@ -701,6 +786,11 @@ terms:
     en: {full: "inclusion proof", definition: "The list of hashes that links one entry to the root hash of a Merkle tree, and so proves that the tree holds the entry."}
     fr: {full: "preuve d'inclusion", definition: "Liste de condensés qui relie une entrée au condensé racine d'un arbre de Merkle, et prouve ainsi que l'arbre contient l'entrée."}
     source: {name: "RFC 9162, section 2.1.3; French form set by the FPSOT French review of 2026-11-11 (no GDT record found)", url: "https://www.rfc-editor.org/info/rfc9162", checked: "2026-11-11"}
+  - id: indexation-step
+    kind: term
+    en: {full: "indexation step", definition: "The record, in a fee schedule, of how one indexed value was set: the rule, the published rate, the cap, the raw result, the deferral and the rounded result."}
+    fr: {full: "étape d’indexation", definition: "Inscription, dans un barème de frais, de la façon dont une valeur indexée a été fixée : la règle, le taux publié, le plafond, le résultat brut, le report et le résultat arrondi."}
+    source: {name: "FPSOT fees specification, FEE-024; French form to confirm", url: "https://github.com/fpsot-org/fpsot-spec-fees", checked: "2026-11-21"}
   - id: jurisdiction
     kind: term
     en: {full: "jurisdiction", definition: "A government area, such as a country, province or municipality, with its own laws and rules."}
@@ -751,6 +841,11 @@ terms:
     en: {full: "long-term support", definition: "A release line that its publisher fixes for a stated, longer period than other releases."}
     fr: {full: "soutien à long terme", definition: "Branche de versions que son éditeur corrige pendant une période annoncée, plus longue que pour les autres versions."}
     source: {name: "Quarkus releases, for the English form; French form to confirm", url: "https://quarkus.io/releases/", checked: "2026-11-18"}
+  - id: low-materiality-fee
+    kind: term
+    en: {full: "low-materiality fee", definition: "A federal fee that the Low-materiality Fees Regulations exclude from sections 3 to 18 of the Service Fees Act, such as a fee below $51."}
+    fr: {full: "frais de faible importance", definition: "Frais fédéraux que le Règlement sur les frais de faible importance soustrait aux articles 3 à 18 de la Loi sur les frais de service, comme des frais inférieurs à 51 $."}
+    source: {name: "Loi sur les frais de service, article 22 (official French form)", url: "https://laws-lois.justice.gc.ca/fra/lois/S-8.4/TexteComplet.html", checked: "2026-11-21"}
   - id: mirror
     kind: term
     en: {full: "mirror", definition: "A party that keeps and serves a full copy of a transparency log, so that the log outlives its operator."}
@@ -786,6 +881,31 @@ terms:
     en: {full: "party", definition: "A person or an organization that a system records, such as one that holds rights or duties in a registry."}
     fr: {full: "partie", definition: "Personne ou organisation qu'un système enregistre, comme celle qui détient des droits ou des obligations inscrits dans un registre."}
     source: {name: "Grand dictionnaire terminologique", url: "https://vitrinelinguistique.oqlf.gouv.qc.ca/fiche-gdt/fiche/26550268/partie", checked: "2026-11-02"}
+  - id: payment-attempt
+    kind: term
+    en: {full: "payment attempt", definition: "One try to pay a fee order through a payment provider, with its status and the history of that status."}
+    fr: {full: "tentative de paiement", definition: "Essai de payer une demande de paiement par un fournisseur de paiement, avec son statut et l’historique de ce statut."}
+    source: {name: "FPSOT fees specification, FEE-041 to FEE-043, after GOV.UK Pay; French form to confirm", url: "https://github.com/fpsot-org/fpsot-spec-fees", checked: "2026-11-21"}
+  - id: payment-provider
+    kind: term
+    en: {full: "payment provider", definition: "The service that takes a payment from the payer and sends the funds to the body, such as a card processor or a government payment platform."}
+    fr: {full: "fournisseur de paiement", definition: "Service qui reçoit un paiement de la personne et verse les fonds à l’organisme, comme un service de traitement des cartes ou une plateforme gouvernementale de paiement."}
+    source: {name: "FPSOT fees specification, FEE-001 and FEE-101; French form to confirm. France says prestataire de services de paiement", url: "https://github.com/fpsot-org/fpsot-spec-fees", checked: "2026-11-21"}
+  - id: payment-reference
+    kind: term
+    en: {full: "payment reference", definition: "The reference of a fee order that the payer sees and quotes, which holds no personal information."}
+    fr: {full: "référence de paiement", definition: "Référence d’une demande de paiement que la personne voit et cite, et qui ne contient aucun renseignement personnel."}
+    source: {name: "FPSOT fees specification, FEE-040 and FEE-092; French form to confirm", url: "https://github.com/fpsot-org/fpsot-spec-fees", checked: "2026-11-21"}
+  - id: payout
+    kind: term
+    en: {full: "payout", definition: "One transfer of funds from a payment provider to the account of the body, which nets payments, refunds and fees."}
+    fr: {full: "versement", definition: "Transfert de fonds d’un fournisseur de paiement au compte de l’organisme, qui compense des paiements, des remboursements et des frais."}
+    source: {name: "FPSOT fees specification, FEE-090; French form to confirm", url: "https://github.com/fpsot-org/fpsot-spec-fees", checked: "2026-11-21"}
+  - id: performance-standard
+    kind: term
+    en: {full: "performance standard", definition: "The public level of service that a federal body must meet for a fee, under the Service Fees Act."}
+    fr: {full: "norme de rendement", definition: "Niveau de service public qu’un organisme fédéral doit respecter pour des frais, selon la Loi sur les frais de service."}
+    source: {name: "Loi sur les frais de service, articles 4 to 8 (official French form)", url: "https://laws-lois.justice.gc.ca/fra/lois/S-8.4/TexteComplet.html", checked: "2026-11-21"}
   - id: pleasure-craft-license
     kind: term
     en: {full: "pleasure craft license", definition: "The license that a pleasure craft in scope of the Small Vessel Regulations of Canada must carry."}
@@ -811,6 +931,16 @@ terms:
     en: {full: "progressive enhancement", definition: "Building a page that works in plain HTML first, then adding styles and scripts that improve it where they run."}
     fr: {full: "amélioration progressive", definition: "Façon de construire une page qui fonctionne d’abord en HTML simple, puis d’ajouter des styles et des scripts qui l’améliorent là où ils s’exécutent."}
     source: {name: "GOV.UK Service Manual; French form to confirm", url: "https://www.gov.uk/service-manual/technology/using-progressive-enhancement", checked: "2026-11-18"}
+  - id: provider-adapter
+    kind: term
+    en: {full: "provider adapter", definition: "The component that links a fee engine to one payment provider, and maps the statuses of the provider onto those of the specification."}
+    fr: {full: "adaptateur de fournisseur", definition: "Composant qui relie un moteur de frais à un fournisseur de paiement, et fait correspondre les statuts du fournisseur à ceux de la spécification."}
+    source: {name: "FPSOT fees specification, FEE-002 and FEE-101; French form to confirm", url: "https://github.com/fpsot-org/fpsot-spec-fees", checked: "2026-11-21"}
+  - id: provider-notification
+    kind: term
+    en: {full: "provider notification", definition: "A signed message that a payment provider sends to tell a body that an object changed, often called a webhook."}
+    fr: {full: "avis du fournisseur", definition: "Message signé qu’un fournisseur de paiement envoie pour informer un organisme qu’un objet a changé, souvent appelé webhook."}
+    source: {name: "FPSOT fees specification, FEE-070 to FEE-072; French form to confirm", url: "https://github.com/fpsot-org/fpsot-spec-fees", checked: "2026-11-21"}
   - id: publicity-regime
     kind: term
     en: {full: "publicity regime", definition: "Who may see a register: everyone, everyone with exceptions, people who meet a condition, or no one outside the body."}
@@ -821,11 +951,31 @@ terms:
     en: {full: "reason code", definition: "The code of a concept of a reason scheme that names one factor of a decision."}
     fr: {full: "code de motif", definition: "Code d'un concept d'un schéma de motifs qui nomme un facteur d'une décision."}
     source: {name: "FPSOT decisions specification, DEC-050; French form to confirm", url: "https://github.com/fpsot-org/fpsot-spec-decisions", checked: "2026-11-15"}
+  - id: receipt
+    kind: term
+    en: {full: "receipt", definition: "A sealed record of what a fee order cost and of each payment, refund and remission against it."}
+    fr: {full: "reçu", definition: "Document cacheté de ce qu’une demande de paiement a coûté et de chaque paiement, remboursement et remise qui s’y rattache."}
+    source: {name: "FPSOT fees specification, FEE-080 and FEE-081; French form approved by the lead", url: "https://github.com/fpsot-org/fpsot-spec-fees", checked: "2026-11-21"}
+  - id: reconciliation
+    kind: term
+    en: {full: "reconciliation", definition: "Matching each line of each payout of a provider to one payment attempt, refund or dispute, to the cent."}
+    fr: {full: "rapprochement", definition: "Rattachement de chaque ligne de chaque versement d’un fournisseur à une seule tentative de paiement, un seul remboursement ou une seule contestation, au cent près."}
+    source: {name: "FPSOT fees specification, FEE-091; French form approved by the lead", url: "https://github.com/fpsot-org/fpsot-spec-fees", checked: "2026-11-21"}
   - id: record-time
     kind: term
     en: {full: "record time", definition: "The knowledge cutoff of a decision: only facts and rule versions recorded at or before it count."}
     fr: {full: "moment d'enregistrement", definition: "Limite de connaissance d'une décision : seuls comptent les faits et les versions de règles enregistrés à ce moment ou avant."}
     source: {name: "Martin Fowler, Bitemporal History, for the English form; French form to confirm", url: "https://martinfowler.com/articles/bitemporal-history.html", checked: "2026-11-15"}
+  - id: refund
+    kind: term
+    en: {full: "refund", definition: "Money that goes back to a payer because the body should not keep it, such as a fee for a service that it did not provide."}
+    fr: {full: "remboursement", definition: "Argent rendu à une personne parce que l’organisme ne devrait pas le garder, comme des frais pour un service qu’il n’a pas rendu."}
+    source: {name: "Règlement de 1997 sur le remboursement de recettes, DORS/98-127 (official French form), approved by the lead", url: "https://laws-lois.justice.gc.ca/fra/reglements/DORS-98-127/TexteComplet.html", checked: "2026-11-21"}
+  - id: refundable-balance
+    kind: term
+    en: {full: "refundable balance", definition: "The part of a successful payment that refunds have not yet returned."}
+    fr: {full: "solde remboursable", definition: "Partie d’un paiement réussi que les remboursements n’ont pas encore rendue."}
+    source: {name: "FPSOT fees specification, FEE-061, after GOV.UK Pay; French form to confirm", url: "https://github.com/fpsot-org/fpsot-spec-fees", checked: "2026-11-21"}
   - id: register
     kind: term
     en: {full: "register", definition: "One registry that a law establishes, with its legal effect, its publicity regime and its filings."}
@@ -846,6 +996,11 @@ terms:
     en: {full: "registry", definition: "An official, lasting record of facts, such as who holds which rights over what."}
     fr: {full: "registre", definition: "Recueil officiel et durable de faits, par exemple qui détient quels droits sur quoi."}
     source: {name: "Grand dictionnaire terminologique", url: "https://vitrinelinguistique.oqlf.gouv.qc.ca/fiche-gdt/fiche/8355393/registre-public", checked: "2026-11-02"}
+  - id: remission
+    kind: term
+    en: {full: "remission", definition: "A decision under a law to forgive or return all or part of an amount that a payer owed, such as after a missed performance standard."}
+    fr: {full: "remise", definition: "Décision prise en vertu d’une loi de renoncer à tout ou partie d’une somme due, ou de la rendre, comme après une norme de rendement non respectée."}
+    source: {name: "Loi sur les frais de service, article 7 (official French form), approved by the lead", url: "https://laws-lois.justice.gc.ca/fra/lois/S-8.4/TexteComplet.html", checked: "2026-11-21"}
   - id: replay
     kind: term
     en: {full: "replay", definition: "Applying the stated changes of completed filings in order, to rebuild the state of a register."}
@@ -886,6 +1041,11 @@ terms:
     en: {full: "review step", definition: "The record of one action of one person on a decision record that a service showed them."}
     fr: {full: "étape de révision", definition: "Enregistrement d'une action d'une personne sur un enregistrement de décision qu'un service lui a présenté."}
     source: {name: "FPSOT decisions specification, DEC-062; French form to confirm", url: "https://github.com/fpsot-org/fpsot-spec-decisions", checked: "2026-11-15"}
+  - id: rounding-rule
+    kind: term
+    en: {full: "rounding rule", definition: "A rounding method with its step for each band of results and where a result halfway goes."}
+    fr: {full: "règle d’arrondi", definition: "Méthode d’arrondi avec son pas pour chaque tranche de résultats et la direction d’un résultat à mi-chemin."}
+    source: {name: "FPSOT fees specification, FEE-025, after DAT-054; French form to confirm. The Québec regulation says arrondissement for the act of rounding a fee", url: "https://github.com/fpsot-org/fpsot-spec-fees", checked: "2026-11-21"}
   - id: rule-provider
     kind: term
     en: {full: "rule provider", definition: "Software that implements the rules of one decision type behind the decision contract."}
@@ -921,6 +1081,11 @@ terms:
     en: {full: "sequence number", definition: "The number of a filing in its register, from 1 with no gap."}
     fr: {full: "numéro d’ordre", definition: "Numéro d’une déclaration dans son registre, à partir de 1 et sans trou."}
     source: {name: "FPSOT registry specification, REG-030; French form to confirm", url: "https://github.com/fpsot-org/fpsot-spec-registry", checked: "2026-11-18"}
+  - id: settlement
+    kind: term
+    en: {full: "settlement", definition: "The fact that a payout carried the funds of a successful payment attempt to the account of the body."}
+    fr: {full: "réception des fonds", definition: "Fait qu’un versement a porté les fonds d’une tentative de paiement réussie au compte de l’organisme."}
+    source: {name: "FPSOT fees specification, FEE-044; French form approved by the lead on 2026-11-22", url: "https://github.com/fpsot-org/fpsot-spec-fees", checked: "2026-11-21"}
   - id: single-page-application
     kind: term
     en: {full: "single-page application", definition: "A web application that loads one page and then renders each view with scripts in the browser."}
@@ -1001,6 +1166,11 @@ terms:
     en: {full: "vulnerability", definition: "A weakness in software or in a specification that an attacker can exploit to harm its security."}
     fr: {full: "vulnérabilité", definition: "Faiblesse d'un logiciel ou d'une spécification qu'un attaquant peut exploiter pour nuire à sa sécurité."}
     source: {name: "Grand dictionnaire terminologique", url: "https://vitrinelinguistique.oqlf.gouv.qc.ca/fiche-gdt/fiche/26578865/vulnerabilite", checked: "2026-11-08"}
+  - id: waiver
+    kind: term
+    en: {full: "waiver", definition: "A choice of a person with the authority to excuse a payer from a fee, where the law allows discretion."}
+    fr: {full: "dispense", definition: "Choix d’une personne qui a le pouvoir d’exempter une personne de frais, quand la loi laisse une discrétion."}
+    source: {name: "FPSOT fees specification, FEE-028, after DEC-026; French form to confirm", url: "https://github.com/fpsot-org/fpsot-spec-fees", checked: "2026-11-21"}
   - id: witness
     kind: term
     en: {full: "witness", definition: "An independent party that cosigns a checkpoint of a transparency log only after it checks that the log has only grown since the last checkpoint it saw."}
