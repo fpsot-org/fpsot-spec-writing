@@ -506,16 +506,41 @@ terms:
     en: {full: "access token", definition: "A credential that an authorization server issues to a client, so that the client can call an API within set limits."}
     fr: {full: "jeton d'accès", definition: "Justificatif qu'un serveur d'autorisation remet à un client, pour que celui-ci appelle une API dans des limites fixées."}
     source: {name: "IETF RFC 6749 (English); no GDT or TERMIUM Plus record found, French as used in Canadian French technical documentation", url: "https://www.rfc-editor.org/info/rfc6749", checked: "2026-11-10"}
+  - id: acknowledgment
+    kind: term
+    en: {full: "acknowledgment of receipt", definition: "The message that a public body sends for each submission, with the reference number, the received time, the body that handles it and what comes next."}
+    fr: {full: "accusé de réception", definition: "Message qu’un organisme public envoie pour chaque dépôt, avec le numéro de référence, l’heure de réception, l’organisme qui le traite et la suite."}
+    source: {name: "Loi concernant le cadre juridique des technologies de l'information, RLRQ, c. C-1.1, articles 28 and 31 (official French form)", url: "https://www.legisquebec.gouv.qc.ca/fr/document/lc/C-1.1", checked: "2026-11-23"}
   - id: acquirer
     kind: term
     en: {full: "acquirer", definition: "The financial institution that accepts card payments for a merchant and settles them."}
     fr: {full: "acquéreur", definition: "Institution financière qui accepte les paiements par carte pour un marchand et les règle."}
     source: {name: "FPSOT fees specification, FEE-048; French form to confirm", url: "https://github.com/fpsot-org/fpsot-spec-fees", checked: "2026-11-21"}
+  - id: acting-party
+    kind: term
+    en: {full: "acting party", definition: "The party who does an act on an application file, recorded apart from the party whose file it is."}
+    fr: {full: "partie agissante", definition: "Partie qui fait un acte sur un dossier de demande, consignée séparément de la partie à qui appartient le dossier."}
+    source: {name: "FPSOT applications specification, APP-071; French form to confirm", url: "https://github.com/fpsot-org/fpsot-spec-applications", checked: "2026-11-26"}
   - id: algorithmic-impact-assessment
     kind: term
     en: {full: "Algorithmic Impact Assessment", definition: "The questionnaire of the Government of Canada that scores an automated decision system and gives its impact level."}
     fr: {full: "Évaluation de l'incidence algorithmique", definition: "Questionnaire du gouvernement du Canada qui note un système décisionnel automatisé et en donne le niveau d'incidence."}
     source: {name: "Treasury Board of Canada Secretariat, Algorithmic Impact Assessment tool, French version to confirm", url: "https://www.canada.ca/en/government/system/digital-government/digital-government-innovations/responsible-use-ai/algorithmic-impact-assessment.html", checked: "2026-11-15"}
+  - id: applicant
+    kind: term
+    en: {full: "applicant", definition: "The party that an application is about and that applies, alone or through a representative."}
+    fr: {full: "personne requérante", definition: "Partie que vise une demande et qui la présente, seule ou par une personne qui la représente."}
+    source: {name: "FPSOT applications specification, APP-001; French form approved by the lead on 2026-11-26", url: "https://github.com/fpsot-org/fpsot-spec-applications", checked: "2026-11-26"}
+  - id: application
+    kind: term
+    en: {full: "application", definition: "A request to a public body for a decision about one party, such as a permit, a license, a benefit or a grant."}
+    fr: {full: "demande", definition: "Requête adressée à un organisme public pour obtenir une décision sur une partie, comme un permis, une licence, une prestation ou une subvention."}
+    source: {name: "Loi sur la justice administrative, RLRQ, c. J-3, articles 4 to 6 (French form of the act); French form approved by the lead on 2026-11-26", url: "https://www.legisquebec.gouv.qc.ca/fr/document/lc/J-3", checked: "2026-11-23"}
+  - id: application-file
+    kind: term
+    en: {full: "application file", definition: "The record of one application from its first draft to its end, with its states, its versions and the acts on it, whatever its channel."}
+    fr: {full: "dossier de demande", definition: "Donnée d’une demande, de son premier brouillon jusqu’à sa fin, avec ses états, ses versions et les actes faits sur elle, quel que soit son canal."}
+    source: {name: "FPSOT applications specification, APP-030; French form to confirm", url: "https://github.com/fpsot-org/fpsot-spec-applications", checked: "2026-11-26"}
   - id: asset
     kind: term
     en: {full: "asset", definition: "A thing that a register identifies, such as a vessel, a vehicle, a drone or a firearm."}
@@ -541,6 +566,11 @@ terms:
     en: {full: "card data", definition: "The card number, the security code, the expiry date, the track data and the PIN of a payment card."}
     fr: {full: "données de carte", definition: "Numéro, code de sécurité, date d’expiration, données de piste et NIP d’une carte de paiement."}
     source: {name: "FPSOT fees specification, FEE-046; French form to confirm", url: "https://github.com/fpsot-org/fpsot-spec-fees", checked: "2026-11-21"}
+  - id: case
+    kind: term
+    en: {full: "case", definition: "The matter that a body works on after an application, which a later case specification will hold."}
+    fr: {full: "affaire", definition: "Ce que traite un organisme à la suite d’une demande, que contiendra une future spécification sur le traitement des affaires."}
+    source: {name: "FPSOT applications specification, APP-032; French form approved by the lead on 2026-11-26", url: "https://github.com/fpsot-org/fpsot-spec-applications", checked: "2026-11-26"}
   - id: checkpoint
     kind: term
     en: {full: "checkpoint", definition: "A short signed statement of the size and the root hash of a transparency log at one moment."}
@@ -561,6 +591,11 @@ terms:
     en: {full: "cliff edge", definition: "A rule under which a small change in one fact removes a whole benefit."}
     fr: {full: "effet de seuil", definition: "Règle selon laquelle un faible changement d'un fait supprime toute une prestation."}
     source: {name: "FPSOT decisions specification, DEC-027; French form to confirm", url: "https://github.com/fpsot-org/fpsot-spec-decisions", checked: "2026-11-15"}
+  - id: clock
+    kind: term
+    en: {full: "clock", definition: "A period that runs on an application file, such as a service standard or a statutory time limit, which a request can start or suspend."}
+    fr: {full: "décompte", definition: "Période qui court sur un dossier de demande, comme une norme de service ou un délai légal, qu’une demande de renseignements peut faire partir ou suspendre."}
+    source: {name: "FPSOT applications specification, APP-054; French form approved by the lead on 2026-11-26", url: "https://github.com/fpsot-org/fpsot-spec-applications", checked: "2026-11-26"}
   - id: commit
     kind: term
     en: {full: "commit", definition: "A recorded, identified set of changes saved to a repository's history."}
@@ -596,6 +631,11 @@ terms:
     en: {full: "counterfactual value", definition: "The exact value of a factor at which a reason would stop applying, with the other facts unchanged."}
     fr: {full: "valeur contrefactuelle", definition: "Valeur exacte d'un facteur à laquelle un motif cesserait de s'appliquer, les autres faits restant les mêmes."}
     source: {name: "Wachter, Mittelstadt and Russell, Counterfactual Explanations without Opening the Black Box; French form to confirm", url: "https://arxiv.org/abs/1711.00399v2", checked: "2026-11-15"}
+  - id: date-stamp
+    kind: term
+    en: {full: "date stamp", definition: "The mark that a body puts on a paper document when it arrives, which may hold a date only, or a time to the minute."}
+    fr: {full: "tampon dateur", definition: "Marque qu’un organisme appose sur un document papier à son arrivée, qui peut ne porter qu’une date, ou une heure à la minute."}
+    source: {name: "FPSOT applications specification, APP-041 and APP-092; French form approved by the lead on 2026-11-26", url: "https://github.com/fpsot-org/fpsot-spec-applications", checked: "2026-11-26"}
   - id: dated-parameter
     kind: term
     en: {full: "dated parameter", definition: "An amount, a rate or a threshold whose value changes over time, kept in a data file with the period and the legal source of each value."}
@@ -726,6 +766,11 @@ terms:
     en: {full: "fee schedule", definition: "A dated parameter file that holds the fees of a body, each with its amounts over time, its legal source and its tax treatment."}
     fr: {full: "barème de frais", definition: "Fichier de paramètres datés qui contient les frais d’un organisme, chacun avec ses montants dans le temps, sa source juridique et son traitement fiscal."}
     source: {name: "FPSOT fees specification, FEE-020; French form to confirm", url: "https://github.com/fpsot-org/fpsot-spec-fees", checked: "2026-11-21"}
+  - id: file-version
+    kind: term
+    en: {full: "file version", definition: "One submitted state of an application file, with the answers and attachments sent at that time, which never changes."}
+    fr: {full: "version du dossier", definition: "État déposé d’un dossier de demande, avec les réponses et les pièces jointes transmises à ce moment, qui ne change jamais."}
+    source: {name: "FPSOT applications specification, APP-036 and APP-037; French form to confirm", url: "https://github.com/fpsot-org/fpsot-spec-applications", checked: "2026-11-26"}
   - id: filing
     kind: term
     en: {full: "filing", definition: "One legal event in a register, such as an application, an act of the registrar, a correction, an order or a destruction, which never changes once received."}
@@ -736,6 +781,11 @@ terms:
     en: {full: "finding", definition: "One problem that a linter or an analyzer reports at one place in the code."}
     fr: {full: "constat", definition: "Problème qu’un analyseur signale à un endroit du code."}
     source: {name: "FPSOT code specification, COD-010; French form to confirm", url: "https://github.com/fpsot-org/fpsot-spec-code", checked: "2026-11-18"}
+  - id: form-definition
+    kind: term
+    en: {full: "form definition", definition: "One version of a form: its canonical address, its business version, its status, its questions and the JSON Schema that its answers meet."}
+    fr: {full: "définition de formulaire", definition: "Version d’un formulaire : son adresse canonique, sa version métier, son statut, ses questions et le schéma JSON que respectent ses réponses."}
+    source: {name: "FPSOT applications specification, APP-020, after the Questionnaire of HL7 FHIR R5; French form to confirm", url: "https://hl7.org/fhir/R5/questionnaire.html", checked: "2026-11-23"}
   - id: formatter
     kind: term
     en: {full: "formatter", definition: "A tool that rewrites source code into one fixed layout."}
@@ -751,6 +801,11 @@ terms:
     en: {full: "frozen corpus", definition: "A set of test cases with expected results that nobody changes once its rule version is in force."}
     fr: {full: "corpus figé", definition: "Ensemble de cas d'essai avec leurs résultats attendus que personne ne modifie une fois sa version de règles en vigueur."}
     source: {name: "FPSOT decisions specification, DEC-081; French form to confirm", url: "https://github.com/fpsot-org/fpsot-spec-decisions", checked: "2026-11-15"}
+  - id: full-grant
+    kind: term
+    en: {full: "full grant", definition: "A decision outcome that gives the applicant all that the application asks; every other result of a decision is adverse to the applicant."}
+    fr: {full: "octroi complet", definition: "Issue d’une décision qui accorde à la personne tout ce que sa demande sollicite; tout autre résultat d’une décision lui est défavorable."}
+    source: {name: "FPSOT applications specification, APP-032 and APP-052, after the result kinds of DEC-024; French form to confirm", url: "https://github.com/fpsot-org/fpsot-spec-applications", checked: "2026-11-26"}
   - id: full-redirect
     kind: term
     en: {full: "full redirect", definition: "Sending the browser of the payer from a page of the body to the hosted payment page of the provider, with no part of the payment form on the page of the body."}
@@ -956,6 +1011,11 @@ terms:
     en: {full: "receipt", definition: "A sealed record of what a fee order cost and of each payment, refund and remission against it."}
     fr: {full: "reçu", definition: "Document cacheté de ce qu’une demande de paiement a coûté et de chaque paiement, remboursement et remise qui s’y rattache."}
     source: {name: "FPSOT fees specification, FEE-080 and FEE-081; French form approved by the lead", url: "https://github.com/fpsot-org/fpsot-spec-fees", checked: "2026-11-21"}
+  - id: receipt-record
+    kind: term
+    en: {full: "receipt record", definition: "The sealed record of when a submission became accessible to a public body, from whom, through which channel, with the digests of what arrived."}
+    fr: {full: "constat de réception", definition: "Donnée cachetée du moment où un dépôt est devenu accessible à un organisme public, de qui, par quel canal, avec les condensés de ce qui est arrivé."}
+    source: {name: "FPSOT applications specification, APP-040 to APP-042, after article 31 of the Loi concernant le cadre juridique des technologies de l'information; French form approved by the lead on 2026-11-26", url: "https://www.legisquebec.gouv.qc.ca/fr/document/lc/C-1.1", checked: "2026-11-23"}
   - id: reconciliation
     kind: term
     en: {full: "reconciliation", definition: "Matching each line of each payout of a provider to one payment attempt, refund or dispute, to the cent."}
@@ -966,6 +1026,11 @@ terms:
     en: {full: "record time", definition: "The knowledge cutoff of a decision: only facts and rule versions recorded at or before it count."}
     fr: {full: "moment d'enregistrement", definition: "Limite de connaissance d'une décision : seuls comptent les faits et les versions de règles enregistrés à ce moment ou avant."}
     source: {name: "Martin Fowler, Bitemporal History, for the English form; French form to confirm", url: "https://martinfowler.com/articles/bitemporal-history.html", checked: "2026-11-15"}
+  - id: reference-number
+    kind: term
+    en: {full: "reference number", definition: "The random number that an applicant quotes for an application file, with a check character, which tells nothing about the person or the matter."}
+    fr: {full: "numéro de référence", definition: "Numéro aléatoire qu’une personne cite pour un dossier de demande, avec un caractère de contrôle, qui ne révèle rien de la personne ni de l’affaire."}
+    source: {name: "FPSOT applications specification, APP-045; French form to confirm", url: "https://github.com/fpsot-org/fpsot-spec-applications", checked: "2026-11-26"}
   - id: refund
     kind: term
     en: {full: "refund", definition: "Money that goes back to a payer because the body should not keep it, such as a fee for a service that it did not provide."}
@@ -1016,6 +1081,11 @@ terms:
     en: {full: "reproducible build", definition: "A build that gives the same bytes each time from the same source, tools and settings."}
     fr: {full: "construction reproductible", definition: "Construction qui donne les mêmes octets chaque fois, à partir de la même source, des mêmes outils et des mêmes paramètres."}
     source: {name: "Apache Maven, Configuring for Reproducible Builds; French form to confirm", url: "https://maven.apache.org/guides/mini/guide-reproducible-builds.html", checked: "2026-11-18"}
+  - id: request-for-information
+    kind: term
+    en: {full: "request for information", definition: "A message in which a public body asks the applicant for missing or corrected items, with its reason, its deadline and its effect on each clock."}
+    fr: {full: "demande de renseignements", definition: "Message par lequel un organisme public demande à la personne des éléments manquants ou corrigés, avec son motif, son échéance et son effet sur chaque décompte."}
+    source: {name: "FPSOT applications specification, APP-050; French form approved by the lead on 2026-11-26", url: "https://github.com/fpsot-org/fpsot-spec-applications", checked: "2026-11-26"}
   - id: requirement
     kind: term
     en: {full: "requirement", definition: "A statement in a specification that a conforming product or process must satisfy."}
@@ -1081,6 +1151,16 @@ terms:
     en: {full: "sequence number", definition: "The number of a filing in its register, from 1 with no gap."}
     fr: {full: "numéro d’ordre", definition: "Numéro d’une déclaration dans son registre, à partir de 1 et sans trou."}
     source: {name: "FPSOT registry specification, REG-030; French form to confirm", url: "https://github.com/fpsot-org/fpsot-spec-registry", checked: "2026-11-18"}
+  - id: service-declaration
+    kind: term
+    en: {full: "service declaration", definition: "The file in which a program states its forms, its clocks, its channels, its drafts and its rules on closing and self-declared submissions."}
+    fr: {full: "déclaration de service", definition: "Fichier dans lequel un programme indique ses formulaires, ses décomptes, ses canaux, ses brouillons et ses règles sur la fermeture et le dépôt sur simple déclaration."}
+    source: {name: "FPSOT applications specification, APP-012; French form to confirm; not to be confused with the déclaration de services aux citoyens of article 6 of the Loi sur l'administration publique", url: "https://github.com/fpsot-org/fpsot-spec-applications", checked: "2026-11-26"}
+  - id: service-standard
+    kind: term
+    en: {full: "service standard", definition: "A published promise of how well or how fast a service performs in normal conditions, in a form that can be measured."}
+    fr: {full: "norme de service", definition: "Promesse publiée sur la qualité ou la rapidité d’un service dans des conditions normales, sous une forme mesurable."}
+    source: {name: "Policy on Service and Digital, Treasury Board of Canada Secretariat, definitions (official French form; definition in FPSOT wording)", url: "https://www.tbs-sct.canada.ca/pol/doc-eng.aspx?id=32603", checked: "2026-11-23"}
   - id: settlement
     kind: term
     en: {full: "settlement", definition: "The fact that a payout carried the funds of a successful payment attempt to the account of the body."}
@@ -1096,6 +1176,11 @@ terms:
     en: {full: "status", definition: "Where one track of the processing of a filing stands, such as its payment, its review or its processing."}
     fr: {full: "statut", definition: "Point où en est un volet du traitement d’une déclaration, comme son paiement, son examen ou son traitement."}
     source: {name: "FPSOT registry specification, REG-024; French form to confirm, see decision 4", url: "https://github.com/fpsot-org/fpsot-spec-registry", checked: "2026-11-18"}
+  - id: status-projection
+    kind: term
+    en: {full: "status projection", definition: "What an applicant sees of an application file: one label of a closed published list, mapped from its state, and what to do when action is needed."}
+    fr: {full: "projection d’état", definition: "Ce qu’une personne voit d’un dossier de demande : une étiquette d’une liste fermée et publiée, tirée de son état, et ce qu’il faut faire quand une action est requise."}
+    source: {name: "FPSOT applications specification, APP-080 and APP-081; French form to confirm", url: "https://github.com/fpsot-org/fpsot-spec-applications", checked: "2026-11-26"}
   - id: style-edition
     kind: term
     en: {full: "style edition", definition: "A named set of formatters and linters, with their versions and settings, that a project adopts as a whole."}

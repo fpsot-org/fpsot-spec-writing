@@ -6,6 +6,12 @@ and versions follow [Semantic Versioning 2.0.0](https://semver.org/spec/v2.0.0.h
 
 ## [Unreleased]
 
+## [0.2.12] - 2026-11-26
+
+### Added
+
+- The terms of the applications specification (17 terms).
+
 ## [0.2.11] - 2026-11-22
 
 ### Added
